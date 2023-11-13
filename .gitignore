@@ -1,0 +1,37 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+dateai/.pnp
+dateai/.pnp.js
+
+# testing
+/coverage
+
+# next.js
+dateai/.next/
+dateai/out/
+
+# production
+dateai/build
+
+# misc
+dateai/.DS_Store
+dateai/*.pem
+
+# debug
+dateai/npm-debug.log*
+dateai/yarn-debug.log*
+dateai/yarn-error.log
+
+# local env files
+dateai/.env*.local
+
+# vercel
+dateai/.vercel
+
+# typescript
+dateai/*.tsbuildinfo
+dateai/next-env.d.ts
+
+ULTRA

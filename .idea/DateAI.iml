@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/wato/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/flow" />
+      <excludeFolder url="file://$MODULE_DIR$/lwsd" />
+      <excludeFolder url="file://$MODULE_DIR$/wato/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="ConvergedError_Core_DQi2BEMXvNqjTvcStl7kuQ2" level="application" />
+    <orderEntry type="library" name="ux.converged.error.strings-en.min_n8lrggxglna3se0_9oqipg2" level="application" />
+    <orderEntry type="library" name="ConvergedLogin_PCore_iyeAEQ1Rwvv9lqq0Wh5nUw2" level="application" />
+    <orderEntry type="library" name="ux.converged.login.strings-en.min_orpt-59zawtpatdv5lgnaa2" level="application" />
+  </component>
+</module>
