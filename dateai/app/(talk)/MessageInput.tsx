@@ -131,7 +131,7 @@ export function DoubleMessageInput({disabled, value, value1, setValue, setValue1
             const x = (focus === 0 ? setI1v : setI2v);
             x(results.some(i => v === i.firstName + " " + i.lastName));
         }
-    }, [results, value, value1]);
+    }, [results, value, value, focus]);
 
     return <>
         <motion.div className="flex w-full sm:w-full px-5 md:px-0 md:w-[38rem] lg:w-[45rem]">

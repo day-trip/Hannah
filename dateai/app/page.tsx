@@ -120,7 +120,7 @@ export default function Talk() {
 
     const [typing, setTyping] = useState<boolean>(false);
 
-    const scroller = useRef<HTMLDivElement>();
+    const scroller = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
         const x = setInterval(() => {
@@ -137,7 +137,7 @@ export default function Talk() {
                 setMessages((await getMessages())!);
             }
         })();
-    }, [user]);
+    }, [user, setMessages]);
 
     useEffect(() => {
         if (scroller.current) {
@@ -145,12 +145,12 @@ export default function Talk() {
         }
     }, [messages, scroller]);
 
-    const submitSchool = useCallback(async () => {
+    /*const submitSchool = useCallback(async () => {
         setMessage("");
         Cookies.set("school", btoa(message), {expires: 365});
         setMessages([...messages, createUserMessage(SCHOOL.replace("{school}", message)), createAssistantMessage(FRIENDS_ASK)]);
         setState(1);
-    }, [message, messages]);
+    }, [message, messages]);*/
 
     const submitMessage = async () => {
         if (!user) {
@@ -269,7 +269,7 @@ export default function Talk() {
             <div ref={scroller} className={`flex flex-1 w-full justify-center overflow-y-auto mb-3 md:mb-7 ${(state < 3 && state > -1) || user ? "mt-12" : "mt-0"} md:mt-5`}>
                 <div className="relative testbox sm:w-full px-3 md:px-0 md:w-[38rem] lg:w-[45rem]">
                     {messages.map((msg, index) => msg.role === "assistant" ?
-                        <div className="relative">
+                        <div key={index} className="relative">
                             <Image src="/hannah.png" width={520} height={516} alt="Profile picture for Hannah" className="absolute -left-16 w-[3.25rem] h-[3.25rem] rounded-full border-[1px] shadow-sm border-amber-50"/>
                             {msg.content.split("\n").map((x, idx) => <motion.p key={index + msg.content + idx} className="font-playfair text-xl mb-3">
                                 {x.split(" ").map((y, ii) =>
@@ -296,7 +296,9 @@ export default function Talk() {
                 </div>
             </div>
             <div className="flex flex-col items-center w-full pb-1.5">
+{/*
                 {state === 0 && <SchoolInput disabled={false} value={message} setValue={setMessage} send={submitSchool} placeholder={"Enter your school"}/>}
+*/}
                 {state === 1 && <DoubleMessageInput disabled={message.length < 2 || message1.length < 2} value={message} value1={message1} setValue={setMessage} setValue1={setMessage1} send={submitNames} placeholder="Friend (eg John)" placeholder1="Should date (eg Mary)"/>}
                 {state === 2 && <MessageInput disabled={checkJunk(message)} value={message} setValue={setMessage} send={submitReason} placeholder="Because..."/>}
                 {state === 3 && <MessageInput disabled={!message.startsWith("s-") || !message.endsWith("@lwsd.org") || message.length <= 12} value={message} setValue={setMessage} send={submitEmail} placeholder="School email"/>}

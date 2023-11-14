@@ -5,7 +5,7 @@ export default function useStorage<T>(key: string, initial: T): [T, Dispatch<Set
 
     useEffect(() => {
         localStorage[key] = JSON.stringify(state);
-    }, [state]);
+    }, [state, key]);
 
     return [state, setState];
 }
