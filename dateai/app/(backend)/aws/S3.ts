@@ -10,7 +10,7 @@ export default class S3 {
             region: "us-east-1",
             credentials: {
                 accessKeyId: process.env.N_AWS_ACCESS_KEY!,
-                secretAccessKey: process.env.N_AWS_ACCESS_KEY!,
+                secretAccessKey: process.env.N_AWS_SECRET_KEY!,
             }
         });
     }

@@ -25,7 +25,7 @@ class PatchedNetworkClient implements INetworkModule {
     public async sendGetRequestAsync<T>(url: string, options?: NetworkRequestOptions, cancellationToken?: number): Promise<NetworkResponse<T>> {
         const r = await fetch(url, {
             method: "GET",
-            headers: {...options.headers, "Origin": PatchedNetworkClient.ORIGIN}
+            headers: {...options?.headers, "Origin": PatchedNetworkClient.ORIGIN}
         });
         return {
             headers: Object.fromEntries(r.headers.entries()),
@@ -37,8 +37,8 @@ class PatchedNetworkClient implements INetworkModule {
     public async sendPostRequestAsync<T>(url: string, options?: NetworkRequestOptions): Promise<NetworkResponse<T>> {
         const r = await fetch(url, {
             method: "POST",
-            body: options.body,
-            headers: {...options.headers, "Origin": PatchedNetworkClient.ORIGIN}
+            body: options?.body,
+            headers: {...options?.headers, "Origin": PatchedNetworkClient.ORIGIN}
         });
         return {
             headers: Object.fromEntries(r.headers.entries()),
@@ -118,7 +118,7 @@ export default class MicrosoftAuth {
         }
         if (valid.length > 0) {
             console.log("hit da cache");
-            return valid[0].toJSON();
+            return valid[0].toJSON() as TokenInfo;
         }
 
         return new Promise(async (resolve, reject) => {
@@ -161,7 +161,7 @@ export default class MicrosoftAuth {
                             scopes: this.scopes.join(","),
                             id: tokenData.idToken,
                             access: tokenData.accessToken,
-                            expiry: Math.floor(tokenData.expiresOn.getTime() / 1000)
+                            expiry: Math.floor(tokenData.expiresOn!.getTime() / 1000)
                         };
                         console.log("Response:\n", response);
                         await Token.create(response);

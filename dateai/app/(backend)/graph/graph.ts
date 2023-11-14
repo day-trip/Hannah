@@ -126,7 +126,7 @@ export async function generateKnowledge(info: UserInfo, messages: ClientMessage[
         temperature: 0,
         max_tokens: 580,
     });
-    const knowledge: string = chatCompletion.choices[0].message.content;
+    const knowledge = chatCompletion.choices[0].message.content!;
     knowledge.replaceAll("555", `"${info.id}"`).trim().split(/,[\s\n]*/).forEach(pair => {
         const [node1, relation, node2] = pair.trim().split(/\s?->\s?/);
         console.log(node1, relation, node2);

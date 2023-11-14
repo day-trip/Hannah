@@ -108,7 +108,7 @@ const TEAMS = new Teams();
 const VERIFICATION_CODE_CLIENT = new SES("jainitaigiri@gmail.com", `\
 Hey {name}! Here is your verification code for Hannah:
 {code}
-If this is not you, please report it at https://hannah.ai/report.
+If you didn't request this code, please report it at https://hannah.ai/report.
 `);
 
 export async function checkReason(reason: string): Promise<boolean> {
@@ -163,7 +163,7 @@ export async function getUserInfo(email: string): Promise<UserInfo | null> {
         return u;
     }
     cookies().set("user-id", user[0].id);
-    return user[0].toJSON();
+    return user[0].toJSON() as UserInfo;
 }
 
 export async function getUserSuggestions(text: string): Promise<UserInfo[] | null> {
@@ -218,9 +218,10 @@ export async function registerUser(code: string, friendData: FriendData | null, 
         await cypher(`MERGE (:Person {id: "${user.id}", name: "${user.firstName} ${user.lastName}", email: "${user.email}", grade: ${user.grade}}) MERGE (s:School {name: "${user.school}"}) MERGE (:Person)-[:BELONGS_TO]->(s);`);
     }
 
-    await {...user, verified: true}.save();
+    await user.save();
+    await Object.defineProperty(user, "verified", {value: true}).save();
 
-    return user.toJSON();
+    return user.toJSON() as UserInfo & {verified: boolean};
 }
 
 /**
@@ -244,7 +245,7 @@ export async function getUser(): Promise<UserInfo | null> {
         return null;
     }
 
-    return user[0].toJSON();
+    return user[0].toJSON() as UserInfo;
 }
 
 /**
@@ -278,7 +279,7 @@ export async function loginUser(email: string): Promise<boolean> {
     user[0].code = code;
     await user[0].save();
 
-    await VERIFICATION_CODE_CLIENT.sendTextEmail(email, `Your Hannah verification code is ${code}`, {name: user.firstName, code});
+    await VERIFICATION_CODE_CLIENT.sendTextEmail(email, `Your Hannah verification code is ${code}`, {name: user[0].firstName, code});
 
     return true;
 }

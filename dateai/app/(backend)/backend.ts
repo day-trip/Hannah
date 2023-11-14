@@ -9,7 +9,7 @@ import {ClientMessage} from "@/app/message";
 dynamoose.aws.ddb.set(new dynamoose.aws.ddb.DynamoDB({
     "credentials": {
         "accessKeyId": process.env.N_AWS_ACCESS_KEY!,
-        "secretAccessKey": process.env.N_AWS_ACCESS_KEY!
+        "secretAccessKey": process.env.N_AWS_SECRET_KEY!
     },
     "region": "us-east-1"
 }));

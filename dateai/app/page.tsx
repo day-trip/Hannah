@@ -24,70 +24,12 @@ import {
     VERIFY_SUCCEED, LOGIN_ASK, LOGIN_FAIL, LOGIN_RETRY, LOGIN_SUCCEED, REASON_RETRY
 } from "@/app/(talk)/prompts";
 import Menu from "@/app/(talk)/Menu";
-import MessageInput, {DoubleMessageInput, SchoolInput} from "@/app/(talk)/MessageInput";
+import MessageInput, {DoubleMessageInput} from "@/app/(talk)/MessageInput";
 import useStorage from "@/app/(hooks)/UseStorage";
 import {ProfilePicturesBucket} from "@/app/(backend)/backend";
 import {ClientMessage, createAssistantMessage, createUserMessage} from "@/app/message";
-import Cookies from "js-cookie";
 import useUser from "@/app/(hooks)/UseUser";
 import Image from "next/image";
-
-export const SCHOOLS = [
-    "Alcott Elementary",
-    "Audubon Elementary",
-    "Bell Elementary",
-    "Blackwell Elementary",
-    "Carson Elementary",
-    "Clara Barton Elementary",
-    "Community School",
-    "Dickinson Elementary",
-    "Discovery Elementary",
-    "Einstein Elementary",
-    "Ella Baker Elementary",
-    "Emerson K-12",
-    "Explorer Community School",
-    "Franklin Elementary",
-    "Frost Elementary",
-    "Juanita Elementary",
-    "Keller Elementary",
-    "Kirk Elementary",
-    "Lakeview Elementary",
-    "Mann Elementary",
-    "McAuliffe Elementary",
-    "Mead Elementary",
-    "Muir Elementary",
-    "Redmond Elementary",
-    "Rockwell Elementary",
-    "Rosa Parks Elementary",
-    "Rose Hill Elementary",
-    "Rush Elementary",
-    "Sandburg Elementary",
-    "Smith Elementary",
-    "Thoreau Elementary",
-    "Twain Elementary",
-    "Wilder Elementary",
-    "Environmental Middle",
-    "Evergreen Middle",
-    "Finn Hill Middle",
-    "Inglewood Middle",
-    "Kamiakin Middle",
-    "Kirkland Middle",
-    "Northstar Middle",
-    "Redmond Middle",
-    "Renaissance Middle",
-    "Rose Hill Middle",
-    "Stella Schola Middle",
-    "Timberline Middle",
-    "Eastlake High",
-    "Emerson High",
-    "Futures School",
-    "International",
-    "Juanita High",
-    "Lake Washington High",
-    "Redmond High",
-    "Tesla STEM High",
-    "WANIC High"
-];
 
 const OBF = `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz`;
 
@@ -201,20 +143,21 @@ export default function Talk() {
     }
 
     const submitEmail = async () => {
+        setTyping(true);
         const m: ClientMessage[] = [...messages, {role: "user", timestamp: Date.now(), content: message}];
         setMessage("");
         setMessages(m);
         const n = await getUserInfo(message);
         if (n === null) {
             setMessages([...m, {role: "assistant", timestamp: Date.now(), content: EMAIL_FAIL}]);
+            setTyping(false);
             return;
         }
-
-        console.log(n);
 
         await initiateRegisterProcess(message);
 
         setMessages([...m, {role: "assistant", timestamp: Date.now(), content: EMAIL_SUCCEED.replace("{name}", n.firstName.split(" ")[0]).replace("{date}", "{date}").replace("{reason}", "you both like badminton")}]);
+        setTyping(false);
         setState(4);
     }
 

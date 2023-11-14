@@ -2,7 +2,6 @@ import {motion, useScroll, useTransform} from "framer-motion";
 import React, {Dispatch, SetStateAction, useEffect, useRef, useState} from "react";
 import {UserInfo} from "@/app/(backend)/microsoft/teams";
 import {getUserSuggestions} from "@/app/actions";
-import {SCHOOLS} from "@/app/page";
 import TextareaAutosizeP from 'react-textarea-autosize';
 const TextareaAutosize = motion(TextareaAutosizeP);
 
@@ -30,6 +29,7 @@ export default function MessageInput({disabled, value, setValue, send, condition
     };
 
     return <motion.div className="relative flex w-full sm:w-full px-3 md:px-0 md:w-[38rem] lg:w-[45rem]">
+        {/* @ts-ignore */}
         <TextareaAutosize type="text" enterKeyHint="send" autoFocus={true} onKeyDown={keyPress} value={value} onChange={e => (!condition || condition(e.target.value)) && setValue(e.target.value)} className="w-full resize-none transition-shadow text-xl shadow-xl ring-0 hover:ring-1 focus:ring-1 focus:shadow-none hover:shadow-sm pl-4 pr-10 py-3 placeholder-gray-300 focus:placeholder-gray-200 placeholder-opacity-75 rounded-3xl font-playfair ring-rose-300 ring-opacity-50 focus:outline-none bg-white" placeholder={placeholder}/>
         <motion.button onClick={() => {!disabled && void send()}} disabled={disabled} className="rounded-full bg-rose-400 hover:bg-rose-500 disabled:bg-[#faf5ea] transition-colors flex justify-center items-center w-9 h-9 absolute bottom-2 right-5 md:right-2">
             <motion.svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="white" className="w-5 h-5">
@@ -39,7 +39,7 @@ export default function MessageInput({disabled, value, setValue, send, condition
     </motion.div>
 }
 
-export function SchoolInput({disabled, value, setValue, send, condition, placeholder}: {disabled: boolean, value: string, setValue: Dispatch<SetStateAction<string>>, send: () => Promise<void>, condition?: (x: string) => boolean, placeholder: string}) {
+/*export function SchoolInput({disabled, value, setValue, send, condition, placeholder}: {disabled: boolean, value: string, setValue: Dispatch<SetStateAction<string>>, send: () => Promise<void>, condition?: (x: string) => boolean, placeholder: string}) {
     const [focused, setFocused] = useState(false);
     const inputRef = useRef<HTMLInputElement>(null);
 
@@ -70,7 +70,7 @@ export function SchoolInput({disabled, value, setValue, send, condition, placeho
             </motion.button>
         </motion.div>
     </>
-}
+}*/
 
 export function DoubleMessageInput({disabled, value, value1, setValue, setValue1, send, condition, placeholder, placeholder1}: {disabled: boolean, value: string, value1: string, setValue: Dispatch<SetStateAction<string>>, setValue1: Dispatch<SetStateAction<string>>, send: () => Promise<void>, condition?: (x: string) => boolean, placeholder: string, placeholder1: string}) {
     const [focus, setFocus] = useState<number>(-1);
@@ -143,8 +143,8 @@ export function DoubleMessageInput({disabled, value, value1, setValue, setValue1
         </motion.div>
         <motion.div className="flex w-full sm:w-full px-3 md:px-0 md:w-[38rem] lg:w-[45rem]">
             <motion.div className="w-full flex rounded-3xl transition-shadow shadow-xl hover:shadow-sm group focus:shadow-none">
-                <motion.input ref={input1Ref} autocomplete="off" autocorrect="off" autocapitalize="off" onFocus={() => {setFocus(0)}} type="text" autoFocus={true} onKeyDown={e => e.key === "Enter" && ((!disabled && i1v && i2v) || canceled) && (e.preventDefault() || true) && void send()} value={value} onChange={e => (!condition || condition(e.target.value)) && setValue(e.target.value)} className="w-full bg-white box-border text-xl ring-0 hover:ring-1 focus:ring-1 px-4 py-3 placeholder-gray-300 focus:placeholder-gray-200 placeholder-opacity-75 rounded-l-3xl font-playfair ring-rose-300 ring-opacity-50 focus:outline-none" placeholder={placeholder}/>
-                <motion.input ref={input2Ref} autocomplete="off" autocorrect="off" autocapitalize="off" onFocus={() => {setFocus(1)}} type="text" autoFocus={false} onKeyDown={e => e.key === "Enter" && ((!disabled && i1v && i2v) || canceled) && (e.preventDefault() || true) && void send()} value={value1} onChange={e => (!condition || condition(e.target.value)) && setValue1(e.target.value)} className="w-full bg-white box-border border-l-[1px] border-rose-500 border-opacity-50 text-xl ring-0 hover:ring-1 focus:ring-1 px-4 py-3 placeholder-gray-300 focus:placeholder-gray-200 placeholder-opacity-75 rounded-r-3xl font-playfair ring-rose-300 ring-opacity-50 focus:outline-none" placeholder={placeholder1}/>
+                <motion.input ref={input1Ref} enterKeyHint="send" autoComplete="off" autoCorrect="off" autoCapitalize="on" onFocus={() => {setFocus(0)}} type="text" autoFocus={true} onKeyDown={e => e.key === "Enter" && ((!disabled && i1v && i2v) || canceled) && (e.preventDefault(), void send())} value={value} onChange={e => (!condition || condition(e.target.value)) && setValue(e.target.value)} className="w-full bg-white box-border text-xl ring-0 hover:ring-1 focus:ring-1 px-4 py-3 placeholder-gray-300 focus:placeholder-gray-200 placeholder-opacity-75 rounded-l-3xl font-playfair ring-rose-300 ring-opacity-50 focus:outline-none" placeholder={placeholder}/>
+                <motion.input ref={input2Ref} enterKeyHint="send" autoComplete="off" autoCorrect="off" autoCapitalize="on" onFocus={() => {setFocus(1)}} type="text" autoFocus={false} onKeyDown={e => e.key === "Enter" && ((!disabled && i1v && i2v) || canceled) && (e.preventDefault(), void send())} value={value1} onChange={e => (!condition || condition(e.target.value)) && setValue1(e.target.value)} className="w-full bg-white box-border border-l-[1px] border-rose-500 border-opacity-50 text-xl ring-0 hover:ring-1 focus:ring-1 px-4 py-3 placeholder-gray-300 focus:placeholder-gray-200 placeholder-opacity-75 rounded-r-3xl font-playfair ring-rose-300 ring-opacity-50 focus:outline-none" placeholder={placeholder1}/>
             </motion.div>
             <motion.button onClick={() => {!disabled && ((!disabled && i1v && i2v) || canceled) && void send()}} disabled={(disabled || !i1v || !i2v) && !canceled} className="rounded-full bg-rose-400 hover:bg-rose-500 disabled:bg-[#faf5ea] transition-colors flex justify-center items-center w-9 h-9 -ml-12 mt-2">
                 <motion.svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="white" className="w-5 h-5">
