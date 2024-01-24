@@ -1,0 +1,21 @@
+{
+  "name": "hack_classlink",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "daytrip",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^8.11.3",
+    "cheerio": "^1.0.0-rc.12",
+    "isolated-vm": "^4.6.0",
+    "jsdom": "^23.2.0",
+    "tough-cookie": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/acorn": "^6.0.0",
+    "@types/cheerio": "^0.22.35",
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.10.7",
+    "@types/tough-cookie": "^4.0.5"
+  }
+}

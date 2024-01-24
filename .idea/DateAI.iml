@@ -16,5 +16,8 @@
     <orderEntry type="library" name="ux.converged.error.strings-en.min_n8lrggxglna3se0_9oqipg2" level="application" />
     <orderEntry type="library" name="ConvergedLogin_PCore_iyeAEQ1Rwvv9lqq0Wh5nUw2" level="application" />
     <orderEntry type="library" name="ux.converged.login.strings-en.min_orpt-59zawtpatdv5lgnaa2" level="application" />
+    <orderEntry type="library" name="ConvergedKmsi_Core_PLVsXiAUKOW2_sJ9Ie0xmA2" level="application" />
+    <orderEntry type="library" name="teams_enterprise_m1" level="application" />
+    <orderEntry type="library" name="authstrap_m1_v2" level="application" />
   </component>
 </module>

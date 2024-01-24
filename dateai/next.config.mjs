@@ -2,9 +2,6 @@ import million from "million/compiler";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental: {
-        serverActions: true,
-    },
     webpack: (config, { webpack, isServer, nextRuntime }) => {
         if (isServer && nextRuntime === "nodejs") {
             config.plugins.push(

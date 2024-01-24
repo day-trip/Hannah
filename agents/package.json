@@ -1,0 +1,11 @@
+{
+  "name": "agents",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "daytrip",
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^4.3.3",
+    "openai": "^4.25.0"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "learnosity": {
+    "request": {
+      "role": "STUDENT",
+      "itemsAPI": "v2023.1.LTS",
+      "session_id": "f0ef31d4-5dd0-3029-b6b5-0b95e7f52fb2",
+      "retrieve_tags": true,
+      "type": "submit_practice",
+      "saveAssessmentNav": true,
+      "organisation_id": 362,
+      "features": {
+        "sketchpad": true,
+        "calculator": false,
+        "liveTutor": true,
+        "needHelp": true,
+        "desmos": false,
+        "checkLimit": -1,
+        "guidedSolution": false,
+        "desmosType": "",
+        "viewSolution": false,
+        "releaseRev": false
+      },
+      "user_id": "USRstudent37941401101061",
+      "liveTutorArray": {
+        "HSCC_Geom_01.06.11": true,
+        "HSCC_Geom_01.06.36": false,
+        "HSCC_Geom_01.03.21": true,
+        "HSCC_Geom_01.06.13": true,
+        "HSCC_Geom_01.06.38": false,
+        "HSCC_Geom_01.03.23": true,
+        "HSCC_Geom_01.06.37": false,
+        "HSCC_Geom_01.06.15": true,
+        "HSCC_Geom_01.05.25": true,
+        "HSCC_Geom_01.01.21": true,
+        "HSCC_Geom_01.01.27": false,
+        "HSCC_Geom_01.01.24": false,
+        "HSCC_Geom_01.03.25": true,
+        "HSCC_Geom_01.06.39": false,
+        "HSCC_Geom_01.06.17": true,
+        "HSCC_Geom_01.03.09": true,
+        "HSCC_Geom_01.05.33": true,
+        "HSCC_Geom_01.05.37": false,
+        "HSCC_Geom_01.04.03": true,
+        "HSCC_Geom_01.01.33": false,
+        "HSCC_Geom_01.06.07": true,
+        "HSCC_Geom_01.04.05": true,
+        "HSCC_Geom_01.03.15": true,
+        "HSCC_Geom_01.06.09": true,
+        "HSCC_Geom_01.03.17": true,
+        "HSCC_Geom_01.03.19": true
+      },
+      "name": "Final Review Ch 1",
+      "activity_id": "3c40d983-6ebe-43d2-bb65-ba4de367ba3f",
+      "state": "resume",
+      "activity_template_id": "b52c15e0-7078-4e7b-9ddf-56e8d3b0cd2b",
+      "rendering_type": "assess",
+      "config": {
+        "annotation": true,
+        "navigation": {
+          "show_intro": false,
+          "autosave": {
+            "ui": true,
+            "save_interval_duration": 300
+          },
+          "show_outro": false
+        },
+        "regions": "horizontal",
+        "region_overrides": {
+          "top-right.pause_button": false,
+          "items.progress_element": true,
+          "top-right": [
+            {
+              "position": "right",
+              "type": "flagitem_button",
+              "show_label_option": "false"
+            },
+            {
+              "options": {
+                "name": "checkAnswer",
+                "icon_class": "icon-check-answer-button",
+                "label": "Check"
+              },
+              "position": "left",
+              "type": "custom_button"
+            },
+            {
+              "options": {
+                "name": "needsHelp",
+                "icon_class": "icon-help-button",
+                "label": "Skills Review"
+              },
+              "type": "custom_button"
+            },
+            {
+              "options": {
+                "name": "assignmentSaveButton",
+                "icon_class": "icon-assignment-save-button",
+                "label": "Save / Exit"
+              },
+              "type": "custom_button"
+            },
+            {
+              "options": {
+                "name": "assignmentSubmitButton",
+                "icon_class": "icon-assignment-submit-button",
+                "label": "Submit"
+              },
+              "type": "custom_button"
+            }
+          ],
+          "bottom-right": [
+            {
+              "options": {
+                "name": "liveTutor",
+                "icon_class": "icon-live-tutor-button",
+                "label": "Live Tutor"
+              },
+              "position": "right",
+              "type": "custom_button"
+            }
+          ],
+          "bottom": [],
+          "bottom-left": [
+            {
+              "type": "previous_button"
+            },
+            {
+              "type": "horizontaltoc_element"
+            },
+            {
+              "type": "next_button"
+            }
+          ],
+          "right": [
+            {
+              "options": {
+                "name": "sketchpad",
+                "icon_class": "icon-sketchpad-button",
+                "label": "Sketchpad"
+              },
+              "type": "custom_button"
+            },
+            {
+              "type": "reviewscreen_button"
+            },
+            {
+              "fontsize_option": true,
+              "zoom_option": true,
+              "colorscheme_option": true,
+              "type": "accessibility_button"
+            }
+          ]
+        },
+        "configuration": {
+          "fontsize": "xlarge",
+          "lazyload": true
+        },
+        "questions_api_init_options": {
+          "math_renderer": "mathquill",
+          "captureOnResumeError": true
+        },
+        "annotations_api_init_options": {
+          "modules": {
+            "drawing": true
+          }
+        },
+        "labelBundle": {
+          "expandMenu": "Open",
+          "collapseMenu": "Close",
+          "reviewScreen": "Overview"
+        }
+      }
+    },
+    "security": {
+      "consumer_key": "8EO6ataGL8M5Tuxx",
+      "user_id": "USRstudent37941401101061",
+      "signature": "98a2fc84d8126ff0d2451d1fd486845a4677dc7ef84b11149fb52fa8873f3b19",
+      "domain": "www.bigideasmath.com",
+      "timestamp": "20240110-0015"
+    }
+  }
+}

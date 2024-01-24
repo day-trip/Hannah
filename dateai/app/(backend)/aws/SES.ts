@@ -20,6 +20,10 @@ export default class SES {
     }
 
     public async sendTextEmail(recipient: string, subject: string, formatArgs: Record<string, string>): Promise<boolean> {
+        if ("x" === "x") {
+            return false;
+        }
+
         if (recipient !== "s-jgiri@lwsd.org" && process.env.NODE_ENV !== "production") {
             console.log(`[Accidental Spam Blocker] AHA GOTCHA Mr. ${recipient}!`);
             return false;

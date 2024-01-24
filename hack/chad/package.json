@@ -1,0 +1,18 @@
+{
+  "name": "chad",
+  "author": "daytrip",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^8.11.3",
+    "canvas": "^2.11.2",
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^21.7.0"
+  },
+  "devDependencies": {
+    "@types/acorn": "^6.0.0",
+    "@types/cheerio": "^0.22.35",
+    "@types/puppeteer": "^7.0.4"
+  }
+}

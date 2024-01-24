@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta http-equiv='Content-Type' charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=10,chrome=1'>
+    <meta name='viewport' id='viewport'
+          content='width=device-width,maximum-scale=0.9,minimum-scale=0.9,initial-scale=0.9'>
+    <title>Student Access </title>
+    <script type='text/javascript'>
+        var sffDefer = [];
+    </script>
+    <script type='text/javascript' src='qfileloader.p?file=jquery.1.8.2.js&rev=0102040523100008'></script>
+    <link rel='STYLESHEET' type='text/css' href='qcssloader.p?file=qsfmain001.css&rev=0102040523100008'/>
+    <link rel='STYLESHEET' type='text/css' href='qcssloader.p?file=sfhome001.css&rev=0102040523100008'/>
+</head>
+<body class='sf_studentAccess'>
+<div id='sf_Background'>
+    <div id='sf_Background2'></div>
+    <div id='sf_OuterWrap'>
+        <div id='sf_HeaderWrap' role='banner'>
+            <script language='javascript' type='text/javascript' id='sf_defer1'>
+                if (typeof sff === 'undefined') {
+                    sffDefer.push('sf_defer1');
+                } else {
+                    function emailHistory() {
+                        sff.request('sfmainhttp001.w', {'action': 'allEmailHistory'}, function (pResponse) {
+                            if (pResponse.status === 'success') {
+                                sff.dialog.show({'title': 'Email History', 'html': pResponse.output, 'autoHide': true});
+                            }
+                        });
+                    }
+
+                    function reportHistory(pSource) {
+                        var list = $('#sf_menuWrap_reportHistory > ul.sf_menuList');
+                        if (pSource == 'all') {
+                            list.children().remove();
+                            sff.request('sfmainhttp001.w', {'action': 'allReportHistory'}, displayResults);
+                            return;
+                        } else {
+                            if (!list.children('li:first').length) {
+                                sff.request('sfmainhttp001.w', {'action': 'reportHistory'}, displayResults);
+                                return;
+                            }
+                        }
+
+                        function displayResults(pResponse) {
+                            if (pResponse['status'] === 'success') {
+                                list.append(pResponse.output);
+                                if (!list.children('li:first').length) {
+                                    list.append("<li class='noResults'>No reports were found.</li>");
+                                }
+                                sff.menu.show($('#reportHistory'));
+                            }
+                        }
+                    }
+                }
+            </script>
+            <div id='sf_BrandingArea'>
+                <div class='sf_skywardLogo'><img src='qfileloader.p?file=alt.gif&rev=0102040523100008'
+                                                 id='hvjkbuClAdadWRlk' name='hvjkbuClAdadWRlk' class='alt'
+                                                 alt='Skyward Logo' aria-hidden='true'/></div>
+                <div class='sf_districtLogo'>&nbsp;</div>
+            </div>
+            <div id='sf_EntityArea' role='region'>
+                <div class='sf_titleArea'><img src='qfileloader.p?file=alt.gif&rev=0102040523100008'
+                                               id='lZaVldutbdmNCdcg' name='lZaVldutbdmNCdcg' class='alt'
+                                               alt='Student Access' aria-hidden='true'/></div>
+                <div id="sf_StudentListArea" class="notranslate">
+                    <div id="sf_StudentLabel">
+                        JAI GIRI
+                    </div>
+                </div>
+            </div>
+            <div id='sf_UtilityArea' role='region'>
+                <div class="sf_utilityAreaBG">&nbsp;</div>
+                <ul id="sf_UtilityTable">
+                    <li class="sf_utilUser notranslate" valign="middle" align="center">
+                        JAI GIRI
+                    </li>
+                    <li class="sf_utilLink" valign="middle" align="center"><a id='EjUVdcbtbzkcxihk'
+                                                                              name='EjUVdcbtbzkcxihk'
+                                                                              href="javascript:void(0)">My Account</a>
+                    </li>
+                    <li class="sf_utilLink" valign="middle" align="center"><a id='bpcfQNbnuGTkypnG'
+                                                                              name='bpcfQNbnuGTkypnG'
+                                                                              href="javascript:void(0)">Email
+                        History</a></li>
+                    <li class="sf_utilLink last" valign="middle" align="center"><a id='yxaPblkndEatsYdl'
+                                                                                   name='yxaPblkndEatsYdl'
+                                                                                   href="javascript:void(0)">Exit</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="sf_ExternalContent">
+                <div id="sf_DistrictLinks" class="item">
+<span class='sf_menuContainer sf_Position_right'><a id='districtLinksMenu' name='districtLinksMenu'
+                                                    class='sf_menuLink item both' aria-haspopup='true'
+                                                    aria-controls='sf_menuWrap_districtLinksMenu'
+                                                    href="javascript:void(0)"><div class='districtIcon'></div>District Links</a><div
+        id='sf_menuWrap_districtLinksMenu' class='sf_menuWrap' data-id='districtLinksMenu' aria-hidden='true'
+        aria-atomic='true'><a class='sf_menuCloseLink' href='javascript:void(0)'>&nbsp;</a><ul class='sf_menuList'
+                                                                                               role='menu'><li
+        role='menuitem'><div id="grid_districtLinks_gridWrap" hastag="hastag" grid-theme="default" class="gridWrap"
+                             style="margin-left:5px;margin-right:5px;min-width:86px"
+>
+<div class="sfTag">District Links</div><div class="sf_gridTableWrap"><table vPaginate="no" id="grid_districtLinks"
+                                                                            grid-table="default" zebra="true"
+                                                                            role='presentation'><tbody>
+<tr class="odd"><td scope="row"><a id='link1' name='link1' alt='Lake Washington School District Home Page'
+                                   tooltip='Lake Washington School District Home Page' data-href='http://www.lwsd.org'
+                                   href="javascript:void(0)">LWSD Home Page</a></td></tr>
+</table>
+</div></div>
+</li></ul><a class='sf_menuCloseLink' href='javascript:void(0)'>&nbsp;</a></div></span></div>
+            </div>
+        </div>
+        <div id='sf_ContentWrap' class='sf_showColumns'>
+            <div id='sf_ContentLeftWrap' style='width:150px' role='navigaton'>
+                <div id='sf_ContentLeft'>
+                    <ul id='sf_navIcon'>
+                        <li class='selected'><a class="sf_navMenuItem" href="javascript:sff.toggleNavMenu();">+</a></li>
+                    </ul>
+                    <ul id='sf_navMenu' role='menubar'>
+                        <li class='first selected'><a id='mmsmwkjwhhpnbbcp' name='mmsmwkjwhhpnbbcp'
+                                                      class='sf_navMenuItem' role='menuitem' data-nav='sfhome01.w'
+                                                      href="javascript:void(0)">Home</a></li>
+                        <li><a id='alldRjcdlcjuikll' name='alldRjcdlcjuikll' class='sf_navMenuItem' role='menuitem'
+                               data-nav='sfcalendar002.w' href="javascript:void(0)">Calendar</a></li>
+                        <li><a id='aRcimodbliYabnpk' name='aRcimodbliYabnpk' class='sf_navMenuItem' role='menuitem'
+                               data-nav='sfgradebook001.w' href="javascript:void(0)">Gradebook</a></li>
+                        <li><a id='jdOgijkccdKbjCLb' name='jdOgijkccdKbjCLb' class='sf_navMenuItem' role='menuitem'
+                               data-nav='sfattendance001.w' href="javascript:void(0)">Attendance</a></li>
+                        <li><a id='iJGlHctilRjJdxkl' name='iJGlHctilRjJdxkl' class='sf_navMenuItem' role='menuitem'
+                               data-nav='sfstudentinfo001.w' href="javascript:void(0)">Student Info</a></li>
+                        <li><a id='MfXEmnBFkisgkNdz' name='MfXEmnBFkisgkNdz' class='sf_navMenuItem' role='menuitem'
+                               data-nav='sfbusing001.w' href="javascript:void(0)">Busing</a></li>
+                        <li><a id='HXjbpdnogclbddvn' name='HXjbpdnogclbddvn' class='sf_navMenuItem' role='menuitem'
+                               data-nav='sfschedule001.w' href="javascript:void(0)">Schedule</a></li>
+                        <li><a id='agovcjnlDRdlxcqX' name='agovcjnlDRdlxcqX' class='sf_navMenuItem' role='menuitem'
+                               data-nav='sftestscores001.w' href="javascript:void(0)">Test Scores</a></li>
+                        <li><a id='lkXllndhjiljcchc' name='lkXllndhjiljcchc' class='sf_navMenuItem' role='menuitem'
+                               data-nav='sfgradreqs001.w' href="javascript:void(0)">Graduation Requirements</a></li>
+                        <li><a id='kbPdjnnJanjDibji' name='kbPdjnnJanjDibji' class='sf_navMenuItem' role='menuitem'
+                               data-nav='sfacademichistory001.w' href="javascript:void(0)">Academic History</a></li>
+                        <li><a id='dlOIdcXafianbkaH' name='dlOIdcXafianbkaH' class='sf_navMenuItem' role='menuitem'
+                               data-nav='sfportfolio.w' href="javascript:void(0)">Portfolio</a></li>
+                        <li class='last'><a id='aaajccAcQcHjinFn' name='aaajccAcQcHjinFn' class='sf_navMenuItem'
+                                            role='menuitem' data-nav='sfloginhistory001.w' href="javascript:void(0)">Login
+                            History</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id='sf_ContentBodyWrap' style='left:151px;width:585px' role='main' aria-labelledby='sf_pageTitle'>
+                <div id='sf_ContentBody'>
+                    <div id='home_menuArea'>
+                        <div id='home_menuAreaBG'></div>
+                        <ul id='home_menuTable'>
+                            <li class='last'><span class='sf_menuContainer'><a id='home_setup' name='home_setup'
+                                                                               class='sf_menuLink' alt='Settings'
+                                                                               aria-haspopup='true'
+                                                                               aria-controls='sf_menuWrap_home_setup'
+                                                                               href="javascript:void(0)"><div
+                                    id='aqjldonphkjEbKbk' name='aqjldonphkjEbKbk' alt='Settings'><img
+                                    src='qfileloader.p?file=alt.gif&rev=0102040523100008' id='IfaNjkXldlpoihio'
+                                    name='IfaNjkXldlpoihio' class='alt' alt='Settings' aria-hidden='true'/></div></a><div
+                                    id='sf_menuWrap_home_setup' class='sf_menuWrap' data-id='home_setup'
+                                    aria-hidden='true' aria-atomic='true'><a class='sf_menuCloseLink'
+                                                                             href='javascript:void(0)'>&nbsp;</a><ul
+                                    class='sf_menuList' role='menu'><li class='sf_menuItem' role='menuitem'
+                                                                        style='border-bottom:1px dotted #C8C8C8;'><a
+                                    id='homeSettings' name='homeSettings' style='padding-left:23px'
+                                    href="javascript:void(0)">Home Settings</a></li><li class='sf_menuItem'
+                                                                                        role='menuitem'><a
+                                    id='toggleHidden' name='toggleHidden' href="javascript:void(0)">Show All Hidden Messages</a></li><li
+                                    class='sf_menuItem' role='menuitem'><a id='resetHidden' name='resetHidden'
+                                                                           style='padding-left:23px'
+                                                                           href="javascript:void(0)">Reset All Hidden Messages to Unhidden</a></li></ul><a
+                                    class='sf_menuCloseLink' href='javascript:void(0)'>&nbsp;</a></div></span></li>
+                        </ul>
+                    </div>
+                    <span class='sf_menuContainer sf_Position_right'><a id='home_messageOptions'
+                                                                        name='home_messageOptions' class='sf_menuLink'
+                                                                        style='display:none' aria-haspopup='true'
+                                                                        aria-controls='sf_menuWrap_home_messageOptions'
+                                                                        href="javascript:void(0)"></a><div
+                            id='sf_menuWrap_home_messageOptions' class='sf_menuWrap' data-id='home_messageOptions'
+                            aria-hidden='true' aria-atomic='true'><a class='sf_menuCloseLink' href='javascript:void(0)'>&nbsp;</a><ul
+                            class='sf_menuList' role='menu'><li class='sf_menuItem' data-id='hideMessage'
+                                                                role='menuitem'><a id='hideMessage' name='hideMessage'
+                                                                                   href="javascript:void(0)">Hide message</a></li><li
+                            class='sf_menuItem' data-id='markAsRead' role='menuitem'><a id='markAsRead'
+                                                                                        name='markAsRead'
+                                                                                        href="javascript:void(0)">Mark as read</a></li></ul><a
+                            class='sf_menuCloseLink' href='javascript:void(0)'>&nbsp;</a></div></span>
+                    <ul id='MessageFeed' class='home_MessageFeed'>
+                        <li class='feedItem allowRemove' aria-live="polite">
+                            <div class='messageWrap message_general home_unread' data-id="0x000000003dbb7839"
+                                 data-wall-id="0x000000003dbca448" data-duplicates="">
+                                <div class='messageHead'>
+                                    <div class='text'>
+                                        Registration for 9th Grade - Eastlake HS
+                                    </div>
+                                    <div class='icon' tooltip='Admin message' alt='admin message'>&nbsp;</div>
+                                </div>
+                                <div class='userIcon'>
+                                    <img src='qfileloader.p?file=sf_icon_generic.png&rev=0102040523100008'
+                                         style='width:55px' onerror='this.src=""; this.onerror="";' alt=''></div>
+                                <a href="javascript:void(0)" class='messageOptions'><img class='alt' aria-hidden='true'
+                                                                                         src='/webspeed/alt.gif'
+                                                                                         alt='Message Options'/></a>
+                                <div class='messageBody'>
+                                    <div class='date'>Fri Jan 12, 2024 1:06pm</div>
+                                    <div class='text'>
+                                        <div class='Attachments'>
+                                            <a id='zcFnKjQkXQlnWggj' name='zcFnKjQkXQlnWggj' alt='View Attachment'
+                                               tooltip='View Attachment'
+                                               href="qdirconfig002.p?blobid=1856254&duserid=379414&dwd=651054346&pEnc=plikjfIjclCHDakj"><span
+                                                    class='sf_paperclip'></span>2024. RESOURCES FOR INCOMING 9TH GRADE
+                                                STUDENTS AND FAMILIES. EHS.docx</a><span
+                                                style='padding-right:11px'>;</span><a id='EbkWajbDKBkbjaoj'
+                                                                                      name='EbkWajbDKBkbjaoj'
+                                                                                      alt='View Attachment'
+                                                                                      tooltip='View Attachment'
+                                                                                      href="qdirconfig002.p?blobid=1856252&duserid=379414&dwd=651054346&pEnc=adBjliiRccsgdboi"><span
+                                                class='sf_paperclip'></span>2024 AVID Elective at EHS.docx</a></div>
+                                        <span id='messageText_0x000000003dbb7839'></span>
+                                    </div>
+                                    <div class='replyLinkArea'>
+                                    </div>
+                                </div>
+                                <div class='floatBreak'>&nbsp;</div>
+                            </div>
+                        </li>
+                        <li class='feedItem allowRemove' aria-live="polite">
+                            <div class='messageWrap message_class home_unread' data-id="0x000000003aa670d3"
+                                 data-wall-id="0x000000003aa6f3af" data-duplicates="">
+                                <div class='messageHead'>
+                                    <div class='text'>
+                                        <a href='javascript:void(0)' data-action='dialog' data-type='teacher'>SARAH
+                                            DONNELL</a> <a href='javascript:void(0)' data-action='dialog'
+                                                           data-type='class' style='font-style:italic;font-size:12px;'>(FITNESS
+                                        7 / 24, Period 4)</a></div>
+                                    <div class='icon' tooltip='Class message' alt='class message'>&nbsp;</div>
+                                </div>
+                                <div class='userIcon'>
+                                    <img src='qfileloader.p?file=sf_icon_generic.png&rev=0102040523100008'
+                                         style='width:55px' onerror='this.src=""; this.onerror="";' alt=''></div>
+                                <a href="javascript:void(0)" class='messageOptions'><img class='alt' aria-hidden='true'
+                                                                                         src='/webspeed/alt.gif'
+                                                                                         alt='Message Options'/></a>
+                                <div class='messageBody'>
+                                    <div class='date'>Fri Feb 3, 2023 9:02am</div>
+                                    <div class='text'>
+                                        <div class='Subject hasAttachments'>EMS Fitness/PE Introduction</div>
+                                        <div class='Attachments'>
+                                            <a id='ulniVtTBiBdlHalk' name='ulniVtTBiBdlHalk' alt='View Attachment'
+                                               tooltip='View Attachment'
+                                               href="qdirconfig002.p?blobid=1688796&duserid=379414&dwd=651054346&pEnc=AiluyYeakDccQjpK"><span
+                                                    class='sf_paperclip'></span>Parent Letter_Email
+                                                2022_2023_7TH.docx</a></div>
+                                        <span id='messageText_0x000000003aa670d3'></span>
+                                    </div>
+                                    <div class='replyLinkArea'>
+                                    </div>
+                                </div>
+                                <div class='floatBreak'>&nbsp;</div>
+                            </div>
+                        </li>
+                        <li class='feedItem allowRemove' aria-live="polite">
+                            <div class='messageWrap message_general home_unread' data-id="0x000000003a7d0e58"
+                                 data-wall-id="0x000000003a88e572" data-duplicates="">
+                                <div class='messageHead'>
+                                    <div class='text'>
+                                        Registration Update
+                                    </div>
+                                    <div class='icon' tooltip='Admin message' alt='admin message'>&nbsp;</div>
+                                </div>
+                                <div class='userIcon'>
+                                    <img src='qfileloader.p?file=sf_icon_generic.png&rev=0102040523100008'
+                                         style='width:55px' onerror='this.src=""; this.onerror="";' alt=''></div>
+                                <a href="javascript:void(0)" class='messageOptions'><img class='alt' aria-hidden='true'
+                                                                                         src='/webspeed/alt.gif'
+                                                                                         alt='Message Options'/></a>
+                                <div class='messageBody'>
+                                    <div class='date'>Thu Jan 26, 2023 9:49am</div>
+                                    <div class='text'>
+                                        <div class='NoHeader'></div>
+                                        <span id='messageText_0x000000003a7d0e58'></span>
+                                    </div>
+                                    <div class='replyLinkArea'>
+                                    </div>
+                                </div>
+                                <div class='floatBreak'>&nbsp;</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id='sf_ContentRightWrap' style='left:737px;width:242px' role='complementary'>
+                <div id='sf_ContentRight'>
+                    <script language='javascript' type='text/javascript' id='sf_defer1'>
+                        if (typeof sff === 'undefined') {
+                            sffDefer.push('sf_defer1');
+                        } else {
+                            function openDialog() {
+                                var vUniqueId = sff.getData(this, "cal-id");
+                                if (!vUniqueId)
+                                    return;
+                                var hiddenDiv = $('#calEvent' + vUniqueId + 'hidden');
+                                if (hiddenDiv.length) {
+                                    sff.dialog('calDialog').getDialog().hide();
+                                    //strip away div tag before title to prevent it from going to next line on dialog
+                                    var newtitle = $('#calEvent' + vUniqueId).html().replace('<div class="priority">&nbsp;</div>', "");
+                                    sff.dialog.show({
+                                        id: 'calDialog',
+                                        html: hiddenDiv.html(),
+                                        title: newtitle,
+                                        pointAt: $('#calEvent' + vUniqueId),
+                                        direction: 'left',
+                                        minWidth: 200,
+                                        maxWidth: 600,
+                                        minHeight: 0,
+                                        autoHide: false
+                                    });
+                                }
+                            }
+
+                            sff.addEvent('#Calendar', 'click', openDialog, 'li');
+                        }
+                    </script>
+                    <style type='text/css'>
+                        table.calTbl td {
+                            padding: 2px 4px;
+                            vertical-align: top
+                        }
+                    </style>
+                    <ul id='Calendar'>
+                        <li class='calendarTitle'>
+                            <div class='icon'>&nbsp;</div>
+                            <div class='title'>Upcoming Events</div>
+                            <a id='oaaoZaYbbknnffhk' name='oaaoZaYbbknnffhk' href="javascript:void(0)">Calendar</a></li>
+                        <li>
+                            <div class='calEventDate'>
+                                Mon Jan 15, 2024
+                            </div>
+                            <div id='calEvent1' class='calEventName'>
+                                <a id='dSjJnplyRHgkhSaI' name='dSjJnplyRHgkhSaI'
+                                   style='text-decoration:none;color:inherit;font-family:inherit;font-size:inherit;'
+                                   href="javascript:void(0)">No School - MLK JR DAY</a></div>
+                            <div class='calEventDesc' style=''>EVERGREEN MIDDLE SCHOOL</div>
+                        <li>
+                            <div class='calEventDate'>
+                                Mon Jan 15, 2024
+                            </div>
+                            <div id='calEvent2' class='calEventName'>
+                                <a id='dmYjLqknnacnskAf' name='dmYjLqknnacnskAf'
+                                   style='text-decoration:none;color:inherit;font-family:inherit;font-size:inherit;'
+                                   href="javascript:void(0)">No School - MLK JR DAY</a></div>
+                            <div class='calEventDesc' style=''>EASTLAKE SR HIGH</div>
+                        <li>
+                            <div class='calEventDate'>
+                                Fri Jan 26, 2024
+                            </div>
+                            <div id='calEvent3' class='calEventName'>
+                                <a id='ajcjkkjpeDleipXb' name='ajcjkkjpeDleipXb'
+                                   style='text-decoration:none;color:inherit;font-family:inherit;font-size:inherit;'
+                                   href="javascript:void(0)">GRADING PERIOD 2 Ends</a></div>
+                            <div class='calEventDesc' style=''>EVERGREEN MIDDLE SCHOOL</div>
+                        <li>
+                            <div class='calEventDate'>
+                                Fri Jan 26, 2024
+                            </div>
+                            <div id='calEvent4' class='calEventName'>
+                                <a id='JdlgakclbjZObFLV' name='JdlgakclbjZObFLV'
+                                   style='text-decoration:none;color:inherit;font-family:inherit;font-size:inherit;'
+                                   href="javascript:void(0)">GRADE PERIOD 2-S1 Ends</a></div>
+                            <div class='calEventDesc' style=''>EASTLAKE SR HIGH</div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script type='text/javascript' src='qfileloader.p?file=qsfmain001.min.js&rev=0102040523100008'></script>
+        <script type='text/javascript' src='qfileloader.p?file=sfhome001.js&rev=0102040523100008'></script>
+        <script type='text/javascript'>
+            var vRecipients = [];
+            var vStudents = [];
+        </script>
+        <script type='text/javascript'>
+            $(document).ready(function () {
+                $('<var><div class=\'msgDetail\' data-runjs=\'true\'><div>Good morning, I have attached a welcome letter for parents to keep you updated.&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>In partnership,</div><div>Ms. Donnell</div></div></var>').appendTo('#messageText_0x000000003aa670d3');
+                $('<var><div class=\'msgDetail\' data-runjs=\'true\'><div>As a follow up to today&rsquo;s post on ParentSquare about 9<sup>th</sup>&nbsp;Grade registration at Eastlake, there are a few documents attached to this message&nbsp;you may find helpful:</div><div>&nbsp;</div><div>-- AVID Elective (Student information session is on Tuesday Jan 16 during Flex (under Ozeri&rsquo;s name)</div><div>-- Helpful Links&nbsp;</div><div>&nbsp;</div><div>Eastlake HS will return on Thursday Jan 18 to EMS Social Studies classes. Please plan to have your registration form completed.&nbsp;&nbsp;</div><div>&nbsp;</div><div>Questions?&nbsp; Contact your EMS School Counselor!</div></div></var>').appendTo('#messageText_0x000000003dbb7839');
+                $('<var><div class=\'msgDetail\' data-runjs=\'true\'><div>Hello! This is a follow up to the registration presentation that the counselors did in your social studies class earlier this week. Unfortunately, there was an error on the form that was handed out to all students. We will not be offering Food Science and Sustainability or Foods Foundations next year. If this is currently written in as one of your electives or alternates, please choose something else in its place. Remember to bring your form with you to school next week as you will log into Skyward to choose your electives. If you have any questions or still need a form, please stop by the counseling office.<br />Thanks!<br />Ms. Stuvland</div></div></var>').appendTo('#messageText_0x000000003a7d0e58');
+                sff.aee('b', 'click', function (e) {
+                    emailHistory()
+                }, '#bpcfQNbnuGTkypnG');
+                sff.aee('b', 'click', function (e) {
+                    sff.nav('sfaccount001.w')
+                }, '#EjUVdcbtbzkcxihk');
+                sff.aee('b', 'click', function (e) {
+                    sff.logout(true)
+                }, '#yxaPblkndEatsYdl');
+                sff.aee('b', 'click', function (e) {
+                    sff.nav('sfcalendar002.w')
+                }, '#oaaoZaYbbknnffhk');
+            });
+        </script>
+        <form name='sf_nafForm' id='sf_navForm' method='POST' action=''>
+            <input type='hidden' id='sessionid' name='sessionid' value='1302108692544170051'/>
+            <input type='hidden' id='encses' name='encses' value='IkWkAJceUGlqbnXh'/>
+        </form>
+    </div>
+</div>
+<input id='reloadValue' type='hidden' name='reloadValue' value=''/>
+<script type='text/javascript' data-rel='sff'>sff.sv('columnBodyWidth', '585');
+sff.sv('columnLeftWidth', '150');
+sff.sv('dwd', '651054346');
+sff.sv('encses', 'IkWkAJceUGlqbnXh');
+sff.sv('entity', '');
+sff.sv('filesAdded', 'jquery.1.8.2.js,qsfmain001.css,sfhome001.css,qsfmain001.min.js,sfhome001.js');
+sff.sv('idleTimeout', '300000');
+sff.sv('isReadOnly', 'no');
+sff.sv('menuClickCallback.home_messageOptions', 'messageOptions');
+sff.sv('menuClickCallback.home_setup', 'homeSetup');
+sff.sv('nameid', '379414');
+sff.sv('RunningProgram', 'sfhome01.w');
+sff.sv('screenReaderOption', 'no');
+sff.sv('sessionid', '1302108692544170051');
+sff.sv('showHidden', 'no');
+sff.sv('studentId', '379414');
+sff.sv('template_fwbutton', '<a role=\u0027button\u0027 id=\u0027template_fwbutton\u0027 name=\u0027template_fwbutton\u0027 class=\u0027button templateClass\u0027 style=\u0027templateStyle\u0027 data-templateDataName=\u0027templateDataValue\u0027 href=\u0027javascript:void(0)\u0027>templateValue</a>');
+sff.sv('template_fwlink', '<a id=\u0027template_fwlink\u0027 name=\u0027template_fwlink\u0027 class=\u0027templateClass\u0027 style=\u0027templateStyle\u0027 data-templateDataName=\u0027templateDataValue\u0027 href=\u0022javascript:void(0)\u0022 >templateValue</a>');
+sff.sv('template_link', '<a id=\u0027template_link\u0027 name=\u0027template_link\u0027 class=\u0027templateClass\u0027 style=\u0027templateStyle\u0027 data-templateDataName=\u0027templateDataValue\u0027 href=\u0022javascript:void(0)\u0022 >templateValue</a>');
+sff.sv('template_showmore', '<a id=\u0027template_showmore\u0027 name=\u0027template_showmore\u0027 class=\u0027sf_showMore templateClass\u0027 style=\u0027templateStyle\u0027 data-action=\u0027showMore\u0027 data-templateDataName=\u0027templateDataValue\u0027 href=\u0027javascript:void(0)\u0027>VALUE-START[ + ] Show MoreVALUE-STOP</a>');
+sff.sv('trackId', '0x000000002d8f9e2f');
+sff.sv('userid', 's-jgiri');
+sff.sv('userPicture', '<img src=\u0027qdirconfig002.p?StuPic=379414&duserid=s-jgiri&dwd=651054346&pEnc=iracibfcidaigibu&rev=535\u0027 style=\u0027width:35px\u0027 onerror=\u0027this.src=\u0022qfileloader.p?file=sf_icon_generic.png&rev=0102040523100008\u0022; this.onerror=\u0022\u0022;\u0027 alt=\u0027\u0027>');
+sff.sv('userType', '2');
+sff.sv('wfaacl', '544170051');
+sff.sv('wfaaclEntry', '40634272');
+</script>
+</body>
+</html>
+
+<!-- Generated by Webspeed: http://www.webspeed.com/ -->

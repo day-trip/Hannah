@@ -1,0 +1,72 @@
+{
+  "status": 1,
+  "message": "Success",
+  "app_id": 1820046,
+  "name": "Skyward - Student",
+  "image": "//filescdn.classlink.com/resources/icons/default/Skyward_West_Bend.png",
+  "extension_id": 158006,
+  "login_url": "https://www2.saas.wa-k12.net/scripts/cgiip.exe/WService=wlkwashs71/fwemnu01.w",
+  "logout_url": "",
+  "no_iframe_for_logout": 0,
+  "advance_sso": 1,
+  "advance_sso_json": {
+    "tasks": [
+      {
+        "args": {
+          "selector": "#login",
+          "value": "username",
+          "waitForIt": true
+        },
+        "type": "input"
+      },
+      {
+        "args": {
+          "hitEnter": true,
+          "selector": "#password",
+          "value": "password",
+          "waitForIt": true
+        },
+        "type": "input"
+      },
+      {
+        "args": {
+          "selector": "#bLogin",
+          "timeout": 60000,
+          "waitForIt": true
+        },
+        "type": "click"
+      }
+    ]
+  },
+  "pre_auth_script": null,
+  "post_auth_script": null,
+  "selectors": [
+    {
+      "id": 354495,
+      "sel": "username",
+      "type": "text",
+      "hidden": 0,
+      "label": "Username",
+      "order": 1,
+      "value": "U2FsdGVkX1+ininDO05WhYYVDnj6+G6Ufuz4Gr/uTWE="
+    },
+    {
+      "id": 354496,
+      "sel": "password",
+      "type": "password",
+      "hidden": 0,
+      "label": "Password",
+      "order": 2,
+      "value": "U2FsdGVkX18MDIfLVQHnA5uolE704yyrV9Xeq6wWcKM="
+    }
+  ],
+  "userauth": [
+    {
+      "auth_id": 28930172,
+      "auth_name": "Default",
+      "redirect_url": null,
+      "username": "U2FsdGVkX1/nWNJ2nAb4F83/+b1K1VtiU+mtiomz5vg=",
+      "password": "U2FsdGVkX19fY0/bpLRDP89m4SAXvwhtDxzbGADGPfs="
+    }
+  ]
+}

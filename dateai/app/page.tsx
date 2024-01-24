@@ -1,46 +1,43 @@
 "use client";
-import {useCallback, useEffect, useRef, useState} from "react";
-import {motion} from 'framer-motion';
+import {RefObject, useEffect, useRef, useState} from "react";
+import {motion, useScroll, useTransform} from 'framer-motion';
 import FullDiv from "react-div-100vh";
 import {
     checkReason,
     getMessages,
     getUserInfo,
-    loginUser,
-    sendChatMessage,
     initiateRegisterProcess,
-    registerUser
+    loginUser,
+    registerUser,
+    sendChatMessage
 } from "@/app/actions";
-import {
-    EMAIL_ASK,
-    EMAIL_FAIL,
-    EMAIL_RETRY,
-    EMAIL_SUCCEED,
-    FRIEND_A_1,
-    FRIEND_A_2,
-    FRIEND_U_1, FRIENDS_ASK, SCHOOL_RETRY,
-    INITIAL, SCHOOL,
-    VERIFY_FAIL,
-    VERIFY_SUCCEED, LOGIN_ASK, LOGIN_FAIL, LOGIN_RETRY, LOGIN_SUCCEED, REASON_RETRY
-} from "@/app/(talk)/prompts";
 import Menu from "@/app/(talk)/Menu";
 import MessageInput, {DoubleMessageInput} from "@/app/(talk)/MessageInput";
 import useStorage from "@/app/(hooks)/UseStorage";
 import {ProfilePicturesBucket} from "@/app/(backend)/backend";
-import {ClientMessage, createAssistantMessage, createUserMessage} from "@/app/message";
 import useUser from "@/app/(hooks)/UseUser";
-import Image from "next/image";
+
+import {
+    createAssistantMessage,
+    createRichAssistantMessage,
+    createRichUserMessage, createUserMessage,
+    RichMessage,
+} from "@/app/(talk)/Message";
+import RichMessageRenderer from "@/app/(talk)/MessageClient";
+import UserModal from "@/app/(backend)/(ui)/UserModal";
+import { User } from "./(backend)/data";
+
 
 const OBF = `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz`;
 
 export type FriendData = {
-    friend1: string;
-    date1: string;
-    reason1: string;
-    friend2: string;
-    date2: string;
-    reason2: string;
-}
+    friend1?: User;
+    date1?: User;
+    reason1?: string;
+    friend2?: User;
+    date2?: User;
+    reason2?: string;
+};
 
 const checkJunk = (text: string): boolean => {
     return !(text.length > 7 && text.split(' ').length > 3);
@@ -49,37 +46,54 @@ const checkJunk = (text: string): boolean => {
 export default function Talk() {
     const [user, refreshUser] = useUser();
 
-    const [messages, setMessages] = useStorage<ClientMessage[]>("messages", [{content: INITIAL, role: "assistant", timestamp: Date.now()}]);
+    const [messages, setMessages] = useStorage<RichMessage[]>("messages", [createRichAssistantMessage("initial")]);
     const [state, setState] = useStorage<number>("stage", 1);
 
     const [message, setMessage] = useState<string>("");
-    const [message1, setMessage1] = useState<string>("");
     const [canContinue, setCanContinue] = useStorage<boolean>("continue", false);
 
-    const [friendData, setFriendData] = useStorage<FriendData | null>("f-data", null);
+    const [friendData, setFriendData] = useStorage<FriendData>("f-data", {});
 
     const [glitch, setGlitch] = useState("");
 
     const [typing, setTyping] = useState<boolean>(false);
 
     const scroller = useRef<HTMLDivElement>(null);
+    const modal = useRef<HTMLDialogElement>(null);
 
     useEffect(() => {
+        const e = (e: Event) => {
+            e.preventDefault();
+        }
+        document.body.addEventListener("touchmove", e);
         const x = setInterval(() => {
             setGlitch(Array.from({ length: 8 }, () => OBF[Math.floor(Math.random() * OBF.length)]).join(''));
         }, 400);
+        RichMessageRenderer.init();
         return () => {
             clearInterval(x);
+            document.body.removeEventListener("touchmove", e);
+            RichMessageRenderer.destroy();
         }
     }, []);
 
     useEffect(() => {
         void (async () => {
-            if (user) {
-                setMessages((await getMessages())!);
+            if (user === false && state === 5) {
+                setMessages([createRichAssistantMessage("initial")]);
+                setState(1);
+                return;
             }
+            if (!user) {
+                return;
+            }
+            setMessages((await getMessages(user.id))!);
         })();
     }, [user, setMessages]);
+
+    useEffect(() => {
+        console.log(friendData);
+    }, [friendData]);
 
     useEffect(() => {
         if (scroller.current) {
@@ -87,37 +101,26 @@ export default function Talk() {
         }
     }, [messages, scroller]);
 
-    /*const submitSchool = useCallback(async () => {
-        setMessage("");
-        Cookies.set("school", btoa(message), {expires: 365});
-        setMessages([...messages, createUserMessage(SCHOOL.replace("{school}", message)), createAssistantMessage(FRIENDS_ASK)]);
-        setState(1);
-    }, [message, messages]);*/
-
     const submitMessage = async () => {
+        console.log(user);
         if (!user) {
-            console.log("no user");
+            console.log("edge case: no user.");
             return;
         }
         setTyping(true);
-        const msg: ClientMessage = {role: "user", content: message, timestamp: Date.now(), deletable: true, pii: true};
-        const m: ClientMessage[] = [...messages, msg];
+        const msg = createUserMessage(message);
         setMessage("");
-        setMessages(m);
-        const response = await sendChatMessage(user, messages, msg);
-        setMessages([...m, {role: "assistant", content: response, timestamp: Date.now()}]);
+        setMessages([...messages, msg]);
+        const [i, o] = await sendChatMessage(user, messages, msg);
+        setMessages([...messages, i, o]);
         setTyping(false);
     }
 
     const submitNames = async () => {
+        console.log("IMAGINE!");
+        console.log(friendData);
         setMessage("");
-        setMessage1("");
-        if (message === "cancel" || message1 === "cancel") {
-            setMessages([...messages, createUserMessage("cancel"), createAssistantMessage(SCHOOL_RETRY)]);
-            setState(1);
-            return;
-        }
-        setMessages([...messages, createUserMessage(FRIEND_U_1.replace("{friend}", message).replace("{date}", message1)), createAssistantMessage(FRIEND_A_1.replace("{friend}", message).replace("{date}", message1))]);
+        setMessages([...messages, createRichUserMessage("friend_user", {friend: friendData[canContinue ? "friend2" : "friend1"]!.fullname.split(" ")[0], date: friendData[canContinue ? "date2" : "date1"]!.fullname.split(" ")[0]}), createRichAssistantMessage("friend_reason_ask", {friend: friendData[canContinue ? "friend2" : "friend1"]!.fullname.split(" ")[0], date: friendData[canContinue ? "date2" : "date1"]!.fullname.split(" ")[0]})]);
 
         setState(2);
     }
@@ -127,110 +130,92 @@ export default function Talk() {
         setMessages([...messages, createUserMessage(message)]);
         setTyping(true);
         if (!await checkReason(message)) {
-            setMessages([...messages, createUserMessage(message), createAssistantMessage(REASON_RETRY)]);
+            setMessages([...messages, createUserMessage(message), createRichAssistantMessage("reason_retry")]);
             setTyping(false);
             return;
         }
-        if (canContinue) {
-            setMessages([...messages, createUserMessage(message), createAssistantMessage(EMAIL_ASK)]);
-            setState(3);
-        } else {
-            setMessages([...messages, createUserMessage(message), createAssistantMessage(FRIEND_A_2)]);
-            setState(1);
-            setCanContinue(true);
-        }
+
+        setState(canContinue ? 3 : 1);
+        setFriendData({...friendData, [canContinue ? "reason2" : "reason1"]: message});
+        setMessages([...messages, createUserMessage(message), createRichAssistantMessage(canContinue ? "email_ask" : "friend_ask")])
+        setCanContinue(true);
+
         setTyping(false);
     }
 
     const submitEmail = async () => {
         setTyping(true);
-        const m: ClientMessage[] = [...messages, {role: "user", timestamp: Date.now(), content: message}];
+        const m = [...messages, createUserMessage(message)];
         setMessage("");
         setMessages(m);
         const n = await getUserInfo(message);
         if (n === null) {
-            setMessages([...m, {role: "assistant", timestamp: Date.now(), content: EMAIL_FAIL}]);
+            setMessages([...m, createRichAssistantMessage("email_fail")]);
             setTyping(false);
             return;
         }
 
-        await initiateRegisterProcess(message);
+        localStorage.uid = n.id;
+        await initiateRegisterProcess(message, n.id);
 
-        setMessages([...m, {role: "assistant", timestamp: Date.now(), content: EMAIL_SUCCEED.replace("{name}", n.firstName.split(" ")[0]).replace("{date}", "{date}").replace("{reason}", "you both like badminton")}]);
+        setMessages([...m, createRichAssistantMessage("email_succeed", {name: n.fullname.split(" ")[0]})]);
         setTyping(false);
         setState(4);
     }
 
     const sendVerificationCode = async () => {
+        setTyping(true);
         setMessage("");
         if (message === "idk") {
-            setMessages([...messages, {role: "user", timestamp: Date.now(), content: "idk"}, {role: "assistant", timestamp: Date.now(), content: EMAIL_RETRY}])
+            setTyping(false);
+            setMessages([...messages, createUserMessage(message), createRichAssistantMessage("email_retry")]);
             setState(3);
             return;
         }
-        const m: ClientMessage[] = [...messages, {role: "user", timestamp: Date.now(), content: message}];
+        const m = [...messages, createUserMessage(message)];
         setMessages(m);
-        const x = await registerUser(message, friendData, messages);
+        const nm = createRichAssistantMessage("verify_succeed", {date: "<date>", reason: "<reason>"});
+        const x = await registerUser(message, localStorage.uid, friendData, [...m, nm]);
         if (x) {
-            void refreshUser();
-            if (x.verified) {
-                setMessages([]);
-            } else {
-                setMessages([...m, {role: "assistant", timestamp: Date.now(), content: VERIFY_SUCCEED.replace("{name}", x.firstName)}]);
-            }
+            localStorage.session = x.session;
+            setMessages([]);
+            void refreshUser(); // Reloads messages from DB
             setState(5);
         } else {
-            setMessages([...m, {role: "assistant", timestamp: Date.now(), content: VERIFY_FAIL}]);
+            setMessages([...m, createRichAssistantMessage("verify_fail")]);
         }
+        setTyping(false);
     }
 
     const login = () => {
         setMessage("");
-        setMessage1("");
-        setMessages([...messages, createUserMessage("I want to login."), createAssistantMessage(LOGIN_ASK)]);
+        setMessages([...messages, createUserMessage("I want to login."), createRichAssistantMessage("login_ask")]);
         setState(-2);
     }
 
     const submitLogin = async () => {
         setMessage("");
         if (message === "cancel") {
-            setMessages([...messages, createUserMessage(message), createAssistantMessage(LOGIN_RETRY)]);
+            setMessages([...messages, createUserMessage(message), createRichAssistantMessage("login_retry")]);
             setState(1);
             return;
         }
         setMessages([...messages, createUserMessage(message)]);
-        if (await loginUser(message)) {
-            setMessages([...messages, createUserMessage(message), createAssistantMessage(LOGIN_SUCCEED)]);
+        const x = await loginUser(message);
+        if (x) {
+            localStorage.uid = x.id;
+            setMessages([...messages, createUserMessage(message), createRichAssistantMessage("login_succeed")]);
             setState(4);
-            return;
+        } else {
+            setMessages([...messages, createUserMessage(message), createRichAssistantMessage("login_fail")]);
         }
-        setMessages([...messages, createUserMessage(message), createAssistantMessage(LOGIN_FAIL)]);
     }
 
     return <>
-        <FullDiv className="flex flex-col">
-            <div ref={scroller} className={`flex flex-1 w-full justify-center overflow-y-auto mb-3 md:mb-7 ${(state < 3 && state > -1) || user ? "mt-12" : "mt-0"} md:mt-5`}>
+        <FullDiv className="flex flex-col gap-y-2.5">
+            <div ref={scroller} className={`flex flex-1 w-full justify-center overflow-y-auto ${(state < 3 && state > -1) || user ? "pt-8" : "pt-0"} md:pt-5`}>
                 <div className="relative testbox sm:w-full px-3 md:px-0 md:w-[38rem] lg:w-[45rem]">
-                    {messages.map((msg, index) => msg.role === "assistant" ?
-                        <div key={index} className="relative">
-                            <Image src="/hannah.png" width={520} height={516} alt="Profile picture for Hannah" className="absolute -left-16 w-[3.25rem] h-[3.25rem] rounded-full border-[1px] shadow-sm border-amber-50"/>
-                            {msg.content.split("\n").map((x, idx) => <motion.p key={index + msg.content + idx} className="font-playfair text-xl mb-3">
-                                {x.split(" ").map((y, ii) =>
-                                    <motion.span key={ii} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: (idx * 0.9) + (ii * 0.04) }} dangerouslySetInnerHTML={{__html: " " + y.replace("@glitch@", `<span class="w-[4.7rem] inline-block align-middle overflow-hidden">${glitch}</span>`)}}/>
-                                )}
-                            </motion.p>)}
-                        </div> :
-                        <div key={index} className="w-full flex justify-end mt-8 mb-6">
-                            <motion.div initial={{opacity: 0.25, translateY: "175%"}} animate={{opacity: 1, translateY: "0%"}} transition={{duration: 0.125, ease: "easeIn"}} className="p-3 bg-rose-100 rounded-[10px] w-fit group relative">
-                                {msg.content.split('\n').map((x, ii) =>
-                                    <motion.p key={ii} className="font-playfair text-xl flex flex-nowrap">{x}</motion.p>
-                                )}
-                                {user && <motion.img
-                                    className="absolute top-1/2 -translate-y-1/2 -right-16 w-[3.25rem] h-[3.25rem] rounded-full border-[1px] shadow-sm border-amber-50"
-                                    src={ProfilePicturesBucket.getImageURL(user.id)}
-                                    alt={`Profile picture for ${user.firstName} ${user.lastName}`}/>}
-                            </motion.div>
-                        </div>)}
+                    {messages.map((msg, index) => <MessageUX key={index} message={msg} messages={messages} index={index} user={user} container={scroller}/>)}
                     {typing && <div id="wave">
                         <span className="dot"></span>
                         <span className="dot"></span>
@@ -239,18 +224,38 @@ export default function Talk() {
                 </div>
             </div>
             <div className="flex flex-col items-center w-full pb-1.5">
-{/*
-                {state === 0 && <SchoolInput disabled={false} value={message} setValue={setMessage} send={submitSchool} placeholder={"Enter your school"}/>}
-*/}
-                {state === 1 && <DoubleMessageInput disabled={message.length < 2 || message1.length < 2} value={message} value1={message1} setValue={setMessage} setValue1={setMessage1} send={submitNames} placeholder="Friend (eg John)" placeholder1="Should date (eg Mary)"/>}
+                {state === 1 && <DoubleMessageInput disabled={false} friendData={friendData} setFriendData={setFriendData} send={submitNames} canContinue={canContinue}/>}
                 {state === 2 && <MessageInput disabled={checkJunk(message)} value={message} setValue={setMessage} send={submitReason} placeholder="Because..."/>}
-                {state === 3 && <MessageInput disabled={!message.startsWith("s-") || !message.endsWith("@lwsd.org") || message.length <= 12} value={message} setValue={setMessage} send={submitEmail} placeholder="School email"/>}
+                {state === 3 && <MessageInput type={"email"} disabled={!message.startsWith("s-") || !message.endsWith("@lwsd.org") || message.length <= 12} value={message} setValue={setMessage} send={submitEmail} placeholder="School email"/>}
                 {state === 4 && <MessageInput disabled={(message.length !== 4 && !Number.isInteger(message)) && message !== "idk"} value={message} setValue={setMessage} send={sendVerificationCode} placeholder="Code"/>}
                 {state === 5 && <MessageInput disabled={message.length === 0} value={message} setValue={setMessage} send={submitMessage} placeholder="Talk to Hannah"/>}
-                {state === -2 && <MessageInput disabled={(!message.startsWith("s-") || !message.endsWith("@lwsd.org") || message.length <= 12) && message !== "cancel"} value={message} setValue={setMessage} send={submitLogin} placeholder="School email"/>}
-                <p className="text-[0.6rem] md:text-xs text-center text-gray-500 font-semibold mx-5 md:mx-0 mt-2 md:mt-3.5">By messaging Hannah, you are agreeing to her Privacy Policy and these Terms of Service.</p>
+                {state === -2 && <MessageInput type={"email"} disabled={(!message.startsWith("s-") || !message.endsWith("@lwsd.org") || message.length <= 12) && message !== "cancel"} value={message} setValue={setMessage} send={submitLogin} placeholder="School email"/>}
+                <p className="text-[0.4rem] md:text-xs text-center text-gray-500 font-semibold mx-5 md:mx-0 mt-1.5 md:mt-3.5">By messaging Hannah, you are agreeing to her Privacy Policy and these Terms of Service.</p>
             </div>
         </FullDiv>
-        <Menu login={(state < 3 && state > -1) ? login : undefined}/>
+        <Menu login={(state < 3 && state > -1) ? login : undefined} openUserSettings={modal}/>
+        <UserModal user={user} ref={modal}/>
     </>
+}
+
+function MessageUX({message, messages, index, user, container}: {message: RichMessage, messages: RichMessage[], index: number, user: false | User | undefined, container: RefObject<HTMLDivElement>}) {
+    const ref = useRef<HTMLDivElement>(null);
+    const {scrollYProgress: sYU} = useScroll({target: ref, container, axis: "y", offset: ["center start", "center end"]});
+    const opacity = useTransform(sYU, [0, 0.1, 0.2, 0.95, 1], [index === 0 ? 1 : 0, index === 0 ? 1 : 0.3, 1, 1, 0]);
+    const scale = useTransform(sYU, [0, 0.05, 0.975, 1], [index === 0 ? 1 : 0.9, 1, 1, 0.9]);
+
+    if (message.role === "assistant") {
+        return <motion.div ref={ref} className="relative" style={{opacity, scale}}>
+            {RichMessageRenderer.render(message, index === messages.length - 1)}
+        </motion.div>
+    }
+    return <motion.div ref={ref} className="w-full flex justify-end mt-8 mb-6" style={{opacity, scale}}>
+            <motion.div initial={{opacity: index === messages.length - 1 ? 0.25 : 0, translateY: index === messages.length - 1 ? "175%" : "0%"}} animate={{opacity: 1, translateY: "0%"}} transition={{duration: 0.125, ease: "easeIn"}} className="p-3 bg-rose-100 rounded-[10px] w-fit group relative">
+                {RichMessageRenderer.render(message, index === messages.length - 1)}
+                {user && <motion.img
+                    className="hidden md:block absolute top-1/2 -translate-y-1/2 -right-16 w-[3.25rem] h-[3.25rem] rounded-full border-[1px] shadow-sm border-amber-50"
+                    src={ProfilePicturesBucket.getImageURL(user.id)}
+                    alt={`Profile picture for ${user.fullname}`}/>}
+            </motion.div>
+        </motion.div>
 }

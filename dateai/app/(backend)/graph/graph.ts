@@ -1,8 +1,8 @@
 import OpenAI from "openai";
-import {ClientMessage} from "@/app/message";
-import {UserInfo} from "@/app/(backend)/microsoft/teams";
+import {TeamsUserInfo} from "@/app/(backend)/microsoft/teams";
 import neo from "neo4j-driver";
 import cypher from "@/app/(backend)/graph/cypher";
+import {ClientMessage, RichMessage} from "@/app/(talk)/Message";
 
 export const SCHEMA = `\
 MERGE (i:Interest {
@@ -118,7 +118,7 @@ const openai = new OpenAI({
     apiKey: process.env.OPENAI_KEY,
 });
 
-export async function generateKnowledge(info: UserInfo, messages: ClientMessage[], message: ClientMessage) {
+export async function generateKnowledge(info: TeamsUserInfo, messages: RichMessage[], message: RichMessage) {
     console.log(KNOWLEDGE_PROMPT.replaceAll("{id}", info.id).replace("{schema}", SCHEMA).replace("{latest}", `User: ${message.content}`).replace("{prev}", messages.map(m => `${m.role}: ${m.content}`).join('\n')));
     const chatCompletion = await openai.chat.completions.create({
         messages: [{role: "user", content: KNOWLEDGE_PROMPT.replaceAll("{id}", info.id).replace("{schema}", SCHEMA).replace("{latest}", `User: ${message.content}`).replace("{prev}", messages.slice(-5).map(m => `${m.role}: ${m.content}`).join('\n'))}],

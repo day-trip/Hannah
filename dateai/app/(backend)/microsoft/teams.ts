@@ -1,5 +1,5 @@
+/*
 import MicrosoftAuth, {TokenInfo} from "@/app/(backend)/microsoft/auth";
-import {ProfilePicturesBucket} from "@/app/(backend)/backend";
 
 export type TeamsUser = {
     userLocation: string;
@@ -33,13 +33,12 @@ export type TeamsSearchResult = {
     value: TeamsUser[];
 };
 
-export type UserInfo = {
+export type TeamsUserInfo = {
     id: string;
-    mri: string;
     firstName: string;
     lastName: string;
     email: string;
-    school: string;
+    school: number;
     grade: number;
 };
 
@@ -59,18 +58,18 @@ export default class Teams {
         this.login = MicrosoftAuth.teams("5e3ce6c0-2b1f-4285-8d4b-75ee78787346", "1fd4673f-df96-4621-8638-a1d88c4c85d7");
     }
 
-    /**
+    /!**
      * Underlying HTTP(s) request to get underlying Teams user profile by query
      * @param text Query - email or name
      * @param query UNSTABLE: addition parameter to filter by school/grade
      * @private
-     */
+     *!/
     private async teamsSearchRequest(text: string, query?: string): Promise<[TeamsSearchResult, TokenInfo] | null> {
         const ti = await this.login.getToken(); // TODO: state machines for autorefreshing here we go
         try {
             const r = await fetch(Teams.SEARCH_ENDPOINT + (query ? `&query=${encodeURIComponent(query)}` : ""), {
                 headers: {
-                    "Accept": "*/*",
+                    "Accept": "*!/!*",
                     "Accept-Language": "en-US,en;q=0.9",
                     "Authorization": `Bearer ${ti.access}`,
                     "Clientrequestid": "3e2dcb0d-1d65-4280-9db8-67699e15440b",
@@ -91,12 +90,12 @@ export default class Teams {
         }
     }
 
-    /**
+    /!**
      * Helper method to filter and format raw Teams user data
      * @param data Raw Teams data
      * @private
-     */
-    private createUserInfo(data: TeamsUser): UserInfo {
+     *!/
+    /!*private createUserInfo(data: TeamsUser): TeamsUserInfo {
         const [fn, ln] = data.displayName.split(", ").map(x => x.charAt(0).toUpperCase() + x.slice(1).toLowerCase()).reverse();
         return {
             school: data.department.replace(" School", ""),
@@ -107,18 +106,18 @@ export default class Teams {
             grade: Number.parseInt(data.jobTitle),
             mri: data.mri
         };
-    }
+    }*!/
 
-    /**
+    /!**
      * Gets a user's profile picture as a `Buffer`
      * @param userinfo User data
      * @param tokeninfo Access token container
      * @private
-     */
-    private async getProfilePicture(userinfo: UserInfo, tokeninfo: TokenInfo): Promise<Buffer> {
+     *!/
+    /!*private async getProfilePicture(userinfo: TeamsUserInfo, tokeninfo: TokenInfo): Promise<Buffer> {
         const r = await fetch(`https://teams.microsoft.com/api/mt/amer/beta/users/${userinfo.mri}/profilepicturev2?displayname=${encodeURIComponent(userinfo.lastName + ", " + userinfo.firstName)}&size=HR64x64`, {
             "headers": {
-                "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+                "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/!*,*!/!*;q=0.8",
                 "accept-language": "en-US,en;q=0.9",
                 "sec-ch-ua": "\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\"",
                 "sec-ch-ua-mobile": "?0",
@@ -134,13 +133,13 @@ export default class Teams {
             method: "GET"
         });
         return Buffer.from(await r.arrayBuffer());
-    }
+    }*!/
 
-    /**
+    /!**
      * Gets the Microsoft Teams profile data for a user based on their email
      * @param email User's email
-     */
-    public async getUserInfoByEmail(email: string): Promise<UserInfo | null> {
+     *!/
+    /!*public async getUserInfoByEmail(email: string): Promise<TeamsUserInfo | null> {
         const j = await this.teamsSearchRequest(email);
 
         if (!j) {
@@ -153,19 +152,19 @@ export default class Teams {
             if (x.mail === email && x.objectType === "User") {
                 console.log(x);
                 const u = this.createUserInfo(x);
-                const pfp = await this.getProfilePicture(u, ti);
-                await ProfilePicturesBucket.uploadImage(pfp, u.id);
+                // const pfp = await this.getProfilePicture(u, ti);
+                // await ProfilePicturesBucket.uploadImage(pfp, u.id);
                 return u;
             }
         }
         return null;
-    }
+    }*!/
 
-    /**
+    /!**
      * Gets the Microsoft Teams profile data for a user based on their email
      * @param fullName User's name
-     */
-    public async getUserInfoByName(fullName: string): Promise<UserInfo | null> {
+     *!/
+    /!*public async getUserInfoByName(fullName: string): Promise<TeamsUserInfo | null> {
         const j = await this.teamsSearchRequest(fullName);
 
         if (!j) {
@@ -183,9 +182,9 @@ export default class Teams {
             }
         }
         return null;
-    }
+    }*!/
 
-    public async getUserSuggestions(text: string, school: string): Promise<UserInfo[] | null> {
+    /!*public async getUserSuggestions(text: string, school: string): Promise<TeamsUserInfo[] | null> {
         const json = await this.teamsSearchRequest(text, school);
 
         if (!json) {
@@ -193,5 +192,6 @@ export default class Teams {
         }
 
         return json[0].value.filter(x => x.objectType === "User" && x.email && x.email.startsWith("s-") && !Number.isNaN(Number.parseInt(x.jobTitle))).map(x => this.createUserInfo(x));
-    }
+    }*!/
 }
+*/

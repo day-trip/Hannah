@@ -1,0 +1,3498 @@
+{
+  "meta": {
+    "status": true,
+    "timestamp": 1704856862,
+    "versions": {
+      "requested": "v2023.1.LTS",
+      "mapped": "v1.116",
+      "concrete": "v1.116.5"
+    },
+    "records": 3
+  },
+  "data": {
+    "auth": {
+      "request": {
+        "user_id": "USRstudent37941401101061",
+        "session_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00",
+        "retrieve_tags": true,
+        "organisation_id": 362,
+        "dynamic_items": {
+          "data_table_seed": "19c46cea-d007-30e2-a7a4-fb10df1cbe00",
+          "seed_with_item_id": true
+        }
+      },
+      "security": {
+        "consumer_key": "8EO6ataGL8M5Tuxx",
+        "user_id": "USRstudent37941401101061",
+        "signature": "$02$4d89457ff1f4ce0d29249f98948a2ce1ad3f9f1683648d5a017763539f05cdb5",
+        "domain": "www.bigideasmath.com",
+        "timestamp": "20240110-0321"
+      }
+    },
+    "request": {
+      "metadata": {
+        "indexes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "breadcrumbs": [
+          {
+            "HSCC_Geom_04.05.02": {
+              "sectionName": "Section 4.5: Dilations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.5: Dilations > Question #2",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "2",
+              "activityName": "Exercises 1 - 57",
+              "sectionId": 10472,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.05.03": {
+              "sectionName": "Section 4.5: Dilations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.5: Dilations > Question #3",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "3",
+              "activityName": "Exercises 1 - 57",
+              "sectionId": 10472,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.05.04": {
+              "sectionName": "Section 4.5: Dilations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.5: Dilations > Question #4",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "4",
+              "activityName": "Exercises 1 - 57",
+              "sectionId": 10472,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.05.05": {
+              "sectionName": "Section 4.5: Dilations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.5: Dilations > Question #5",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "5",
+              "activityName": "Exercises 1 - 57",
+              "sectionId": 10472,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.05.15": {
+              "sectionName": "Section 4.5: Dilations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.5: Dilations > Question #15",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "15",
+              "activityName": "Exercises 1 - 57",
+              "sectionId": 10472,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.05.16": {
+              "sectionName": "Section 4.5: Dilations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.5: Dilations > Question #16",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "16",
+              "activityName": "Exercises 1 - 57",
+              "sectionId": 10472,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.05.17": {
+              "sectionName": "Section 4.5: Dilations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.5: Dilations > Question #17",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "17",
+              "activityName": "Exercises 1 - 57",
+              "sectionId": 10472,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.05.18": {
+              "sectionName": "Section 4.5: Dilations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.5: Dilations > Question #18",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "18",
+              "activityName": "Exercises 1 - 57",
+              "sectionId": 10472,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.05.25": {
+              "sectionName": "Section 4.5: Dilations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.5: Dilations > Question #25",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "25",
+              "activityName": "Exercises 1 - 57",
+              "sectionId": 10472,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.05.28": {
+              "sectionName": "Section 4.5: Dilations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.5: Dilations > Question #28",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "28",
+              "activityName": "Exercises 1 - 57",
+              "sectionId": 10472,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "reference": "HSCC_Geom_04.05.02",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.05.02"
+        },
+        {
+          "reference": "HSCC_Geom_04.05.03",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.05.03"
+        },
+        {
+          "reference": "HSCC_Geom_04.05.04",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.05.04"
+        },
+        {
+          "reference": "HSCC_Geom_04.05.05",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.05.05"
+        },
+        {
+          "reference": "HSCC_Geom_04.05.15",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.05.15"
+        },
+        {
+          "reference": "HSCC_Geom_04.05.16",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.05.16"
+        },
+        {
+          "reference": "HSCC_Geom_04.05.17",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.05.17"
+        },
+        {
+          "reference": "HSCC_Geom_04.05.18",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.05.18"
+        },
+        {
+          "reference": "HSCC_Geom_04.05.25",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.05.25"
+        },
+        {
+          "reference": "HSCC_Geom_04.05.28",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.05.28"
+        }
+      ],
+      "rendering_type": "assess",
+      "role": "STUDENT",
+      "itemsAPI": "v2023.1.LTS",
+      "session_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00",
+      "retrieve_tags": true,
+      "type": "submit_practice",
+      "saveAssessmentNav": true,
+      "organisation_id": 362,
+      "features": {
+        "sketchpad": true,
+        "calculator": false,
+        "liveTutor": true,
+        "needHelp": true,
+        "checkAnswerCounts": {
+          "HSCC_Geom_04.05.05": 2,
+          "HSCC_Geom_04.05.16": 1,
+          "HSCC_Geom_04.05.04": 1,
+          "HSCC_Geom_04.05.15": 1,
+          "HSCC_Geom_04.05.03": 1,
+          "HSCC_Geom_04.05.02": 1
+        },
+        "desmos": false,
+        "checkLimit": 2,
+        "guidedSolution": false,
+        "desmosType": "",
+        "viewSolution": false,
+        "releaseRev": false
+      },
+      "user_id": "USRstudent37941401101061",
+      "liveTutorArray": {
+        "HSCC_Geom_04.05.16": false,
+        "HSCC_Geom_04.05.05": true,
+        "HSCC_Geom_04.05.15": true,
+        "HSCC_Geom_04.05.04": false,
+        "HSCC_Geom_04.05.25": false,
+        "HSCC_Geom_04.05.03": true,
+        "HSCC_Geom_04.05.02": false,
+        "HSCC_Geom_04.05.18": false,
+        "HSCC_Geom_04.05.28": false,
+        "HSCC_Geom_04.05.17": true
+      },
+      "name": "HW 4.5",
+      "activity_id": "e4cdfcb2-46ac-483c-905b-aaf4dab841b5",
+      "state": "resume",
+      "activity_template_id": "a404eda0-eb58-4311-964d-7c3b90010213",
+      "config": {
+        "annotation": true,
+        "navigation": {
+          "show_intro": false,
+          "autosave": {
+            "ui": true,
+            "save_interval_duration": 300
+          },
+          "show_outro": false
+        },
+        "regions": "horizontal",
+        "region_overrides": {
+          "top-right.pause_button": false,
+          "items.progress_element": true,
+          "top-right": [
+            {
+              "position": "right",
+              "type": "flagitem_button",
+              "show_label_option": "false"
+            },
+            {
+              "options": {
+                "name": "checkAnswer",
+                "icon_class": "icon-check-answer-button",
+                "label": "Check"
+              },
+              "position": "left",
+              "type": "custom_button"
+            },
+            {
+              "options": {
+                "name": "needsHelp",
+                "icon_class": "icon-help-button",
+                "label": "Skills Review"
+              },
+              "type": "custom_button"
+            },
+            {
+              "options": {
+                "name": "assignmentSaveButton",
+                "icon_class": "icon-assignment-save-button",
+                "label": "Save / Exit"
+              },
+              "type": "custom_button"
+            },
+            {
+              "options": {
+                "name": "assignmentSubmitButton",
+                "icon_class": "icon-assignment-submit-button",
+                "label": "Submit"
+              },
+              "type": "custom_button"
+            }
+          ],
+          "bottom-right": [
+            {
+              "options": {
+                "name": "liveTutor",
+                "icon_class": "icon-live-tutor-button",
+                "label": "Live Tutor"
+              },
+              "position": "right",
+              "type": "custom_button"
+            }
+          ],
+          "bottom": [],
+          "bottom-left": [
+            {
+              "type": "previous_button"
+            },
+            {
+              "type": "horizontaltoc_element"
+            },
+            {
+              "type": "next_button"
+            }
+          ],
+          "right": [
+            {
+              "options": {
+                "name": "sketchpad",
+                "icon_class": "icon-sketchpad-button",
+                "label": "Sketchpad"
+              },
+              "type": "custom_button"
+            },
+            {
+              "type": "reviewscreen_button"
+            },
+            {
+              "fontsize_option": true,
+              "zoom_option": true,
+              "colorscheme_option": true,
+              "type": "accessibility_button"
+            }
+          ]
+        },
+        "configuration": {
+          "fontsize": "xlarge",
+          "lazyload": true
+        },
+        "questions_api_init_options": {
+          "math_renderer": "mathquill",
+          "captureOnResumeError": true
+        },
+        "annotations_api_init_options": {
+          "modules": {
+            "drawing": true
+          }
+        },
+        "labelBundle": {
+          "expandMenu": "Open",
+          "collapseMenu": "Close",
+          "reviewScreen": "Overview"
+        },
+        "metadata": {
+          "items": [
+            {
+              "reference": "HSCC_Geom_04.05.02",
+              "source": {
+                "reference": "HSCC_Geom_04.05.02",
+                "organisation_id": 315
+              },
+              "time": 43,
+              "response_ids": [
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_fadf4c61889af2c419c84556fa96844d",
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_7d965ebc1d79d29d65edc0e38239a81d"
+              ],
+              "user_flagged": false,
+              "attempt_status": "fully_attempted"
+            },
+            {
+              "reference": "HSCC_Geom_04.05.03",
+              "source": {
+                "reference": "HSCC_Geom_04.05.03",
+                "organisation_id": 315
+              },
+              "time": 1957,
+              "response_ids": [
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_d729a91db8afc02acda2c2d44ef3ca43",
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_f218345a89cab3dfd40a529776e73c8e"
+              ],
+              "user_flagged": false,
+              "attempt_status": "fully_attempted",
+              "metadata": {
+                "scoring_type": "per-question"
+              }
+            },
+            {
+              "reference": "HSCC_Geom_04.05.04",
+              "source": {
+                "reference": "HSCC_Geom_04.05.04",
+                "organisation_id": 315
+              },
+              "time": 43,
+              "response_ids": [
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_44efa18f3c991390b4d0a5eb959dc57e",
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_a802279779e724bde82cc3e50481ec2f"
+              ],
+              "user_flagged": false,
+              "attempt_status": "fully_attempted",
+              "metadata": {
+                "scoring_type": "per-question"
+              }
+            },
+            {
+              "reference": "HSCC_Geom_04.05.05",
+              "source": {
+                "reference": "HSCC_Geom_04.05.05",
+                "organisation_id": 315
+              },
+              "time": 44,
+              "response_ids": [
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_027a8d570b06a463c762c199e0b666ae",
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_5588eac2f7b18b8e3dd0eafa47485df9"
+              ],
+              "user_flagged": false,
+              "attempt_status": "fully_attempted",
+              "metadata": {
+                "scoring_type": "per-question"
+              }
+            },
+            {
+              "reference": "HSCC_Geom_04.05.15",
+              "source": {
+                "reference": "HSCC_Geom_04.05.15",
+                "organisation_id": 315
+              },
+              "time": 239,
+              "response_ids": [
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_4ab49470af18b190a7b56413f897360d"
+              ],
+              "user_flagged": false,
+              "attempt_status": "fully_attempted"
+            },
+            {
+              "reference": "HSCC_Geom_04.05.16",
+              "source": {
+                "reference": "HSCC_Geom_04.05.16",
+                "organisation_id": 315
+              },
+              "time": 139,
+              "response_ids": [
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_dffc33fefefa98e40944e33b3e086998"
+              ],
+              "user_flagged": false,
+              "attempt_status": "fully_attempted"
+            },
+            {
+              "reference": "HSCC_Geom_04.05.17",
+              "source": {
+                "reference": "HSCC_Geom_04.05.17",
+                "organisation_id": 315
+              },
+              "time": 42,
+              "response_ids": [
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_e163da1f5684e18259857dde0d6fa6cf"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted"
+            },
+            {
+              "reference": "HSCC_Geom_04.05.18",
+              "source": {
+                "reference": "HSCC_Geom_04.05.18",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_4586d090de28c349168377dea41550c5"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted"
+            },
+            {
+              "reference": "HSCC_Geom_04.05.25",
+              "source": {
+                "reference": "HSCC_Geom_04.05.25",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_a779d92f73219c3ecef0dc1df8af3922",
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_2e58b7328bbd4b17ceaa264c93d55c6d"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted",
+              "metadata": {
+                "scoring_type": "per-question"
+              }
+            },
+            {
+              "reference": "HSCC_Geom_04.05.28",
+              "source": {
+                "reference": "HSCC_Geom_04.05.28",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_6e45347b70d5984baf3059dd38094262",
+                "19c46cea-d007-30e2-a7a4-fb10df1cbe00_212454548c8daa89079fc40b25639517"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted",
+              "metadata": {
+                "scoring_type": "per-question"
+              }
+            }
+          ],
+          "items_api_version": "v1.120.2",
+          "activity_template_id": "a404eda0-eb58-4311-964d-7c3b90010213",
+          "current_time": 5856,
+          "current_reading_time": false,
+          "max_time": 0,
+          "current_item_reference": "HSCC_Geom_04.05.28",
+          "current_sheet_position": 9,
+          "features": [],
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "last_item_reference": "HSCC_Geom_04.05.28",
+          "question_types": [
+            "mcq",
+            "clozedropdown",
+            "clozeformula",
+            "graphplotting",
+            "formulaV2"
+          ]
+        }
+      },
+      "format": "json",
+      "dynamic_items": {
+        "data_table_seed": "19c46cea-d007-30e2-a7a4-fb10df1cbe00",
+        "seed_with_item_id": true
+      },
+      "existing_session": true
+    },
+    "apiActivity": {
+      "items": [
+        {
+          "reference": "HSCC_Geom_04.05.02",
+          "source": {
+            "reference": "HSCC_Geom_04.05.02",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_fadf4c61889af2c419c84556fa96844d\"></span><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_7d965ebc1d79d29d65edc0e38239a81d\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "hashMap": [
+              {
+                "nativeHash": "4d779a11066a05def759fafffd279874",
+                "overrideHash": "4d779a11066a05def759fafffd279874",
+                "enManuscript": "Which scale factor does not belong with the other three?",
+                "espOnly": false
+              },
+              {
+                "nativeHash": "85d04479232f85a912677edcffb88f98",
+                "overrideHash": "85d04479232f85a912677edcffb88f98",
+                "enManuscript": "Explain your reasoning.",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_fadf4c61889af2c419c84556fa96844d",
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_7d965ebc1d79d29d65edc0e38239a81d"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "is_math": true,
+              "stimulus": "<p>Which scale factor does not belong with the other three?</p>\n",
+              "options": [
+                {
+                  "label": "\\(\\frac{5}{4}\\)",
+                  "value": "0"
+                },
+                {
+                  "label": "\\(60\\%\\)",
+                  "value": "1"
+                },
+                {
+                  "label": "\\(115\\%\\)",
+                  "value": "2"
+                },
+                {
+                  "label": "\\(2\\)",
+                  "value": "3"
+                }
+              ],
+              "ui_style": {
+                "type": ""
+              },
+              "type": "mcq",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "valid_response": {
+                  "score": 0.5,
+                  "value": [
+                    "1"
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 1,
+                "sheet_reference": "HSCC_Geom_04.05.02",
+                "widget_reference": "d49b4fc7-be61-4565-b42b-6cb8fd521e3c",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_fadf4c61889af2c419c84556fa96844d"
+            },
+            {
+              "template": "<p>This value is a scale factor for a(n) {{response}}. The other three are scale factors for {{response}}.</p>\n",
+              "response_container": {
+                "pointer": "left"
+              },
+              "stimulus": "<p>Explain your reasoning.</p>\n",
+              "type": "clozedropdown",
+              "possible_responses": [
+                [
+                  "reduction",
+                  "enlargement"
+                ],
+                [
+                  "reductions",
+                  "enlargements"
+                ]
+              ],
+              "validation": {
+                "scoring_type": "exactMatch",
+                "valid_response": {
+                  "score": 0.5,
+                  "value": [
+                    "reduction",
+                    "enlargements"
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 2,
+                "sheet_reference": "HSCC_Geom_04.05.02",
+                "widget_reference": "84456b4d-1c97-4262-9aa8-6456c09eb0fa",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_7d965ebc1d79d29d65edc0e38239a81d"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.05.03",
+          "source": {
+            "reference": "HSCC_Geom_04.05.03",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_d729a91db8afc02acda2c2d44ef3ca43\"></span><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_f218345a89cab3dfd40a529776e73c8e\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "scoring_type": "per-question",
+            "acknowledgements": null,
+            "hashMap": [
+              {
+                "nativeHash": "959f0846ba0e42cf1577b779c0d8ea60",
+                "overrideHash": "959f0846ba0e42cf1577b779c0d8ea60",
+                "enManuscript": "Find the scale factor of the dilation. Then tell whether the dilation is a reduction or an enlargement.",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_d729a91db8afc02acda2c2d44ef3ca43",
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_f218345a89cab3dfd40a529776e73c8e"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "<span>The scale factor is &nbsp;</span>{{response}}.",
+              "response_container": {
+                "template": ""
+              },
+              "is_math": true,
+              "response_containers": [],
+              "equiv_literal_legacy": true,
+              "stimulus": "<p><span>Find the scale factor of the dilation.&nbsp;Then tell whether the dilation is a <em>reduction</em> or an <em>enlargement</em>.</span></p>\n\n<p><img alt=\"Two triangles, P and P prime, and a point C are shown. A line is drawn from each vertex of triangle P to point C, first passing through the corresponding vertex of triangle P prime. Segment C P is labeled 14 and segment C P prime is labeled 6.\" height=\"153\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/HSCC_Geom_04.05.03_201531723018.PNG\" width=\"235\"></p>\n",
+              "ui_style": {
+                "type": "floating-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "clozeformula",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "valid_response": {
+                  "score": 0.5,
+                  "value": [
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "decimalPlaces": 10,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "ignoreOrder": false
+                        },
+                        "value": "\\frac{3}{7}"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 1,
+                "sheet_reference": "HSCC_Geom_04.05.03",
+                "widget_reference": "a0c2afc8-caec-485c-b469-b370dbb80ae2",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_d729a91db8afc02acda2c2d44ef3ca43"
+            },
+            {
+              "template": "<p>The image is a(n) {{response}}.</p>\n",
+              "response_container": {
+                "pointer": "left"
+              },
+              "type": "clozedropdown",
+              "possible_responses": [
+                [
+                  "enlargement",
+                  "reduction"
+                ]
+              ],
+              "validation": {
+                "scoring_type": "exactMatch",
+                "valid_response": {
+                  "score": 0.5,
+                  "value": [
+                    "reduction"
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 1,
+                "sheet_reference": "HSCC_Geom_04.05.03",
+                "widget_reference": "fca20231-92b7-4eeb-9ad6-074f42e4553e",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_f218345a89cab3dfd40a529776e73c8e"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.05.04",
+          "source": {
+            "reference": "HSCC_Geom_04.05.04",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_44efa18f3c991390b4d0a5eb959dc57e\"></span><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_a802279779e724bde82cc3e50481ec2f\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "scoring_type": "per-question",
+            "acknowledgements": null,
+            "hashMap": [
+              {
+                "nativeHash": "959f0846ba0e42cf1577b779c0d8ea60",
+                "overrideHash": "959f0846ba0e42cf1577b779c0d8ea60",
+                "enManuscript": "Find the scale factor of the dilation. Then tell whether the dilation is a reduction or an enlargement.",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_44efa18f3c991390b4d0a5eb959dc57e",
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_a802279779e724bde82cc3e50481ec2f"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "The scale factor is {{response}}.",
+              "response_container": {
+                "template": ""
+              },
+              "is_math": true,
+              "response_containers": [],
+              "equiv_literal_legacy": true,
+              "stimulus": "<p><span>Find the scale factor of the dilation.&nbsp;</span><span>Then tell whether the dilation is a <em>reduction</em> or an <em>enlargement</em>.</span></p>\n\n<p><img alt=\"Two trapezoids, P and P prime, and a point C are shown. A line is drawn from each vertex of trapezoid P prime to point C, first passing through the corresponding vertex of trapezoid P. Segment C P is labeled 9 and segment C P prime is labeled 24.\" height=\"132\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom040504.PNG\" width=\"200\"></p>\n",
+              "ui_style": {
+                "type": "floating-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "clozeformula",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "alt_responses": [
+                  {
+                    "score": 0.5,
+                    "value": [
+                      [
+                        {
+                          "method": "equivLiteral",
+                          "options": {
+                            "inverseResult": false,
+                            "decimalPlaces": 10,
+                            "ignoreCoefficientOne": true,
+                            "ignoreTrailingZeros": true,
+                            "ignoreOrder": false
+                          },
+                          "value": "2\\frac{2}{3}"
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                "valid_response": {
+                  "score": 0.5,
+                  "value": [
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "decimalPlaces": 10,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "ignoreOrder": false
+                        },
+                        "value": "\\frac{8}{3}"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 1,
+                "sheet_reference": "HSCC_Geom_04.05.04",
+                "widget_reference": "21964b80-3749-420c-b139-db8980bc8807",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_44efa18f3c991390b4d0a5eb959dc57e"
+            },
+            {
+              "template": "<p>The image is a(n) {{response}}.</p>\n",
+              "response_container": {
+                "pointer": "left"
+              },
+              "type": "clozedropdown",
+              "possible_responses": [
+                [
+                  "enlargement",
+                  "reduction"
+                ]
+              ],
+              "validation": {
+                "scoring_type": "exactMatch",
+                "valid_response": {
+                  "score": 0.5,
+                  "value": [
+                    "enlargement"
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 1,
+                "sheet_reference": "HSCC_Geom_04.05.04",
+                "widget_reference": "ebcff05e-4fb9-428d-ab44-c8fd81f7b3d3",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_a802279779e724bde82cc3e50481ec2f"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.05.05",
+          "source": {
+            "reference": "HSCC_Geom_04.05.05",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_027a8d570b06a463c762c199e0b666ae\"></span><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_5588eac2f7b18b8e3dd0eafa47485df9\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "scoring_type": "per-question",
+            "acknowledgements": null
+          },
+          "workflow": [],
+          "response_ids": [
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_027a8d570b06a463c762c199e0b666ae",
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_5588eac2f7b18b8e3dd0eafa47485df9"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "<span>The scale factor is&nbsp;</span>{{response}}.",
+              "response_container": {
+                "template": ""
+              },
+              "is_math": true,
+              "response_containers": [],
+              "equiv_literal_legacy": true,
+              "stimulus": "<p>Find the scale factor of the dilation.&nbsp;Then tell whether the dilation is a <em>reduction</em> or an <em>enlargement</em>.</p>\n\n<p><img alt=\"Two quadrilaterals, P and P prime, and a point C are shown. A line is drawn from each vertex of quadrilateral P to point C, first passing through the corresponding vertex of quadrilateral P prime. Segment C P is labeled 15 and segment C P prime is labeled 9.\" height=\"228\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom_040505.PNG\" width=\"220\" /></p>\n",
+              "ui_style": {
+                "type": "floating-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "clozeformula",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "alt_responses": [
+                  {
+                    "score": 0.5,
+                    "value": [
+                      [
+                        {
+                          "method": "equivLiteral",
+                          "options": {
+                            "inverseResult": false,
+                            "decimalPlaces": 10,
+                            "ignoreCoefficientOne": true,
+                            "ignoreTrailingZeros": true,
+                            "ignoreOrder": false
+                          },
+                          "value": "0.6"
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                "valid_response": {
+                  "score": 0.5,
+                  "value": [
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "decimalPlaces": 10,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "ignoreOrder": false
+                        },
+                        "value": "\\frac{3}{5}"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 1,
+                "sheet_reference": "HSCC_Geom_04.05.05",
+                "widget_reference": "e33af773-1af0-4020-b508-a4ea1fbfdead",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_027a8d570b06a463c762c199e0b666ae"
+            },
+            {
+              "template": "<p>The image is a(n) {{response}}.</p>\n",
+              "response_container": {
+                "pointer": "left"
+              },
+              "type": "clozedropdown",
+              "possible_responses": [
+                [
+                  "enlargement",
+                  "reduction"
+                ]
+              ],
+              "validation": {
+                "scoring_type": "exactMatch",
+                "valid_response": {
+                  "score": 0.5,
+                  "value": [
+                    "reduction"
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 1,
+                "sheet_reference": "HSCC_Geom_04.05.05",
+                "widget_reference": "a312ce1d-37be-4a32-a992-87f75384d4e9",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_5588eac2f7b18b8e3dd0eafa47485df9"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.05.15",
+          "source": {
+            "reference": "HSCC_Geom_04.05.15",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_4ab49470af18b190a7b56413f897360d\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "hashMap": [
+              {
+                "nativeHash": "64e6b4c57b4eac6ce2dd987f48c25e1e",
+                "overrideHash": "fb77ef4c5f5a5c135a084be836854285",
+                "enManuscript": "Use the given vertices to graph triangle X Y Z and its image after a dilation centered at the origin with scale factor K is equal to 3. X (6, negative 1), Y (negative 2, negative 4), Z (1, 2)",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_4ab49470af18b190a7b56413f897360d"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "toolbar": {
+                "tools": [
+                  "polygon"
+                ]
+              },
+              "background_image": {
+                "src": ""
+              },
+              "canvas": {
+                "y_min": -14,
+                "x_max": 21,
+                "y_max": 10,
+                "snap_to": "grid",
+                "x_min": -8
+              },
+              "is_math": true,
+              "grid": {
+                "y_distance": 1,
+                "x_distance": 1
+              },
+              "stimulus": "<p><span>Use the&nbsp;</span><span>given vertices to g</span><span>raph</span> \\(\\triangle XYZ\\)&nbsp;and its image after a dilation centered at the origin with scale factor&nbsp;\\(k=3\\).</p>\n\n<p>\\(X(6,−1),\\ Y(−2,−4),\\ Z(1,\\ 2)\\)</p>\n",
+              "axis_x": {
+                "show_axis_label": true,
+                "ticks_distance": 4,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "axis_label": "",
+                "draw_labels": true
+              },
+              "axis_y": {
+                "show_axis_label": true,
+                "ticks_distance": 4,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "axis_label": "",
+                "draw_labels": true
+              },
+              "type": "graphplotting",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "ignore_repeated_shapes": "yes",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    {
+                      "id": "lrn_1",
+                      "type": "point",
+                      "coords": {
+                        "x": 6,
+                        "y": -1
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_2",
+                      "type": "point",
+                      "coords": {
+                        "x": -2,
+                        "y": -4
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_3",
+                      "type": "point",
+                      "coords": {
+                        "x": 1,
+                        "y": 2
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_1",
+                        "lrn_2",
+                        "lrn_3",
+                        "lrn_1"
+                      ],
+                      "id": "lrn_4",
+                      "type": "polygon"
+                    },
+                    {
+                      "id": "lrn_5",
+                      "type": "point",
+                      "coords": {
+                        "x": 3,
+                        "y": 6
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_6",
+                      "type": "point",
+                      "coords": {
+                        "x": 18,
+                        "y": -3
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_7",
+                      "type": "point",
+                      "coords": {
+                        "x": -6,
+                        "y": -12
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_5",
+                        "lrn_6",
+                        "lrn_7",
+                        "lrn_5"
+                      ],
+                      "id": "lrn_8",
+                      "type": "polygon"
+                    }
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 8,
+                "sheet_reference": "HSCC_Geom_04.05.15",
+                "widget_reference": "8f11f943-bf2b-4cd7-9ac2-23c9d560e381",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_4ab49470af18b190a7b56413f897360d"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.05.16",
+          "source": {
+            "reference": "HSCC_Geom_04.05.16",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_dffc33fefefa98e40944e33b3e086998\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "hashMap": [
+              {
+                "nativeHash": "b89d8d01d8477c7b6b9a1a2e32f649a1",
+                "overrideHash": "0ee9c3b3f6ca23c4bad9c0b218a1a51d",
+                "enManuscript": "Use the given vertices to graph triangle A B C and its image after a dilation centered at the origin with scale factor K is equal to 120 percent. A (0, 5), B (negative 10, negative 5), C (5, negative 5)",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_dffc33fefefa98e40944e33b3e086998"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "toolbar": {
+                "tools": [
+                  "polygon"
+                ]
+              },
+              "background_image": {
+                "src": ""
+              },
+              "canvas": {
+                "y_min": -13,
+                "x_max": 13,
+                "y_max": 13,
+                "snap_to": "grid",
+                "x_min": -13
+              },
+              "is_math": true,
+              "grid": {
+                "y_distance": 1,
+                "x_distance": 1
+              },
+              "stimulus": "<p><span>Use the&nbsp;</span><span>given vertices to g</span><span>raph</span>&nbsp;\\(\\triangle ABC\\)&nbsp; and its image after a dilation centered at the origin with scale factor&nbsp;\\(k=120\\%\\).</p>\n\n<p>\\(A(0,5),\\ B(−10,−5),\\ C(5,−5)\\)</p>\n",
+              "axis_x": {
+                "show_axis_label": true,
+                "ticks_distance": 2,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "axis_label": "",
+                "draw_labels": true
+              },
+              "axis_y": {
+                "show_axis_label": true,
+                "ticks_distance": 2,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "axis_label": "",
+                "draw_labels": true
+              },
+              "type": "graphplotting",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "ignore_repeated_shapes": "yes",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    {
+                      "id": "lrn_1",
+                      "type": "point",
+                      "coords": {
+                        "x": 0,
+                        "y": 5
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_2",
+                      "type": "point",
+                      "coords": {
+                        "x": -10,
+                        "y": -5
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_3",
+                      "type": "point",
+                      "coords": {
+                        "x": 5,
+                        "y": -5
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_1",
+                        "lrn_2",
+                        "lrn_3",
+                        "lrn_1"
+                      ],
+                      "id": "lrn_4",
+                      "type": "polygon"
+                    },
+                    {
+                      "id": "lrn_5",
+                      "type": "point",
+                      "coords": {
+                        "x": 0,
+                        "y": 6
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_6",
+                      "type": "point",
+                      "coords": {
+                        "x": -12,
+                        "y": -6
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_7",
+                      "type": "point",
+                      "coords": {
+                        "x": 6,
+                        "y": -6
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_5",
+                        "lrn_6",
+                        "lrn_7",
+                        "lrn_5"
+                      ],
+                      "id": "lrn_8",
+                      "type": "polygon"
+                    }
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 8,
+                "sheet_reference": "HSCC_Geom_04.05.16",
+                "widget_reference": "d5072de3-a366-4fa3-84e2-c1e679aa4af1",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_dffc33fefefa98e40944e33b3e086998"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.05.17",
+          "source": {
+            "reference": "HSCC_Geom_04.05.17",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_e163da1f5684e18259857dde0d6fa6cf\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "hashMap": [
+              {
+                "nativeHash": "06f8b95b2b3efcb82bc8f0ee12dc2f41",
+                "overrideHash": "0ea78f4260390052aeb11a3c3adf28c9",
+                "enManuscript": "Use the given vertices to graph quadrilateral T U V W and its image after a dilation centered at the origin with scale factor K is equal to 2 thirds. \nT ( 9, negative 3 ), U (6, 0), V (3, 9). W (0, 0)",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_e163da1f5684e18259857dde0d6fa6cf"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "toolbar": {
+                "tools": [
+                  "polygon"
+                ]
+              },
+              "background_image": {
+                "src": ""
+              },
+              "canvas": {
+                "y_min": -11,
+                "x_max": 11,
+                "y_max": 11,
+                "snap_to": "grid",
+                "x_min": -11
+              },
+              "is_math": true,
+              "grid": {
+                "y_distance": 1,
+                "x_distance": 1
+              },
+              "stimulus": "<p>Use the <span>given vertices to g</span>raph quadrilateral&nbsp;\\(TUVW\\)&nbsp;and its image after a dilation centered at the origin with scale factor \\(k=\\frac{2}{3}\\).</p>\n\n<p>\\(T(9,−3),\\ U(6,0),\\ V(3,9),\\ W(0,0)\\)</p>\n",
+              "axis_x": {
+                "show_axis_label": true,
+                "ticks_distance": 2,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "axis_label": "",
+                "draw_labels": true
+              },
+              "axis_y": {
+                "show_axis_label": true,
+                "ticks_distance": 2,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "axis_label": "",
+                "draw_labels": true
+              },
+              "type": "graphplotting",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "ignore_repeated_shapes": "yes",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    {
+                      "id": "lrn_1",
+                      "type": "point",
+                      "coords": {
+                        "x": 9,
+                        "y": -3
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_2",
+                      "type": "point",
+                      "coords": {
+                        "x": 6,
+                        "y": 0
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_3",
+                      "type": "point",
+                      "coords": {
+                        "x": 3,
+                        "y": 9
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_4",
+                      "type": "point",
+                      "coords": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_1",
+                        "lrn_2",
+                        "lrn_3",
+                        "lrn_4",
+                        "lrn_1"
+                      ],
+                      "id": "lrn_5",
+                      "type": "polygon"
+                    },
+                    {
+                      "id": "lrn_6",
+                      "type": "point",
+                      "coords": {
+                        "x": 2,
+                        "y": 6
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_7",
+                      "type": "point",
+                      "coords": {
+                        "x": 4,
+                        "y": 0
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_8",
+                      "type": "point",
+                      "coords": {
+                        "x": 6,
+                        "y": -2
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_6",
+                        "lrn_7",
+                        "lrn_8",
+                        "lrn_4",
+                        "lrn_6"
+                      ],
+                      "id": "lrn_9",
+                      "type": "polygon"
+                    }
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 9,
+                "sheet_reference": "HSCC_Geom_04.05.17",
+                "widget_reference": "e4915e36-5212-476f-9e42-c5c9601ff4b9",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_e163da1f5684e18259857dde0d6fa6cf"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.05.18",
+          "source": {
+            "reference": "HSCC_Geom_04.05.18",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_4586d090de28c349168377dea41550c5\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "hashMap": [
+              {
+                "nativeHash": "325e81702fde10a8338b1c93ddcf2ba9",
+                "overrideHash": "ca6075cab0d1232f619647f172fe6d68",
+                "enManuscript": "Use the given vertices to graph quadrilateral J K L M and its image after a dilation centered at the origin with scale factor K is equal to 25 hundredths. J (4, 0), K (negative 8, 4), L (0, negative 4), M (12, negative 8)",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_4586d090de28c349168377dea41550c5"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "toolbar": {
+                "tools": [
+                  "polygon"
+                ]
+              },
+              "background_image": {
+                "src": ""
+              },
+              "canvas": {
+                "y_min": -13,
+                "x_max": 13,
+                "y_max": 13,
+                "snap_to": "grid",
+                "x_min": -13
+              },
+              "is_math": true,
+              "grid": {
+                "y_distance": 1,
+                "x_distance": 1
+              },
+              "stimulus": "<p><span>Use the&nbsp;</span><span>given vertices to graph quadrilateral&nbsp;</span>\\(JKLM\\)&nbsp; and its image after a dilation centered at the origin with scale factor \\(k=0.25\\).</p>\n\n<p>\\(J(4,\\ 0),\\ K(−8,\\ 4),\\ L(0,−4),\\ M(12,−8)\\)</p>\n",
+              "axis_x": {
+                "show_axis_label": true,
+                "ticks_distance": 2,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "axis_label": "",
+                "draw_labels": true
+              },
+              "axis_y": {
+                "show_axis_label": true,
+                "ticks_distance": 2,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "axis_label": "",
+                "draw_labels": true
+              },
+              "type": "graphplotting",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "ignore_repeated_shapes": "yes",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    {
+                      "id": "lrn_1",
+                      "type": "point",
+                      "coords": {
+                        "x": 4,
+                        "y": 0
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_2",
+                      "type": "point",
+                      "coords": {
+                        "x": -8,
+                        "y": 4
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_3",
+                      "type": "point",
+                      "coords": {
+                        "x": 0,
+                        "y": -4
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_4",
+                      "type": "point",
+                      "coords": {
+                        "x": 12,
+                        "y": -8
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_1",
+                        "lrn_2",
+                        "lrn_3",
+                        "lrn_4",
+                        "lrn_1"
+                      ],
+                      "id": "lrn_5",
+                      "type": "polygon"
+                    },
+                    {
+                      "id": "lrn_6",
+                      "type": "point",
+                      "coords": {
+                        "x": 1,
+                        "y": 0
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_7",
+                      "type": "point",
+                      "coords": {
+                        "x": -2,
+                        "y": 1
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_8",
+                      "type": "point",
+                      "coords": {
+                        "x": 0,
+                        "y": -1
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_9",
+                      "type": "point",
+                      "coords": {
+                        "x": 3,
+                        "y": -2
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_6",
+                        "lrn_7",
+                        "lrn_8",
+                        "lrn_9",
+                        "lrn_6"
+                      ],
+                      "id": "lrn_10",
+                      "type": "polygon"
+                    }
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 10,
+                "sheet_reference": "HSCC_Geom_04.05.18",
+                "widget_reference": "52d633c5-9db4-4d3c-bb24-07c6e741e510",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_4586d090de28c349168377dea41550c5"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.05.25",
+          "source": {
+            "reference": "HSCC_Geom_04.05.25",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_a779d92f73219c3ecef0dc1df8af3922\"></span><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_2e58b7328bbd4b17ceaa264c93d55c6d\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "scoring_type": "per-question",
+            "acknowledgements": null,
+            "hashMap": [
+              {
+                "nativeHash": "f0d00356bad0b0e08e0f2348e1a0b89a",
+                "overrideHash": "7596120173913ae238ab5b7c997e409b",
+                "enManuscript": "The red figure is the image of the blue figure after a dilation with center C. Find the scale factor of the dilation.",
+                "espOnly": false
+              },
+              {
+                "nativeHash": "ca43d351f6101c52cb0a294e1f2c4604",
+                "overrideHash": "ca43d351f6101c52cb0a294e1f2c4604",
+                "enManuscript": "Find the value of x.",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_a779d92f73219c3ecef0dc1df8af3922",
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_2e58b7328bbd4b17ceaa264c93d55c6d"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "\\(k=\\)&nbsp;{{response}}",
+              "response_container": {
+                "template": ""
+              },
+              "is_math": true,
+              "response_containers": [],
+              "equiv_literal_legacy": true,
+              "stimulus": "<p>The red figure is the image of the&nbsp;blue figure after a dilation with center \\(C\\).</p>\n\n<p>&nbsp;<img alt=\"Two triangles and a point C are shown. A line is drawn from each vertex of the larger triangle to point C, first passing through the corresponding vertex of the smaller triangle. The base of the larger triangle is labeled 15 and the segment connecting point C to the base of the larger triangle is labeled 35. The base of the smaller triangle is labeled 9 and the segment connecting point C to the base of the smaller triangle is labeled x.\" height=\"143\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom_040525.PNG\" width=\"200\" /></p>\n\n<p>Find the&nbsp;scale factor of the dilation.</p>\n",
+              "ui_style": {
+                "type": "floating-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "clozeformula",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "valid_response": {
+                  "score": 0.5,
+                  "value": [
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "decimalPlaces": 10,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "ignoreOrder": false
+                        },
+                        "value": "\\frac{5}{3}"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 1,
+                "sheet_reference": "HSCC_Geom_04.05.25",
+                "widget_reference": "49573ade-e3b0-4068-b56d-b69ada261597",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_a779d92f73219c3ecef0dc1df8af3922"
+            },
+            {
+              "template": "\\(x=\\)&nbsp;{{response}}",
+              "response_container": {
+                "template": ""
+              },
+              "is_math": true,
+              "response_containers": [],
+              "equiv_literal_legacy": true,
+              "stimulus": "Find the value of \\(x\\).",
+              "ui_style": {
+                "type": "floating-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "clozeformula",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "valid_response": {
+                  "score": 0.5,
+                  "value": [
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "decimalPlaces": 10,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "ignoreOrder": false
+                        },
+                        "value": "21"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 1,
+                "sheet_reference": "HSCC_Geom_04.05.25",
+                "widget_reference": "538475be-b46c-401e-a7b2-b007eb207f08",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_2e58b7328bbd4b17ceaa264c93d55c6d"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.05.28",
+          "source": {
+            "reference": "HSCC_Geom_04.05.28",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_6e45347b70d5984baf3059dd38094262\"></span><span class=\"learnosity-response question-19c46cea-d007-30e2-a7a4-fb10df1cbe00_212454548c8daa89079fc40b25639517\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "scoring_type": "per-question",
+            "acknowledgements": null,
+            "hashMap": [
+              {
+                "nativeHash": "289f0469f107877f050ceadb1a12659e",
+                "overrideHash": "289f0469f107877f050ceadb1a12659e",
+                "enManuscript": "Then find the value of m.",
+                "espOnly": false
+              },
+              {
+                "nativeHash": "f0d00356bad0b0e08e0f2348e1a0b89a",
+                "overrideHash": "7596120173913ae238ab5b7c997e409b",
+                "enManuscript": "The red figure is the image of the blue figure after a dilation with center C. Find the scale factor of the dilation.",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_6e45347b70d5984baf3059dd38094262",
+            "19c46cea-d007-30e2-a7a4-fb10df1cbe00_212454548c8daa89079fc40b25639517"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "k={{response}}",
+              "is_math": true,
+              "equiv_literal_legacy": true,
+              "stimulus": "<p>The red figure is the image of the&nbsp;blue figure after a dilation with center \\(C\\).</p>\n\n<p><img alt=\"Two rectangles and a point C are shown. A line is drawn from each vertex of the larger rectangle to point C, first passing through the corresponding vertex of the smaller rectangle. The length of the larger rectangle is labeled 28 and the width of the larger rectangle is labeled m. The length of the smaller rectangle is labeled 7 and the width of the smaller rectangle is labeled 4.\" height=\"161\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/HSCC_Geom_04.05.28.PNG\" width=\"232\" /></p>\n\n<p>Find the&nbsp;scale factor of the dilation.</p>\n",
+              "ui_style": {
+                "type": "floating-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "formulaV2",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "alt_responses": [
+                  {
+                    "score": 0.5,
+                    "value": [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "decimalPlaces": 10,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "ignoreOrder": false
+                        },
+                        "value": "k=0.25"
+                      }
+                    ]
+                  }
+                ],
+                "valid_response": {
+                  "score": 0.5,
+                  "value": [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "decimalPlaces": 10,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "allowDecimal": true,
+                        "ignoreOrder": false
+                      },
+                      "value": "k=\\frac{1}{4}"
+                    }
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 1,
+                "sheet_reference": "HSCC_Geom_04.05.28",
+                "widget_reference": "529a9b46-8792-4d45-9d9a-4348230ad4bc",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_6e45347b70d5984baf3059dd38094262"
+            },
+            {
+              "template": "m={{response}}",
+              "is_math": true,
+              "equiv_literal_legacy": true,
+              "stimulus": "Then find the value of&nbsp;\\(m\\).",
+              "ui_style": {
+                "type": "floating-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "formulaV2",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "valid_response": {
+                  "score": 0.5,
+                  "value": [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "decimalPlaces": 10,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "allowDecimal": false,
+                        "ignoreOrder": false
+                      },
+                      "value": "m=16"
+                    }
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 1,
+                "sheet_reference": "HSCC_Geom_04.05.28",
+                "widget_reference": "e10f0f2c-6f72-4007-a16a-31ee49359672",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_212454548c8daa89079fc40b25639517"
+            }
+          ],
+          "features": []
+        }
+      ],
+      "questionsApiActivity": {
+        "consumer_key": "8EO6ataGL8M5Tuxx",
+        "user_id": "USRstudent37941401101061",
+        "timestamp": "20240110-0321",
+        "signature": "$02$4ec0042d54aa43f35c779613579c31d6944982e4a2c94da2056a28b27ab213a3",
+        "session_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00",
+        "type": "submit_practice",
+        "name": "HW 4.5",
+        "id": "e4cdfcb2-46ac-483c-905b-aaf4dab841b5",
+        "state": "resume",
+        "captureOnResumeError": true,
+        "math_renderer": "mathquill",
+        "questions": [
+          {
+            "is_math": true,
+            "stimulus": "<p>Which scale factor does not belong with the other three?</p>\n",
+            "options": [
+              {
+                "label": "\\(\\frac{5}{4}\\)",
+                "value": "0"
+              },
+              {
+                "label": "\\(60\\%\\)",
+                "value": "1"
+              },
+              {
+                "label": "\\(115\\%\\)",
+                "value": "2"
+              },
+              {
+                "label": "\\(2\\)",
+                "value": "3"
+              }
+            ],
+            "ui_style": {
+              "type": ""
+            },
+            "type": "mcq",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "valid_response": {
+                "score": 0.5,
+                "value": [
+                  "1"
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 1,
+              "sheet_reference": "HSCC_Geom_04.05.02",
+              "widget_reference": "d49b4fc7-be61-4565-b42b-6cb8fd521e3c",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_fadf4c61889af2c419c84556fa96844d"
+          },
+          {
+            "template": "<p>This value is a scale factor for a(n) {{response}}. The other three are scale factors for {{response}}.</p>\n",
+            "response_container": {
+              "pointer": "left"
+            },
+            "stimulus": "<p>Explain your reasoning.</p>\n",
+            "type": "clozedropdown",
+            "possible_responses": [
+              [
+                "reduction",
+                "enlargement"
+              ],
+              [
+                "reductions",
+                "enlargements"
+              ]
+            ],
+            "validation": {
+              "scoring_type": "exactMatch",
+              "valid_response": {
+                "score": 0.5,
+                "value": [
+                  "reduction",
+                  "enlargements"
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 2,
+              "sheet_reference": "HSCC_Geom_04.05.02",
+              "widget_reference": "84456b4d-1c97-4262-9aa8-6456c09eb0fa",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_7d965ebc1d79d29d65edc0e38239a81d"
+          },
+          {
+            "template": "<span>The scale factor is &nbsp;</span>{{response}}.",
+            "response_container": {
+              "template": ""
+            },
+            "is_math": true,
+            "response_containers": [],
+            "equiv_literal_legacy": true,
+            "stimulus": "<p><span>Find the scale factor of the dilation.&nbsp;Then tell whether the dilation is a <em>reduction</em> or an <em>enlargement</em>.</span></p>\n\n<p><img alt=\"Two triangles, P and P prime, and a point C are shown. A line is drawn from each vertex of triangle P to point C, first passing through the corresponding vertex of triangle P prime. Segment C P is labeled 14 and segment C P prime is labeled 6.\" height=\"153\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/HSCC_Geom_04.05.03_201531723018.PNG\" width=\"235\"></p>\n",
+            "ui_style": {
+              "type": "floating-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "clozeformula",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "valid_response": {
+                "score": 0.5,
+                "value": [
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "decimalPlaces": 10,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "ignoreOrder": false
+                      },
+                      "value": "\\frac{3}{7}"
+                    }
+                  ]
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 1,
+              "sheet_reference": "HSCC_Geom_04.05.03",
+              "widget_reference": "a0c2afc8-caec-485c-b469-b370dbb80ae2",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_d729a91db8afc02acda2c2d44ef3ca43"
+          },
+          {
+            "template": "<p>The image is a(n) {{response}}.</p>\n",
+            "response_container": {
+              "pointer": "left"
+            },
+            "type": "clozedropdown",
+            "possible_responses": [
+              [
+                "enlargement",
+                "reduction"
+              ]
+            ],
+            "validation": {
+              "scoring_type": "exactMatch",
+              "valid_response": {
+                "score": 0.5,
+                "value": [
+                  "reduction"
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 1,
+              "sheet_reference": "HSCC_Geom_04.05.03",
+              "widget_reference": "fca20231-92b7-4eeb-9ad6-074f42e4553e",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_f218345a89cab3dfd40a529776e73c8e"
+          },
+          {
+            "template": "The scale factor is {{response}}.",
+            "response_container": {
+              "template": ""
+            },
+            "is_math": true,
+            "response_containers": [],
+            "equiv_literal_legacy": true,
+            "stimulus": "<p><span>Find the scale factor of the dilation.&nbsp;</span><span>Then tell whether the dilation is a <em>reduction</em> or an <em>enlargement</em>.</span></p>\n\n<p><img alt=\"Two trapezoids, P and P prime, and a point C are shown. A line is drawn from each vertex of trapezoid P prime to point C, first passing through the corresponding vertex of trapezoid P. Segment C P is labeled 9 and segment C P prime is labeled 24.\" height=\"132\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom040504.PNG\" width=\"200\"></p>\n",
+            "ui_style": {
+              "type": "floating-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "clozeformula",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "alt_responses": [
+                {
+                  "score": 0.5,
+                  "value": [
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "decimalPlaces": 10,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "ignoreOrder": false
+                        },
+                        "value": "2\\frac{2}{3}"
+                      }
+                    ]
+                  ]
+                }
+              ],
+              "valid_response": {
+                "score": 0.5,
+                "value": [
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "decimalPlaces": 10,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "ignoreOrder": false
+                      },
+                      "value": "\\frac{8}{3}"
+                    }
+                  ]
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 1,
+              "sheet_reference": "HSCC_Geom_04.05.04",
+              "widget_reference": "21964b80-3749-420c-b139-db8980bc8807",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_44efa18f3c991390b4d0a5eb959dc57e"
+          },
+          {
+            "template": "<p>The image is a(n) {{response}}.</p>\n",
+            "response_container": {
+              "pointer": "left"
+            },
+            "type": "clozedropdown",
+            "possible_responses": [
+              [
+                "enlargement",
+                "reduction"
+              ]
+            ],
+            "validation": {
+              "scoring_type": "exactMatch",
+              "valid_response": {
+                "score": 0.5,
+                "value": [
+                  "enlargement"
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 1,
+              "sheet_reference": "HSCC_Geom_04.05.04",
+              "widget_reference": "ebcff05e-4fb9-428d-ab44-c8fd81f7b3d3",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_a802279779e724bde82cc3e50481ec2f"
+          },
+          {
+            "template": "<span>The scale factor is&nbsp;</span>{{response}}.",
+            "response_container": {
+              "template": ""
+            },
+            "is_math": true,
+            "response_containers": [],
+            "equiv_literal_legacy": true,
+            "stimulus": "<p>Find the scale factor of the dilation.&nbsp;Then tell whether the dilation is a <em>reduction</em> or an <em>enlargement</em>.</p>\n\n<p><img alt=\"Two quadrilaterals, P and P prime, and a point C are shown. A line is drawn from each vertex of quadrilateral P to point C, first passing through the corresponding vertex of quadrilateral P prime. Segment C P is labeled 15 and segment C P prime is labeled 9.\" height=\"228\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom_040505.PNG\" width=\"220\" /></p>\n",
+            "ui_style": {
+              "type": "floating-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "clozeformula",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "alt_responses": [
+                {
+                  "score": 0.5,
+                  "value": [
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "decimalPlaces": 10,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "ignoreOrder": false
+                        },
+                        "value": "0.6"
+                      }
+                    ]
+                  ]
+                }
+              ],
+              "valid_response": {
+                "score": 0.5,
+                "value": [
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "decimalPlaces": 10,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "ignoreOrder": false
+                      },
+                      "value": "\\frac{3}{5}"
+                    }
+                  ]
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 1,
+              "sheet_reference": "HSCC_Geom_04.05.05",
+              "widget_reference": "e33af773-1af0-4020-b508-a4ea1fbfdead",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_027a8d570b06a463c762c199e0b666ae"
+          },
+          {
+            "template": "<p>The image is a(n) {{response}}.</p>\n",
+            "response_container": {
+              "pointer": "left"
+            },
+            "type": "clozedropdown",
+            "possible_responses": [
+              [
+                "enlargement",
+                "reduction"
+              ]
+            ],
+            "validation": {
+              "scoring_type": "exactMatch",
+              "valid_response": {
+                "score": 0.5,
+                "value": [
+                  "reduction"
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 1,
+              "sheet_reference": "HSCC_Geom_04.05.05",
+              "widget_reference": "a312ce1d-37be-4a32-a992-87f75384d4e9",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_5588eac2f7b18b8e3dd0eafa47485df9"
+          },
+          {
+            "toolbar": {
+              "tools": [
+                "polygon"
+              ]
+            },
+            "background_image": {
+              "src": ""
+            },
+            "canvas": {
+              "y_min": -14,
+              "x_max": 21,
+              "y_max": 10,
+              "snap_to": "grid",
+              "x_min": -8
+            },
+            "is_math": true,
+            "grid": {
+              "y_distance": 1,
+              "x_distance": 1
+            },
+            "stimulus": "<p><span>Use the&nbsp;</span><span>given vertices to g</span><span>raph</span> \\(\\triangle XYZ\\)&nbsp;and its image after a dilation centered at the origin with scale factor&nbsp;\\(k=3\\).</p>\n\n<p>\\(X(6,−1),\\ Y(−2,−4),\\ Z(1,\\ 2)\\)</p>\n",
+            "axis_x": {
+              "show_axis_label": true,
+              "ticks_distance": 4,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "axis_label": "",
+              "draw_labels": true
+            },
+            "axis_y": {
+              "show_axis_label": true,
+              "ticks_distance": 4,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "axis_label": "",
+              "draw_labels": true
+            },
+            "type": "graphplotting",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "ignore_repeated_shapes": "yes",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  {
+                    "id": "lrn_1",
+                    "type": "point",
+                    "coords": {
+                      "x": 6,
+                      "y": -1
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_2",
+                    "type": "point",
+                    "coords": {
+                      "x": -2,
+                      "y": -4
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_3",
+                    "type": "point",
+                    "coords": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_1",
+                      "lrn_2",
+                      "lrn_3",
+                      "lrn_1"
+                    ],
+                    "id": "lrn_4",
+                    "type": "polygon"
+                  },
+                  {
+                    "id": "lrn_5",
+                    "type": "point",
+                    "coords": {
+                      "x": 3,
+                      "y": 6
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_6",
+                    "type": "point",
+                    "coords": {
+                      "x": 18,
+                      "y": -3
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_7",
+                    "type": "point",
+                    "coords": {
+                      "x": -6,
+                      "y": -12
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_5",
+                      "lrn_6",
+                      "lrn_7",
+                      "lrn_5"
+                    ],
+                    "id": "lrn_8",
+                    "type": "polygon"
+                  }
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 8,
+              "sheet_reference": "HSCC_Geom_04.05.15",
+              "widget_reference": "8f11f943-bf2b-4cd7-9ac2-23c9d560e381",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_4ab49470af18b190a7b56413f897360d"
+          },
+          {
+            "toolbar": {
+              "tools": [
+                "polygon"
+              ]
+            },
+            "background_image": {
+              "src": ""
+            },
+            "canvas": {
+              "y_min": -13,
+              "x_max": 13,
+              "y_max": 13,
+              "snap_to": "grid",
+              "x_min": -13
+            },
+            "is_math": true,
+            "grid": {
+              "y_distance": 1,
+              "x_distance": 1
+            },
+            "stimulus": "<p><span>Use the&nbsp;</span><span>given vertices to g</span><span>raph</span>&nbsp;\\(\\triangle ABC\\)&nbsp; and its image after a dilation centered at the origin with scale factor&nbsp;\\(k=120\\%\\).</p>\n\n<p>\\(A(0,5),\\ B(−10,−5),\\ C(5,−5)\\)</p>\n",
+            "axis_x": {
+              "show_axis_label": true,
+              "ticks_distance": 2,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "axis_label": "",
+              "draw_labels": true
+            },
+            "axis_y": {
+              "show_axis_label": true,
+              "ticks_distance": 2,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "axis_label": "",
+              "draw_labels": true
+            },
+            "type": "graphplotting",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "ignore_repeated_shapes": "yes",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  {
+                    "id": "lrn_1",
+                    "type": "point",
+                    "coords": {
+                      "x": 0,
+                      "y": 5
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_2",
+                    "type": "point",
+                    "coords": {
+                      "x": -10,
+                      "y": -5
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_3",
+                    "type": "point",
+                    "coords": {
+                      "x": 5,
+                      "y": -5
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_1",
+                      "lrn_2",
+                      "lrn_3",
+                      "lrn_1"
+                    ],
+                    "id": "lrn_4",
+                    "type": "polygon"
+                  },
+                  {
+                    "id": "lrn_5",
+                    "type": "point",
+                    "coords": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_6",
+                    "type": "point",
+                    "coords": {
+                      "x": -12,
+                      "y": -6
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_7",
+                    "type": "point",
+                    "coords": {
+                      "x": 6,
+                      "y": -6
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_5",
+                      "lrn_6",
+                      "lrn_7",
+                      "lrn_5"
+                    ],
+                    "id": "lrn_8",
+                    "type": "polygon"
+                  }
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 8,
+              "sheet_reference": "HSCC_Geom_04.05.16",
+              "widget_reference": "d5072de3-a366-4fa3-84e2-c1e679aa4af1",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_dffc33fefefa98e40944e33b3e086998"
+          },
+          {
+            "toolbar": {
+              "tools": [
+                "polygon"
+              ]
+            },
+            "background_image": {
+              "src": ""
+            },
+            "canvas": {
+              "y_min": -11,
+              "x_max": 11,
+              "y_max": 11,
+              "snap_to": "grid",
+              "x_min": -11
+            },
+            "is_math": true,
+            "grid": {
+              "y_distance": 1,
+              "x_distance": 1
+            },
+            "stimulus": "<p>Use the <span>given vertices to g</span>raph quadrilateral&nbsp;\\(TUVW\\)&nbsp;and its image after a dilation centered at the origin with scale factor \\(k=\\frac{2}{3}\\).</p>\n\n<p>\\(T(9,−3),\\ U(6,0),\\ V(3,9),\\ W(0,0)\\)</p>\n",
+            "axis_x": {
+              "show_axis_label": true,
+              "ticks_distance": 2,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "axis_label": "",
+              "draw_labels": true
+            },
+            "axis_y": {
+              "show_axis_label": true,
+              "ticks_distance": 2,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "axis_label": "",
+              "draw_labels": true
+            },
+            "type": "graphplotting",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "ignore_repeated_shapes": "yes",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  {
+                    "id": "lrn_1",
+                    "type": "point",
+                    "coords": {
+                      "x": 9,
+                      "y": -3
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_2",
+                    "type": "point",
+                    "coords": {
+                      "x": 6,
+                      "y": 0
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_3",
+                    "type": "point",
+                    "coords": {
+                      "x": 3,
+                      "y": 9
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_4",
+                    "type": "point",
+                    "coords": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_1",
+                      "lrn_2",
+                      "lrn_3",
+                      "lrn_4",
+                      "lrn_1"
+                    ],
+                    "id": "lrn_5",
+                    "type": "polygon"
+                  },
+                  {
+                    "id": "lrn_6",
+                    "type": "point",
+                    "coords": {
+                      "x": 2,
+                      "y": 6
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_7",
+                    "type": "point",
+                    "coords": {
+                      "x": 4,
+                      "y": 0
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_8",
+                    "type": "point",
+                    "coords": {
+                      "x": 6,
+                      "y": -2
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_6",
+                      "lrn_7",
+                      "lrn_8",
+                      "lrn_4",
+                      "lrn_6"
+                    ],
+                    "id": "lrn_9",
+                    "type": "polygon"
+                  }
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 9,
+              "sheet_reference": "HSCC_Geom_04.05.17",
+              "widget_reference": "e4915e36-5212-476f-9e42-c5c9601ff4b9",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_e163da1f5684e18259857dde0d6fa6cf"
+          },
+          {
+            "toolbar": {
+              "tools": [
+                "polygon"
+              ]
+            },
+            "background_image": {
+              "src": ""
+            },
+            "canvas": {
+              "y_min": -13,
+              "x_max": 13,
+              "y_max": 13,
+              "snap_to": "grid",
+              "x_min": -13
+            },
+            "is_math": true,
+            "grid": {
+              "y_distance": 1,
+              "x_distance": 1
+            },
+            "stimulus": "<p><span>Use the&nbsp;</span><span>given vertices to graph quadrilateral&nbsp;</span>\\(JKLM\\)&nbsp; and its image after a dilation centered at the origin with scale factor \\(k=0.25\\).</p>\n\n<p>\\(J(4,\\ 0),\\ K(−8,\\ 4),\\ L(0,−4),\\ M(12,−8)\\)</p>\n",
+            "axis_x": {
+              "show_axis_label": true,
+              "ticks_distance": 2,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "axis_label": "",
+              "draw_labels": true
+            },
+            "axis_y": {
+              "show_axis_label": true,
+              "ticks_distance": 2,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "axis_label": "",
+              "draw_labels": true
+            },
+            "type": "graphplotting",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "ignore_repeated_shapes": "yes",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  {
+                    "id": "lrn_1",
+                    "type": "point",
+                    "coords": {
+                      "x": 4,
+                      "y": 0
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_2",
+                    "type": "point",
+                    "coords": {
+                      "x": -8,
+                      "y": 4
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_3",
+                    "type": "point",
+                    "coords": {
+                      "x": 0,
+                      "y": -4
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_4",
+                    "type": "point",
+                    "coords": {
+                      "x": 12,
+                      "y": -8
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_1",
+                      "lrn_2",
+                      "lrn_3",
+                      "lrn_4",
+                      "lrn_1"
+                    ],
+                    "id": "lrn_5",
+                    "type": "polygon"
+                  },
+                  {
+                    "id": "lrn_6",
+                    "type": "point",
+                    "coords": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_7",
+                    "type": "point",
+                    "coords": {
+                      "x": -2,
+                      "y": 1
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_8",
+                    "type": "point",
+                    "coords": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_9",
+                    "type": "point",
+                    "coords": {
+                      "x": 3,
+                      "y": -2
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_6",
+                      "lrn_7",
+                      "lrn_8",
+                      "lrn_9",
+                      "lrn_6"
+                    ],
+                    "id": "lrn_10",
+                    "type": "polygon"
+                  }
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 10,
+              "sheet_reference": "HSCC_Geom_04.05.18",
+              "widget_reference": "52d633c5-9db4-4d3c-bb24-07c6e741e510",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_4586d090de28c349168377dea41550c5"
+          },
+          {
+            "template": "\\(k=\\)&nbsp;{{response}}",
+            "response_container": {
+              "template": ""
+            },
+            "is_math": true,
+            "response_containers": [],
+            "equiv_literal_legacy": true,
+            "stimulus": "<p>The red figure is the image of the&nbsp;blue figure after a dilation with center \\(C\\).</p>\n\n<p>&nbsp;<img alt=\"Two triangles and a point C are shown. A line is drawn from each vertex of the larger triangle to point C, first passing through the corresponding vertex of the smaller triangle. The base of the larger triangle is labeled 15 and the segment connecting point C to the base of the larger triangle is labeled 35. The base of the smaller triangle is labeled 9 and the segment connecting point C to the base of the smaller triangle is labeled x.\" height=\"143\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom_040525.PNG\" width=\"200\" /></p>\n\n<p>Find the&nbsp;scale factor of the dilation.</p>\n",
+            "ui_style": {
+              "type": "floating-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "clozeformula",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "valid_response": {
+                "score": 0.5,
+                "value": [
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "decimalPlaces": 10,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "ignoreOrder": false
+                      },
+                      "value": "\\frac{5}{3}"
+                    }
+                  ]
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 1,
+              "sheet_reference": "HSCC_Geom_04.05.25",
+              "widget_reference": "49573ade-e3b0-4068-b56d-b69ada261597",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_a779d92f73219c3ecef0dc1df8af3922"
+          },
+          {
+            "template": "\\(x=\\)&nbsp;{{response}}",
+            "response_container": {
+              "template": ""
+            },
+            "is_math": true,
+            "response_containers": [],
+            "equiv_literal_legacy": true,
+            "stimulus": "Find the value of \\(x\\).",
+            "ui_style": {
+              "type": "floating-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "clozeformula",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "valid_response": {
+                "score": 0.5,
+                "value": [
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "decimalPlaces": 10,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "ignoreOrder": false
+                      },
+                      "value": "21"
+                    }
+                  ]
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 1,
+              "sheet_reference": "HSCC_Geom_04.05.25",
+              "widget_reference": "538475be-b46c-401e-a7b2-b007eb207f08",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_2e58b7328bbd4b17ceaa264c93d55c6d"
+          },
+          {
+            "template": "k={{response}}",
+            "is_math": true,
+            "equiv_literal_legacy": true,
+            "stimulus": "<p>The red figure is the image of the&nbsp;blue figure after a dilation with center \\(C\\).</p>\n\n<p><img alt=\"Two rectangles and a point C are shown. A line is drawn from each vertex of the larger rectangle to point C, first passing through the corresponding vertex of the smaller rectangle. The length of the larger rectangle is labeled 28 and the width of the larger rectangle is labeled m. The length of the smaller rectangle is labeled 7 and the width of the smaller rectangle is labeled 4.\" height=\"161\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/HSCC_Geom_04.05.28.PNG\" width=\"232\" /></p>\n\n<p>Find the&nbsp;scale factor of the dilation.</p>\n",
+            "ui_style": {
+              "type": "floating-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "formulaV2",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "alt_responses": [
+                {
+                  "score": 0.5,
+                  "value": [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "decimalPlaces": 10,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "ignoreOrder": false
+                      },
+                      "value": "k=0.25"
+                    }
+                  ]
+                }
+              ],
+              "valid_response": {
+                "score": 0.5,
+                "value": [
+                  {
+                    "method": "equivLiteral",
+                    "options": {
+                      "inverseResult": false,
+                      "decimalPlaces": 10,
+                      "ignoreCoefficientOne": true,
+                      "ignoreTrailingZeros": true,
+                      "allowDecimal": true,
+                      "ignoreOrder": false
+                    },
+                    "value": "k=\\frac{1}{4}"
+                  }
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 1,
+              "sheet_reference": "HSCC_Geom_04.05.28",
+              "widget_reference": "529a9b46-8792-4d45-9d9a-4348230ad4bc",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_6e45347b70d5984baf3059dd38094262"
+          },
+          {
+            "template": "m={{response}}",
+            "is_math": true,
+            "equiv_literal_legacy": true,
+            "stimulus": "Then find the value of&nbsp;\\(m\\).",
+            "ui_style": {
+              "type": "floating-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "formulaV2",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "valid_response": {
+                "score": 0.5,
+                "value": [
+                  {
+                    "method": "equivLiteral",
+                    "options": {
+                      "inverseResult": false,
+                      "decimalPlaces": 10,
+                      "ignoreCoefficientOne": true,
+                      "ignoreTrailingZeros": true,
+                      "allowDecimal": false,
+                      "ignoreOrder": false
+                    },
+                    "value": "m=16"
+                  }
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 1,
+              "sheet_reference": "HSCC_Geom_04.05.28",
+              "widget_reference": "e10f0f2c-6f72-4007-a16a-31ee49359672",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00_212454548c8daa89079fc40b25639517"
+          }
+        ]
+      },
+      "annotationsApiActivity": {
+        "security": {
+          "signature": "$02$5a551b74b57cc8b59b1a8d0dd28ddb368a89f4b706e598eaeb66a4b4dedd7ca6",
+          "consumer_key": "8EO6ataGL8M5Tuxx",
+          "domain": "www.bigideasmath.com",
+          "timestamp": "20240110-0321"
+        },
+        "request": {
+          "modules": {
+            "drawing": true
+          },
+          "editable": true,
+          "group_id": "19c46cea-d007-30e2-a7a4-fb10df1cbe00"
+        }
+      },
+      "annotation": true,
+      "navigation": {
+        "show_intro": false,
+        "autosave": {
+          "ui": true,
+          "save_interval_duration": 300
+        },
+        "show_outro": false
+      },
+      "regions": "horizontal",
+      "region_overrides": {
+        "top-right.pause_button": false,
+        "items.progress_element": true,
+        "top-right": [
+          {
+            "position": "right",
+            "type": "flagitem_button",
+            "show_label_option": "false"
+          },
+          {
+            "options": {
+              "name": "checkAnswer",
+              "icon_class": "icon-check-answer-button",
+              "label": "Check"
+            },
+            "position": "left",
+            "type": "custom_button"
+          },
+          {
+            "options": {
+              "name": "needsHelp",
+              "icon_class": "icon-help-button",
+              "label": "Skills Review"
+            },
+            "type": "custom_button"
+          },
+          {
+            "options": {
+              "name": "assignmentSaveButton",
+              "icon_class": "icon-assignment-save-button",
+              "label": "Save / Exit"
+            },
+            "type": "custom_button"
+          },
+          {
+            "options": {
+              "name": "assignmentSubmitButton",
+              "icon_class": "icon-assignment-submit-button",
+              "label": "Submit"
+            },
+            "type": "custom_button"
+          }
+        ],
+        "bottom-right": [
+          {
+            "options": {
+              "name": "liveTutor",
+              "icon_class": "icon-live-tutor-button",
+              "label": "Live Tutor"
+            },
+            "position": "right",
+            "type": "custom_button"
+          }
+        ],
+        "bottom": [],
+        "bottom-left": [
+          {
+            "type": "previous_button"
+          },
+          {
+            "type": "horizontaltoc_element"
+          },
+          {
+            "type": "next_button"
+          }
+        ],
+        "right": [
+          {
+            "options": {
+              "name": "sketchpad",
+              "icon_class": "icon-sketchpad-button",
+              "label": "Sketchpad"
+            },
+            "type": "custom_button"
+          },
+          {
+            "type": "reviewscreen_button"
+          },
+          {
+            "fontsize_option": true,
+            "zoom_option": true,
+            "colorscheme_option": true,
+            "type": "accessibility_button"
+          }
+        ]
+      },
+      "configuration": {
+        "fontsize": "xlarge",
+        "lazyload": true
+      },
+      "questions_api_init_options": {
+        "math_renderer": "mathquill",
+        "captureOnResumeError": true
+      },
+      "annotations_api_init_options": {
+        "modules": {
+          "drawing": true
+        }
+      },
+      "labelBundle": {
+        "expandMenu": "Open",
+        "collapseMenu": "Close",
+        "reviewScreen": "Overview"
+      },
+      "metadata": {
+        "items": [
+          {
+            "reference": "HSCC_Geom_04.05.02",
+            "source": {
+              "reference": "HSCC_Geom_04.05.02",
+              "organisation_id": 315
+            },
+            "time": 43,
+            "response_ids": [
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_fadf4c61889af2c419c84556fa96844d",
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_7d965ebc1d79d29d65edc0e38239a81d"
+            ],
+            "user_flagged": false,
+            "attempt_status": "fully_attempted"
+          },
+          {
+            "reference": "HSCC_Geom_04.05.03",
+            "source": {
+              "reference": "HSCC_Geom_04.05.03",
+              "organisation_id": 315
+            },
+            "time": 1957,
+            "response_ids": [
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_d729a91db8afc02acda2c2d44ef3ca43",
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_f218345a89cab3dfd40a529776e73c8e"
+            ],
+            "user_flagged": false,
+            "attempt_status": "fully_attempted",
+            "metadata": {
+              "scoring_type": "per-question"
+            }
+          },
+          {
+            "reference": "HSCC_Geom_04.05.04",
+            "source": {
+              "reference": "HSCC_Geom_04.05.04",
+              "organisation_id": 315
+            },
+            "time": 43,
+            "response_ids": [
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_44efa18f3c991390b4d0a5eb959dc57e",
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_a802279779e724bde82cc3e50481ec2f"
+            ],
+            "user_flagged": false,
+            "attempt_status": "fully_attempted",
+            "metadata": {
+              "scoring_type": "per-question"
+            }
+          },
+          {
+            "reference": "HSCC_Geom_04.05.05",
+            "source": {
+              "reference": "HSCC_Geom_04.05.05",
+              "organisation_id": 315
+            },
+            "time": 44,
+            "response_ids": [
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_027a8d570b06a463c762c199e0b666ae",
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_5588eac2f7b18b8e3dd0eafa47485df9"
+            ],
+            "user_flagged": false,
+            "attempt_status": "fully_attempted",
+            "metadata": {
+              "scoring_type": "per-question"
+            }
+          },
+          {
+            "reference": "HSCC_Geom_04.05.15",
+            "source": {
+              "reference": "HSCC_Geom_04.05.15",
+              "organisation_id": 315
+            },
+            "time": 239,
+            "response_ids": [
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_4ab49470af18b190a7b56413f897360d"
+            ],
+            "user_flagged": false,
+            "attempt_status": "fully_attempted"
+          },
+          {
+            "reference": "HSCC_Geom_04.05.16",
+            "source": {
+              "reference": "HSCC_Geom_04.05.16",
+              "organisation_id": 315
+            },
+            "time": 139,
+            "response_ids": [
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_dffc33fefefa98e40944e33b3e086998"
+            ],
+            "user_flagged": false,
+            "attempt_status": "fully_attempted"
+          },
+          {
+            "reference": "HSCC_Geom_04.05.17",
+            "source": {
+              "reference": "HSCC_Geom_04.05.17",
+              "organisation_id": 315
+            },
+            "time": 42,
+            "response_ids": [
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_e163da1f5684e18259857dde0d6fa6cf"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted"
+          },
+          {
+            "reference": "HSCC_Geom_04.05.18",
+            "source": {
+              "reference": "HSCC_Geom_04.05.18",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_4586d090de28c349168377dea41550c5"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted"
+          },
+          {
+            "reference": "HSCC_Geom_04.05.25",
+            "source": {
+              "reference": "HSCC_Geom_04.05.25",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_a779d92f73219c3ecef0dc1df8af3922",
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_2e58b7328bbd4b17ceaa264c93d55c6d"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted",
+            "metadata": {
+              "scoring_type": "per-question"
+            }
+          },
+          {
+            "reference": "HSCC_Geom_04.05.28",
+            "source": {
+              "reference": "HSCC_Geom_04.05.28",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_6e45347b70d5984baf3059dd38094262",
+              "19c46cea-d007-30e2-a7a4-fb10df1cbe00_212454548c8daa89079fc40b25639517"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted",
+            "metadata": {
+              "scoring_type": "per-question"
+            }
+          }
+        ],
+        "items_api_version": "v1.120.2",
+        "activity_template_id": "a404eda0-eb58-4311-964d-7c3b90010213",
+        "current_time": 5856,
+        "current_reading_time": false,
+        "max_time": 0,
+        "current_item_reference": "HSCC_Geom_04.05.28",
+        "current_sheet_position": 9,
+        "features": [],
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "last_item_reference": "HSCC_Geom_04.05.28",
+        "question_types": [
+          "mcq",
+          "clozedropdown",
+          "clozeformula",
+          "graphplotting",
+          "formulaV2"
+        ],
+        "existing_session": true
+      },
+      "existing_session": true,
+      "tags": {
+        "HSCC_Geom_04.05.02": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.05.02",
+          "dok:1",
+          "digital_example:19NA10_c04_s05_exa1_int_example",
+          "extra_example:HG040501",
+          "bil_standard:BIM_pmt_278"
+        ],
+        "HSCC_Geom_04.05.03": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "tutor_available:Geom_2019",
+          "item_origin_id:HSCC_Geom_04.05.03",
+          "dok:2",
+          "digital_example:19NA10_c04_s05_exa1_int_example",
+          "bil_standard:BIL_pmt_518",
+          "extra_example:HG040501"
+        ],
+        "HSCC_Geom_04.05.04": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.05.04",
+          "dok:2",
+          "digital_example:19NA10_c04_s05_exa1_int_example",
+          "bil_standard:BIL_pmt_518",
+          "extra_example:HG040501"
+        ],
+        "HSCC_Geom_04.05.05": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "tutor_available:Geom_2019",
+          "item_origin_id:HSCC_Geom_04.05.05",
+          "dok:2",
+          "digital_example:19NA10_c04_s05_exa1_int_example",
+          "bil_standard:BIL_pmt_518",
+          "extra_example:HG040501"
+        ],
+        "HSCC_Geom_04.05.15": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "tutor_available:Geom_2019",
+          "item_origin_id:HSCC_Geom_04.05.15",
+          "dok:2",
+          "digital_example:19NA10_c04_s05_exa2_int_example",
+          "bil_standard:BIL_pmt_278",
+          "extra_example:HG040502"
+        ],
+        "HSCC_Geom_04.05.16": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.05.16",
+          "dok:2",
+          "digital_example:19NA10_c04_s05_exa2_int_example",
+          "bil_standard:BIL_pmt_278",
+          "extra_example:HG040502"
+        ],
+        "HSCC_Geom_04.05.17": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "tutor_available:Geom_2019",
+          "item_origin_id:HSCC_Geom_04.05.17",
+          "dok:2",
+          "bil_standard:BIL_pmt_278",
+          "extra_example:HG040503",
+          "digital_example:19NA10_c04_s05_exa3_int_example"
+        ],
+        "HSCC_Geom_04.05.18": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.05.18",
+          "dok:2",
+          "bil_standard:BIL_pmt_278",
+          "extra_example:HG040503",
+          "digital_example:19NA10_c04_s05_exa3_int_example"
+        ],
+        "HSCC_Geom_04.05.25": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.05.25",
+          "dok:2",
+          "digital_example:19NA10_c04_s05_exa1_int_example",
+          "bil_standard:BIL_pmt_518",
+          "extra_example:HG040501"
+        ],
+        "HSCC_Geom_04.05.28": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.05.28",
+          "dok:2",
+          "digital_example:19NA10_c04_s05_exa1_int_example",
+          "bil_standard:BIL_pmt_518",
+          "extra_example:HG040501"
+        ]
+      }
+    }
+  }
+}

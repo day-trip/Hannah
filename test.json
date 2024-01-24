@@ -1,0 +1,128 @@
+{
+  "status": 1,
+  "message": "Success",
+  "app_id": 1841402,
+  "name": "OneDrive",
+  "image": "//filescdn.classlink.com/resources/icons/default/skydrive.png",
+  "extension_id": 163839,
+  "login_url": "https://onedrive.live.com/about/en-us/signin/",
+  "logout_url": "",
+  "no_iframe_for_logout": 0,
+  "advance_sso": 1,
+  "advance_sso_json": {
+    "tasks": [
+      {
+        "args": {
+          "elseThenSkipTo": "email_screen",
+          "selector": "#otherTile",
+          "timeout": 1000,
+          "waitForIt": true
+        },
+        "type": "ifSelector"
+      },
+      {
+        "args": "#otherTile",
+        "type": "click"
+      },
+      {
+        "args": {
+          "selector": "input[type='email']",
+          "timeout": 60000,
+          "value": "#i0116",
+          "waitForIt": true
+        },
+        "id": "email_screen",
+        "type": "input"
+      },
+      {
+        "args": {
+          "selector": "input[type='submit']",
+          "timeout": 60000,
+          "waitForIt": true
+        },
+        "type": "click"
+      },
+      {
+        "args": {
+          "elseThenSkipTo": "password_screen",
+          "selector": "#pickerDescription",
+          "timeout": 10000,
+          "waitForIt": true
+        },
+        "type": "ifSelector"
+      },
+      {
+        "args": {
+          "url": [
+            "https://login.microsoftonline.com/common/oauth2/authorize",
+            "https://login.live.com/oauth20_authorize.srf"
+          ],
+          "timeout": 5000
+        },
+        "type": "waitForUrlTimeout"
+      },
+      {
+        "args": {
+          "hitEnter": true,
+          "selector": "input[type=\'password\']",
+          "timeout": 60000,
+          "value": "#i0118",
+          "waitForIt": true
+        },
+        "type": "input",
+        "id": "password_screen"
+      },
+      {
+        "args": {
+          "attributes": {
+            "disabled": "{falsy}"
+          },
+          "selector": "form input[type=\'submit\']",
+          "timeout": 60000,
+          "waitForIt": true
+        },
+        "type": "click"
+      },
+      {
+        "args": "https://login.microsoftonline.com/common/login",
+        "type": "waitForUrl"
+      },
+      {
+        "args": {
+          "attributes": {
+            "disabled": "{falsy}"
+          },
+          "selector": "input[type=\'submit\']",
+          "timeout": 60000,
+          "waitForIt": true
+        },
+        "type": "click"
+      }
+    ]
+  },
+  "pre_auth_script": "",
+  "post_auth_script": "",
+  "preauth_delay": null,
+  "postauth_delay": null,
+  "selectors": [
+    {
+      "id": 366030,
+      "sel": "#i0116",
+      "type": "hidden",
+      "hidden": 1,
+      "label": "Email Address",
+      "order": 1,
+      "value": "U2FsdGVkX1/T6upRaLJuS9XbT4D0r60qKIUdt+V99Ci4nbs+f1oFqW4mYUv0YN1t"
+    },
+    {
+      "id": 366031,
+      "sel": "#i0118",
+      "type": "hidden",
+      "hidden": 1,
+      "label": "Password",
+      "order": 2,
+      "value": "U2FsdGVkX18p224R+BHZqzqYokCTlN/1XM0VtqL/l70="
+    }
+  ],
+  "userauth": []
+}

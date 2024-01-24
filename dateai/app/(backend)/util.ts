@@ -1,5 +1,8 @@
 import XXH from "xxhashjs";
 import {randomBytes} from "crypto";
+import {TeamsUserInfo} from "@/app/(backend)/microsoft/teams";
+import cypher from "@/app/(backend)/graph/cypher";
+import {SCHOOLS} from "@/app/data";
 
 export function timeSinceTimestamp(previousTimestamp: number): string {
     const timeDifference = (Date.now() - previousTimestamp) / 1000; // Convert to seconds
@@ -36,4 +39,8 @@ export function generateRandomCode(): string {
     const randomBytesBuffer = randomBytes(2);
     const code = randomBytesBuffer.readUInt16BE(0);
     return String(code % 10000).padStart(4, '0');
+}
+
+export function addUser(user: TeamsUserInfo): string {
+    return `MERGE (:Person {id: "${user.id}", name: "${user.firstName} ${user.lastName}", email: "${user.email}", grade: ${user.grade}}) MERGE (s:School {name: "${SCHOOLS[user.school]}"}) MERGE (:Person)-[:BELONGS_TO]->(s);`;
 }

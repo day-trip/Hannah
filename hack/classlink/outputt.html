@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Sso - Skyward - Student</title>
+
+ 	<meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/manifest.json">
+    <link rel="mask-icon" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+	<link rel="stylesheet" href="/css/loader.css">
+	<link rel="stylesheet" href="/resources/browser_extension.css">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+	<script>
+	var IdConfig = {
+		user: {
+			id: 42498805,
+			default_language:'en'
+		},
+		gwstokenMd5: "8aff4ff06c21cde08120375592a67263",
+		proxies: {
+			api: '/proxies/api'
+		},
+		browser_extension: '{"id":"57078","ie":{"latest_version":"4.3","last_mandatory_version":"4.3"},"safari":{"latest_version":"3.9","last_mandatory_version":"3.9"},"chrome":{"latest_version":"5.9","last_mandatory_version":"5.9"},"edge":{"latest_version":"1.5.3.1","last_mandatory_version":"1.5.3.1"},"firefox":{"latest_version":"6.4.1","last_mandatory_version":"6.4.1"}}',
+		appResponse: JSON.parse('{"status":1,"message":"Success","app_id":1820046,"name":"Skyward - Student","image":"//filescdn.classlink.com/resources/icons/default/Skyward_West_Bend.png","extension_id":158006,"login_url":"https://www2.saas.wa-k12.net/scripts/cgiip.exe/WService=wlkwashs71/fwemnu01.w","logout_url":"","no_iframe_for_logout":0,"advance_sso":1,"advance_sso_json":{"tasks":[{"args":{"selector":"#login","value":"username","waitForIt":true},"type":"input"},{"args":{"hitEnter":true,"selector":"#password","value":"password","waitForIt":true},"type":"input"},{"args":{"selector":"#bLogin","timeout":60000,"waitForIt":true},"type":"click"}]},"pre_auth_script":null,"post_auth_script":null,"selectors":[{"id":354495,"sel":"username","type":"text","hidden":0,"label":"Username","order":1,"value":"U2FsdGVkX18bxsA0+2UP8QLj3XfeRDyFqZsCVyRV5Uo="},{"id":354496,"sel":"password","type":"password","hidden":0,"label":"Password","order":2,"value":"U2FsdGVkX1/Ucq3C2FQ8bOtwjJ/vOFo7kyhl5OYfLhY="}],"userauth":[{"auth_id":28930172,"auth_name":"Default","redirect_url":null,"username":"U2FsdGVkX18am1s/FX01WIVi8Uc6jWk8ZGK9oyveLqk=","password":"U2FsdGVkX1/tjmNrtQLRRZcD4W0Wnw5X5bixK3zYW+4="}]}'),
+		noSso: 0,
+		iedebug: 0,
+		gwstoken: "ff21a46d-0b9d-40ab-8114-377a5d19b52c"
+	};
+
+	var IdTranslation = {
+		required_fields: 'Fields marked as * are required',
+		modal_title: 'ClassLink Browser Extension',
+		modal_details: 'Signing into your account, please wait.',
+		invalid_selector: 'Invalid selector __REPLACE__',
+		invalid_submit_selector: 'Invalid selector __REPLACE__'
+	};
+	IdTranslation.required_fields = IdTranslation.required_fields.replace('*', '<span style="color: red">*</span>');
+
+	</script>
+</head>
+<body>
+	<div id="welcome_ploadingpanel" style="display: block;">
+      <div class="dcenter">
+          <div class="ploadingpanelt">
+              <img src="//filescdn.classlink.com/resources/loading_1.gif" width="32px" height="32px" align="absmiddle" /> Loading Application
+          </div>
+      </div>
+   </div>
+   <div class="container">
+	   <div class="invalid-app box1" style="display: none">
+	   	<h2 class="box-title">Invalid application</h2>
+	   	<p>Application with application id 1820046 doesn't exist</p>
+	   </div>
+	   <div class="invalid-app box1" style="display: none">
+	   	<h2 class="box-title">Invalid application</h2>
+	   	<p>Application with application id 1820046 doesn't exist</p>
+	   </div>
+	   
+	   <div class="no-extension box1" style="display: none">
+	   	<h2 class="box-title">ClassLink Browser Extension not installed or enabled</h2>
+	   	<div>
+		   	<img class="img-rounded app-icon" src="//filescdn.classlink.com/resources/icons/default/Skyward_West_Bend.png" alt="" />
+		   	<h3>Skyward - Student</h3>
+		   	<p>This application requires the ClassLink Browser Extension for Single Sign-On. It is either not installed, or not enabled.</p>
+
+		   	<div class="clear"></div>
+
+		   	<div class="browser-detected">
+						<div class="mozilla">
+							Mozilla Firefox detected
+						</div>
+						<div class="chrome">
+							Google Chrome detected
+						</div>
+						<div class="edge-chromium">
+							Microsoft Edge detected
+						</div>
+						<div class="safari">
+							Safari detected
+						</div>
+						<div class="msie">
+							Internet Explorer detected
+						</div>
+						<div class="opera">
+							Opera detected
+						</div>
+		   	</div>
+
+		   	<p>
+		   	<label><input type="checkbox" class="dont_ask_again" /> Don't ask me again</label>
+		   	</p>
+
+	   	</div>
+	   	<div class="box-footer">
+				<a href="#" class="btn btn-default js-btn-continue-to-site">Continue to website</a>
+				<a href="" class="btn btn-default js-btn-check-again">Check again</a>
+				<a href="#" class="btn btn-primary js-btn-install-extension">Install Extension</a>
+	   	</div>
+	   </div>
+	   
+	   <div class="user-new-credential box1" style="display: none">
+			<h2 class="box-title">Would you like to save your login?</h2>
+			<img class="img-rounded app-icon" src="//filescdn.classlink.com/resources/icons/default/Skyward_West_Bend.png" alt="" />
+	   	<h3>Skyward - Student</h3>
+	   	<p>You can save your login for this application to auto login on your next visit</p>
+
+			<div class="clear"></div>
+
+			<form role="form" onsubmit="return false;">
+			  <div class="fields">
+
+			  </div>
+			  <div class="box-footer">
+				  <a href="#" class="btn btn-default js-btn-skip">Skip</a>
+				  <button type="submit" data-activetext="Saving" data-normaltext="Save" class="btn btn-primary js-btn-save">Save</button>
+			  </div>
+			</form>
+	   </div>
+	   <div class="user-multiple-credentials box1" style="display: none;">
+	   	<div class="alert alert-warning">
+	   		<small style="font-size: 70%"><strong>Warning!</strong> Previously logged in accounts will be chosen unless they are logged out.</small>
+	   	</div>
+	   	<h2 class="box-title">Please choose an account</h2>
+	   	<div class="user-credentials"></div>
+	   </div>
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="/resources/jquery-migrate.js"></script>
+	<script type="text/javascript" src="/resources/jquery.cookie.js"></script>
+	<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/resources/browser_extension.js?t=1704981863207"></script>
+	<script type="text/javascript" src="/resources/crypto_aes.js"></script>
+
+</body>
+</html>

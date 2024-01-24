@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta http-equiv='Content-Type' charset='ISO-8859-1'>
+<meta http-equiv='X-UA-Compatible' content='IE=10,chrome=1'>
+<meta name='viewport' id='viewport' content='width=device-width,maximum-scale=0.9,minimum-scale=0.9,initial-scale=0.9'>
+<title>Student Access Student Information</title>
+<script type='text/javascript'>
+var sffDefer = [];
+</script>
+<script type='text/javascript' src='qfileloader.p?file=jquery.1.8.2.js&rev=0102040523100008' ></script>
+<link rel='STYLESHEET' type='text/css' href='qcssloader.p?file=qsfmain001.css&rev=0102040523100008'  />
+<style type='text/css'>.studentInfo td {padding:4px;}
+.noborders td {border-width:0px !important; padding: 2px 2px !important;}
+.noLeftBorder td {border-left-width: 0px !important}
+.stuEntityTable td {border-right-width: 0px !important;padding-top:4px !important;padding-bottom:4px !important}
+h2.sf_heading {margin-bottom:0;padding-left:3px;font-size:13px;}
+.menuFooter > a.historyLink, .menuFooter > a.denialsLink {line-height:12px !important; text-align:left !important}
+.menuFooter > a.denialsLink {border-top:none !important}
+#requestChanges div.shrinkGrid {background:none;margin:0;padding:0;border:none}
+#requestChanges .onlineReg {background:none;border:none;margin:0}
+#requestChanges .onlineReg table, #requestChanges div.shrinkGrid table {border:none}
+#requestChanges div.sf_DialogHtml div.hasAutoCompletes .sf_gridTableWrap {overflow:visible}  #requestChanges caption{font-size:13px !important}
+#requestChanges .topRow {vertical-align:top;border-bottom:1px solid #D4D4D4}
+#requestChanges td.caption{color: #444444 !important; font-size: 13px; font-weight: bold; padding: 8px 0 0 8px !important}
+#requestChanges table.dialogGrid td {padding: 3px 0 3px 4px}
+#requestChanges #grid_reorder_gridWrap {margin-bottom:1px;}
+#requestChanges #grid_reorder td {padding-top:2px;padding-bottom:2px}
+</style></head>
+<body class='sf_studentAccess'>
+<div id='sf_Background'>
+<div id='sf_Background2'></div>
+<div id='sf_OuterWrap'>
+<div id='sf_HeaderWrap' role='banner'>
+<script language='javascript' type='text/javascript' id='sf_defer1' >
+if (typeof sff === 'undefined') {
+sffDefer.push('sf_defer1');
+} else {
+function emailHistory() {
+    sff.request('sfmainhttp001.w', {'action': 'allEmailHistory'}, function(pResponse) {
+        if (pResponse.status === 'success') {
+            sff.dialog.show({'title':'Email History','html':pResponse.output,'autoHide':true});
+        }
+    });
+}
+function reportHistory(pSource) {
+    var list = $('#sf_menuWrap_reportHistory > ul.sf_menuList');
+    if (pSource == 'all') {
+        list.children().remove();
+        sff.request('sfmainhttp001.w', {'action': 'allReportHistory'}, displayResults);
+        return;
+    } else {
+        if (!list.children('li:first').length) {
+            sff.request('sfmainhttp001.w', {'action': 'reportHistory'}, displayResults);
+            return;
+        }
+    }
+    function displayResults(pResponse){
+        if (pResponse['status'] === 'success') {
+            list.append(pResponse.output);
+            if (!list.children('li:first').length) {
+                list.append("<li class='noResults'>No reports were found.</li>");
+            }
+            sff.menu.show($('#reportHistory'));
+        }
+    }
+}
+}
+</script>
+<div id='sf_BrandingArea'>
+    <div class='sf_skywardLogo'><img src='qfileloader.p?file=alt.gif&rev=0102040523100008' id='hbibNdFtZkiRkmsX' name='hbibNdFtZkiRkmsX' class='alt' alt='Skyward Logo' aria-hidden='true' /></div>
+    <div class='sf_districtLogo'>&nbsp;</div>
+</div>
+<div id='sf_EntityArea' role='region'>
+    <div class='sf_titleArea'> <img src='qfileloader.p?file=alt.gif&rev=0102040523100008' id='cNbjkvpdisaxdvgb' name='cNbjkvpdisaxdvgb' class='alt' alt='Student Access' aria-hidden='true' /> </div>
+    <div id="sf_StudentListArea" class="notranslate">
+      <div id="sf_StudentLabel">
+JAI GIRI      </div>
+    </div>
+</div>
+<div id='sf_UtilityArea' role='region'>
+    <div class="sf_utilityAreaBG">&nbsp;</div>
+    <ul id="sf_UtilityTable">
+        <li class="sf_utilUser notranslate" valign="middle" align="center">
+JAI GIRI        </li>
+        <li class="sf_utilLink" valign="middle" align="center"><a id='lcAovjclbibcllkz' name='lcAovjclbibcllkz' href="javascript:void(0)" >My Account</a></li>
+            <li class="sf_utilLink" valign="middle" align="center"><a id='rbbbjbbClmbjrcid' name='rbbbjbbClmbjrcid' href="javascript:void(0)" >Email History</a></li>
+            <li class="sf_utilLink" valign="middle" align="center"><span class='sf_menuContainer sf_Position_right'><a id='reportHistory' name='reportHistory' class='sf_menuLink' aria-haspopup='true' aria-controls='sf_menuWrap_reportHistory' href="javascript:void(0)" >Report History</a><div id='sf_menuWrap_reportHistory' class='sf_menuWrap' data-id='reportHistory' aria-hidden='true' aria-atomic='true'><a class='sf_menuCloseLink' href='javascript:void(0)'>&nbsp;</a><ul class='sf_menuList' role='menu'></ul><a class='sf_menuCloseLink' href='javascript:void(0)'>&nbsp;</a></div></span></li>
+        <li class="sf_utilLink last" valign="middle" align="center"><a id='pjcvbbdSrhjkjVab' name='pjcvbbdSrhjkjVab' href="javascript:void(0)" >Exit</a></li>
+    </ul>
+</div>
+<div id="sf_ExternalContent">
+  <div id="sf_DistrictLinks" class="item">
+<span class='sf_menuContainer sf_Position_right'><a id='districtLinksMenu' name='districtLinksMenu' class='sf_menuLink item both' aria-haspopup='true' aria-controls='sf_menuWrap_districtLinksMenu' href="javascript:void(0)" ><div class='districtIcon'></div>District Links</a><div id='sf_menuWrap_districtLinksMenu' class='sf_menuWrap' data-id='districtLinksMenu' aria-hidden='true' aria-atomic='true'><a class='sf_menuCloseLink' href='javascript:void(0)'>&nbsp;</a><ul class='sf_menuList' role='menu'><li role='menuitem'><div id="grid_districtLinks_gridWrap" hastag="hastag" grid-theme="default" class="gridWrap"
+ style="margin-left:5px;margin-right:5px;min-width:86px"
+>
+<div class="sfTag">District Links</div><div class="sf_gridTableWrap"><table vPaginate="no"  id="grid_districtLinks" grid-table="default" zebra="true" role='presentation'><tbody>
+<tr class="odd"><td scope="row"><a id='link1' name='link1' alt='Lake Washington School District Home Page' tooltip='Lake Washington School District Home Page' data-href='http://www.lwsd.org' href="javascript:void(0)" >LWSD Home Page</a></td></tr>
+</table>
+</div></div>
+</li></ul><a class='sf_menuCloseLink' href='javascript:void(0)'>&nbsp;</a></div></span>  </div>
+</div>
+</div>
+<div id='sf_ContentWrap'>
+<div id='sf_ContentLeftWrap' style='width:150px' role='navigaton'>
+<div id='sf_ContentLeft'>
+<ul id='sf_navIcon'><li class='selected'><a class="sf_navMenuItem" href="javascript:sff.toggleNavMenu();">+</a></li></ul>
+<ul id='sf_navMenu' role='menubar'>
+<li class='first' ><a id='hicjbiRiUnbDpUnY' name='hicjbiRiUnbDpUnY' class='sf_navMenuItem' role='menuitem' data-nav='sfhome01.w' href="javascript:void(0)" >Home</a></li>
+<li ><a id='lclelCdcalynhcHj' name='lclelCdcalynhcHj' class='sf_navMenuItem' role='menuitem' data-nav='sfcalendar002.w' href="javascript:void(0)" >Calendar</a></li>
+<li ><a id='ddjYbhkkaihPyamb' name='ddjYbhkkaihPyamb' class='sf_navMenuItem' role='menuitem' data-nav='sfgradebook001.w' href="javascript:void(0)" >Gradebook</a></li>
+<li ><a id='ibkeilhlQdlUjaPi' name='ibkeilhlQdlUjaPi' class='sf_navMenuItem' role='menuitem' data-nav='sfattendance001.w' href="javascript:void(0)" >Attendance</a></li>
+<li class='selected' ><a id='jhklkadNJifaddlc' name='jhklkadNJifaddlc' class='sf_navMenuItem' role='menuitem' data-nav='sfstudentinfo001.w' href="javascript:void(0)" >Student Info</a></li>
+<li ><a id='TDdeaCiijZakkicm' name='TDdeaCiijZakkicm' class='sf_navMenuItem' role='menuitem' data-nav='sfbusing001.w' href="javascript:void(0)" >Busing</a></li>
+<li ><a id='pbdgbjghEkjskKbE' name='pbdgbjghEkjskKbE' class='sf_navMenuItem' role='menuitem' data-nav='sfschedule001.w' href="javascript:void(0)" >Schedule</a></li>
+<li ><a id='llkjlnVdbdpYdpii' name='llkjlnVdbdpYdpii' class='sf_navMenuItem' role='menuitem' data-nav='sftestscores001.w' href="javascript:void(0)" >Test Scores</a></li>
+<li ><a id='lacIkWObbjlckiLj' name='lacIkWObbjlckiLj' class='sf_navMenuItem' role='menuitem' data-nav='sfgradreqs001.w' href="javascript:void(0)" >Graduation Requirements</a></li>
+<li ><a id='ukpdajyXIBYiddXQ' name='ukpdajyXIBYiddXQ' class='sf_navMenuItem' role='menuitem' data-nav='sfacademichistory001.w' href="javascript:void(0)" >Academic History</a></li>
+<li ><a id='PijdjhLchlidkSja' name='PijdjhLchlidkSja' class='sf_navMenuItem' role='menuitem' data-nav='sfportfolio.w' href="javascript:void(0)" >Portfolio</a></li>
+<li class='last' ><a id='jcaDddzmccmjpeaH' name='jcaDddzmccmjpeaH' class='sf_navMenuItem' role='menuitem' data-nav='sfloginhistory001.w' href="javascript:void(0)" >Login History</a></li>
+</ul>
+</div>
+</div>
+<div id='sf_ContentBodyWrap' style='left:151px;width:830px' role='main' aria-labelledby='sf_pageTitle'>
+<div id='sf_ContentBody'>
+<h1 id='sf_pageTitle' class='sf_pageTitle'>Student Information</h1>
+<div id="grid_student379414_gridWrap" hastag="hastag" grid-theme="default" class="gridWrap"
+>
+<div class="sfTag"><span class="notranslate">JAI GIRI</span><a id='ocjAocalmcjbkdhi' name='ocjAocalmcjbkdhi' style='padding-left:10px;' href="javascript:void(0)" >Alert Information</a></div><div class="sf_gridTableWrap"><table vPaginate="no"  id="grid_student379414" grid-table="default" zebra="false" style="border-width:0"><tbody>
+<tr class=""><td scope="row" style="padding:0;height:100%;max-width:450px"><div id="grid_studentContactInfo379414_gridWrap" class="gridWrap"
+>
+<div class="sf_gridTableWrap"><table vPaginate="no"  id="grid_studentContactInfo379414" grid-table="" zebra="false"><tbody>
+<tr class=""><td scope="row" style="vertical-align:top;padding-left:0;width:120px" rowspan="2"><img src='qdirconfig002.p?StuPic=379414&duserid=s-jgiri&dwd=651118086&pEnc=IbjYkXHhjfbhikbQ&rev=535' style='display:block;width:120px;' onerror='this.src="qfileloader.p?file=sf_icon_generic_large.png&rev=0102040523100008"; this.onerror="";' alt=''></td><td style="vertical-align:top"><div id="grid_stuGridInsideGrid379414_gridWrap" class="gridWrap"
+ style="float:left;padding-top:3px;padding-left:3px"
+>
+<div class="sf_gridTableWrap"><table vPaginate="no"  id="grid_stuGridInsideGrid379414" grid-table="" zebra="false" class="studentInfo"><tbody>
+<tr class=""><td scope="row"><label  id='ihcatckNcKkqzKUr' name='ihcatckNcKkqzKUr' class='sf_labelRight' >School:</label></td><td>s-jgiri@lwsd.org</td></tr>
+<tr class=""><td scope="row" tooltip='This is the primary phone number'><label  id='bdcljkiccaolaklH' name='bdcljkiccaolaklH' class='sf_labelRight' >Call:</label></td><td tooltip='This is the primary phone number' style="vertical-align:top">(201) 467-4576 EXT. Cell (<span class="notranslate">MALAVIKA GIRI</span>)</td></tr>
+<tr class=""><td scope="row">&nbsp;</td><td style="vertical-align:middle" colspan="2"><div style='float:left'>1201 250TH AVE NE<br>SAMMAMISH, WA 98074</div></td></tr>
+</table>
+</div></div>
+</td></tr>
+<tr class=""><td scope="row" style="vertical-align:bottom"><div style='padding:5px;background-color:#EEEEEE;border-top:1px dotted #C8C8C8;text-align:right'><a id='miIdlicldvlcidlr' name='miIdlicldvlcidlr' href="javascript:void(0)" >View JAI's Family</a></div></td></tr>
+</table>
+</div></div>
+<div id="grid_studentInfo379414_gridWrap" class="gridWrap"
+ style="border-top:1px solid #D4D4D4;padding-top:3px;padding-bottom:3px"
+>
+<div class="sf_gridTableWrap">
+    <table vPaginate="no" id="grid_studentInfo379414" grid-table="" zebra="false" class="studentInfo">
+        <tbody>
+        <tr class="">
+            <td scope="row" style="white-space:nowrap"><label id='RfbaiLnfNdjxllPH' name='RfbaiLnfNdjxllPH'
+                                                              class='sf_labelRight'>Gender:</label></td>
+            <td>Male</td>
+            <td style="white-space:nowrap"><label id='ddkdixhdidFhiZIf' name='ddkdixhdidFhiZIf' class='sf_labelRight'>Age
+                (Birthday):</label></td>
+            <td style="white-space:nowrap">13 (06/17/2010)</td>
+        </tr>
+        <tr class="">
+            <td scope="row" style="white-space:nowrap"><label id='slPfrZhbaWEDonmk' name='slPfrZhbaWEDonmk'
+                                                              class='sf_labelRight'>Language:</label></td>
+            <td>ENGLISH</td>
+            <td style="white-space:nowrap"><label id='dbOjWjfTfacnhXyl' name='dbOjWjfTfacnhXyl' class='sf_labelRight'>Graduation
+                Year:</label></td>
+            <td>2028</td>
+        </tr>
+        <tr class="">
+            <td scope="row" style="white-space:nowrap"><label id='kloJeslgfpcSbiAi' name='kloJeslgfpcSbiAi'
+                                                              class='sf_labelRight'>Other ID:</label></td>
+            <td>1064069</td>
+        </tr>
+    </table>
+</div></div>
+</td><td scope="row" style="vertical-align:top;padding:0"><div id="grid_studentEntity379414_374_gridWrap" grid-theme="default" class="gridWrap"
+ style="margin:0;border-width:0"
+>
+<div class="sf_gridTableWrap"><table vPaginate="no"  id="grid_studentEntity379414_374" grid-table="default" zebra="false" class="stuEntityTable" style="border-width:0"><thead>
+<tr  class="odd"><th scope="col" scope="row" style="text-align:center !important" colspan="4">EVERGREEN MIDDLE SCHOOL<br><label  id='kjkbnbRkZkQEkvbm' name='kjkbnbRkZkQEkvbm' class='sf_labelRight' style='width:auto;padding-right:7px' >Phone:</label><span style='padding-right:20px'>(425) 936-2320</span><label  id='ocblOjbqgklRhzja' name='ocblOjbqgklRhzja' class='sf_labelRight' style='width:auto;padding-right:7px' >Principal:</label><span class="notranslate"><a id='jsijWlcjlwqQdmad' name='jsijWlcjlwqQdmad' href="javascript:void(0)" >KRISTIAN DAHL</a></span></th></tr>
+</thead>
+<tbody>
+<tr class=""><td scope="row" style="padding-top:7px !important"><label  id='qfbincLShndaJAqk' name='qfbincLShndaJAqk' class='sf_labelRight' >Grade:</label></td><td style="padding-left:1px;padding-top:7px !important">08</td><td style="padding-top:7px !important"><label  id='DdadanfacarODckM' name='DdadanfacarODckM' class='sf_labelRight' >Status:</label></td><td style="padding-left:1px;padding-top:7px !important">Active (Full-time)</td></tr>
+<tr class=""><td scope="row" style="padding-bottom:7px !important"><label  id='ddIgbTBnednBajxI' name='ddIgbTBnednBajxI' class='sf_labelRight' >Advisor:</label></td><td class="notranslate" style="padding-left:1px;padding-bottom:7px !important"><a id='igEdkFidZbcleBIC' name='igEdkFidZbcleBIC' href="javascript:void(0)" >VALERIE BLACKBURN</a></td><td>&nbsp;</td><td style="padding-left:1px">&nbsp;</td></tr>
+</table>
+</div></div>
+<div id="grid_studentEntity379414_486_gridWrap" grid-theme="default" class="gridWrap"
+ style="margin:0;border-width:1px 0 0 0"
+>
+<div class="sf_gridTableWrap"><table vPaginate="no"  id="grid_studentEntity379414_486" grid-table="default" zebra="false" class="stuEntityTable" style="border-width:0"><thead>
+<tr  class="odd"><th scope="col" scope="row" style="text-align:center !important" colspan="4">EASTLAKE SR HIGH SCHOOL<br><label  id='dbybybUlindlwfdn' name='dbybybUlindlwfdn' class='sf_labelRight' style='width:auto;padding-right:7px' >Phone:</label><span style='padding-right:20px'>(425) 936-1500</span><label  id='vlfbnUcyniibcPkc' name='vlfbnUcyniibcPkc' class='sf_labelRight' style='width:auto;padding-right:7px' >Principal:</label><span class="notranslate"><a id='bpjcpPkjdPiachka' name='bpjcpPkjdPiachka' href="javascript:void(0)" >TODD APPLE</a></span></th></tr>
+</thead>
+<tbody>
+<tr class=""><td scope="row" style="padding-top:7px !important;style=padding-bottom:7px !important"><label  id='RiilknjvzvdQjXon' name='RiilknjvzvdQjXon' class='sf_labelRight' >Grade:</label></td><td style="padding-left:1px;padding-top:7px !important;style=padding-bottom:7px !important">08</td><td style="padding-top:7px !important;style=padding-bottom:7px !important"><label  id='hdkdpCUTcajbkbjz' name='hdkdpCUTcajbkbjz' class='sf_labelRight' >Status:</label></td><td style="padding-left:1px;padding-top:7px !important;style=padding-bottom:7px !important">Inactive (Full-time)</td></tr>
+</table>
+</div></div>
+</td></tr>
+<tr class=""><td scope="row" style="padding:0;margin:0;border-top:1px solid #D4D4D4" colspan="2"><div id="grid_studentEC379414_gridWrap" grid-theme="default" class="gridWrap"
+ style="margin:0;padding:0;border:0"
+>
+<div class="sf_gridTableWrap"><table vPaginate="no"  id="grid_studentEC379414" grid-table="default" zebra="true"><thead>
+<tr ><th scope="col" scope="row">Emergency Contacts</th><th scope="col">Primary Phone</th><th scope="col">Second Phone</th><th scope="col">Third Phone</th><th scope="col">Employer's Phone</th><th scope="col">Home Email</th></tr>
+</thead>
+<tbody>
+<tr class="odd"><td scope="row" style="white-space:nowrap"><span class="notranslate">NOMITA YADAVA</span><br />(FRIEND)</td><td style="white-space:nowrap">(551) 200-4531</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr zebra-same="true" class="odd"><td scope="row" colspan="6"><label  id='jAvfalsaapimOcZc' name='jAvfalsaapimOcZc' class='sf_labelRight' style='float:left;width:auto;padding-left:10px' >Comment:</label><div style='float:left;padding-left:4px;max-width:725px;'>Nomita Yadava and Rajesh Yadava(spouse)  are permitted to pick up Jai Giri incase of an emergency</div></td></tr>
+<tr class="even"><td scope="row" style="white-space:nowrap"><span class="notranslate">SRIVANI KANUMURI</span><br />(FRIEND)</td><td style="white-space:nowrap">(408) 203-4070</td><td>(425) 689-3575<br />(Home)</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+</div></div>
+</td></tr>
+</table>
+</div></div>
+    <div id='family379414hidden' style='display:none'>
+        <div id="grid_family379414_135014_gridWrap" hastag="hastag" grid-theme="default" class="gridWrap"
+        >
+            <div class="sfTag"><span class="notranslate">MALAVIKA GIRI</span> (Primary Guardian)</div>
+            <div class="sf_gridTableWrap">
+                <table vPaginate="no" id="grid_family379414_135014" grid-table="default" zebra="false"
+                       class="noLeftBorder">
+                    <tbody>
+                    <tr class="">
+                        <td scope="row" style="padding-bottom:0px;padding-left:8px;border-right:none"><label
+                                id='RbVajhcPMjltiVil' name='RbVajhcPMjltiVil'>Address</label></td>
+                        <td style="padding-bottom:0;padding-left:1px;border-right:none" colspan="2"><label
+                                id='blIpdkjjjDWfbobs' name='blIpdkjjjDWfbobs'>Mailing Address</label></td>
+                    </tr>
+                    <tr class="">
+                        <td scope="row" style="padding-left:9px;vertical-align:top;border-right:none"><textarea
+                                id='ncdaikIakjncaXib' name='ncdaikIakjncaXib' disabled='disabled'
+                                style='float:left;width:200px;height:60px'>1201 250TH AVE NE
+SAMMAMISH, WA 98075</textarea>
+                            <div id='sf_validation_ncdaikIakjncaXib' class='sf_validationWrap'
+                                 data-type='textarea'></div>
+                        </td>
+                        <td style="padding-left:1px;vertical-algin:top;border-right:none"><textarea
+                                id='klFlidnnAiqpcdik' name='klFlidnnAiqpcdik' disabled='disabled'
+                                style='float:left;width:200px;height:60px'>1201 250TH AVE NE
+SAMMAMISH, WA 98076</textarea>
+                            <div id='sf_validation_klFlidnnAiqpcdik' class='sf_validationWrap'
+                                 data-type='textarea'></div>
+                        </td>
+                        <td style="padding:1px 15px 0 0px;vertical-align:top">
+                            <div id="grid_gridInsideGrid379414_135014_gridWrap" grid-theme="default" class="gridWrap"
+                                 style="border-width:0;margin:0"
+                            >
+                                <div class="sf_gridTableWrap">
+                                    <table vPaginate="no" id="grid_gridInsideGrid379414_135014" grid-table="default"
+                                           zebra="false" class="noborders">
+                                        <tbody>
+                                        <tr class="">
+                                            <td scope="row" style="padding-top:0 !important;padding-left:0 !important">
+                                                <label id='ilpddjbVvdOFTMcn' name='ilpddjbVvdOFTMcn'
+                                                       class='sf_labelRight'>Primary Phone:</label></td>
+                                            <td style="padding-top:0px !important;vertical-align:middle">
+                                                <div style='float:left'>(201) 467-4576 EXT. Cell</div>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td scope="row"><label id='bkaiJsbwbjAtcFDj' name='bkaiJsbwbjAtcFDj'
+                                                                   class='sf_labelRight'>Home Language:</label></td>
+                                            <td>ENGLISH</td>
+                                        </tr>
+                                        <tr class="">
+                                            <td scope="row"><label id='ckkSjFbcVlxhiVdl' name='ckkSjFbcVlxhiVdl'
+                                                                   class='sf_labelRight'>Family ID:</label></td>
+                                            <td>135014</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+<tr class=""><td scope="row" style="padding-top:3px;padding-bottom:0px" colspan="3"><div id="grid_familyGuardians379414_135014_gridWrap" grid-theme="default" class="gridWrap"
+ style="margin-bottom:7px"
+>
+    <div class="sf_gridTableWrap">
+        <table vPaginate="no" id="grid_familyGuardians379414_135014" grid-table="default" zebra="true">
+            <thead>
+            <tr>
+                <th scope="col" scope="row">Guardian</th>
+                <th scope="col">Second Phone</th>
+                <th scope="col">Third Phone</th>
+                <th scope="col">Home Email</th>
+                <th scope="col">Employer</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+                <td scope="row"><span class="notranslate">MALAVIKA GIRI</span> (MOTHER)</td>
+                <td>(201) 676-4689 (Home)</td>
+                <td>&nbsp;</td>
+                <td>malaworld@gmail.com</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr class="even">
+                <td scope="row"><span class="notranslate">SAURABH GIRI</span> (FATHER)</td>
+                <td>(201) 467-4567 (Cell)</td>
+                <td>(201) 676-4682 (Home)</td>
+                <td>saurabh.giri@gmail.com</td>
+                <td>AMAZON</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</td></tr>
+</table>
+</div></div>
+</div></div>
+</div>
+</div>
+<script type='text/javascript' src='qfileloader.p?file=qsfmain001.min.js&rev=0102040523100008' ></script>
+<script type='text/javascript'>
+  sff.addEvent(document, 'ready', initPage);
+  function initPage(){
+    $('a.sf_alert').closest('div.sfTag').css('margin-top', '-27px');   }
+  function openDialog(pType, pStudentId, pTitle, pNoHide) {
+    var hiddenDiv = $('#' + pType + pStudentId + 'hidden');
+    if ($('#' + pType + pStudentId + 'dialog').length)
+        sff.dialog(pType + pStudentId + 'dialog').toggle();
+    else if (hiddenDiv.length) {      
+      sff.dialog.show({
+          id          : pType + pStudentId + 'dialog',
+          html        : hiddenDiv.html(),
+          title       : pTitle,
+          autoHide    : !(pNoHide)
+      });
+    }
+  }
+  function showAlertInfo(pObj,pNameId) {
+      sff.dialog.show({'pointAt':pObj,
+                       'showTitle':false,
+                       'html':'<span style="padding-right:24px">' + sff.getValue("alertInfo" + pNameId) + '</span>'});
+  }
+  function requestChanges(pTarget, pMenuId) {
+      pTarget = $(pTarget).closest("a").get(0);
+      if (!pTarget) {
+          return;
+      }
+      var stuId = pMenuId.replace('menu', ''), 
+          area = '',
+          action = pTarget.id.substring(0, pTarget.id.indexOf(stuId)),
+          entList = sff.getData(pTarget, "ents").replace(/_/g, ","),
+          titleExtra = sff.getData(pTarget, "titleExtra"),
+          program = 'sfpseudofamily001.w',
+          stuName = sff.getData('#' + pMenuId, "stuName"),
+          showUndo = sff.getData(pTarget, "showUndo"),
+          pseudoAccess = sff.getData(pTarget, "pseudoAccess");
+      if ($(pTarget).hasClass("historyLink")) {
+          sff.request('sfonlinereg002.w', {'action': 'history', 'stuId': stuId, 'fromLocation': 'Change Requests', 'entityList': entList}, function(pResponse) {
+                                                                                                       if (pResponse.status === 'success')
+                                                                                                           sff.dialog.show({'title':'Change Request History','html':pResponse.output,'type': 'default', 'autoHide':false, 'maxWidth':950});
+                                                                                                   });
+          return;
+      }
+      if ($(pTarget).hasClass("denialsLink")) {
+          sff.request('sfonlinereg002.w', {'action': 'denial', 'stuId': stuId, 'fromLocation': 'Change Requests', 'entityList': entList}, function(pResponse) {
+                                                                                                       if (pResponse.status === 'success')
+                                                                                                           sff.dialog.show({'title':'Unread Denied Requests','html':pResponse.output,'type': 'default', 'autoHide':false, 'maxWidth':950});
+                                                                                                    });
+          return;
+      }
+      switch (action) {
+          case "stuInfo":
+              area = "Student Information";
+              $(document.body).off('blur',   '#eCountry')
+                              .off('change', '#eCountry')
+                              .off('blur',   '#eState')
+                              .off('change', '#eState')
+                              .off('blur',   '#eCounty')
+                              .off('click',  '#WAethnicityLink')
+                              .off('click',  '#WAraceLink')
+                              .off('click',  '#WAaggLink')
+                              .off('click',  '#WApreflangLink');
+              break;
+          case "famAddress":
+              area = "Family Address";
+              $(document.body).off('click', '#bPreviewAddress')
+                              .off('click', '#bPreviewMailingAddress')
+                              .off('click', '#cMailIsSame');
+              break;
+          case "famInfo":
+              area = "Family Information";
+              break;
+          case "healthInfo":
+              area = "Health Information";
+              break;
+          case "alertInfo":
+              area = "Emergency Information";
+              break;
+          case "editEC":
+              area = "Edit Emergency Contacts";
+              break;
+          case "AddEmergencyContact":
+              area = "Add Emergency Contact";
+              program = "sfpseudo007.w";
+              break;
+          case "ReorderEmergencyContacts":
+              area = "Change Emergency Contact Order";
+              program = "sfpseudo007.w";
+              break;
+      }
+      sff.request(program, {'action': action, 'stuId': stuId, 'fromLocation': 'Change Requests', 'entityList': entList, 'schoolYear': '0', 'pseudoAccess': pseudoAccess},
+                  function(pResponse) {
+                    if (pResponse.status === 'success') {
+                      sff.setValue("pseudoAccess", pseudoAccess);
+                      var params = {
+                        id: 'requestChanges',
+                        title: area + ' for ' + stuName + ((titleExtra) ? ' ' + titleExtra : ''),
+                        html: pResponse.output + ((showUndo == "yes") ? '<div style="font-size:11px;padding-top:10px;font-style:italic;color:red;">All fields with <span style="font-weight:bold;">bold text</span> and <span style="font-weight:bold;">borders</span> are currently waiting for approval by the district.</div>' : ''),
+                        autoHide: false,                        
+                      };
+                      if (showUndo == "yes") {
+                        params = $.extend(params, {buttons: [['Undo Change Requests', function(){undoChangeRequests(stuId, entList, area)}], ['Save', function() {savePseudo(stuId, entList, area)}]]});
+                      }
+                      else {
+                        params = $.extend(params, {buttons: [['Save', function() {savePseudo(stuId, entList, area)}]]});
+                      }
+                      sff.dialog.show(params);
+                      if (area == "Add Emergency Contact") {
+                          sff.validator.init("requestChanges");
+                      }
+                    }
+                  });
+  }
+  function undoChangeRequests(stuId, entList, area) {
+      sff.dialog.show({title: "Undo Change Requests",
+                       html: "Are you sure you want to undo all " + area + " Change Requests you have made?<br><br>Note: Any unsaved changes on the current screen will also be undone.",
+                       buttons: [['Yes', function() {
+                                          sff.request("sfonlinereg001.w", {'action': 'undoChangeRequests', 'area': area, 'stuId': stuId, 'fromLocation': 'Change Requests', 'entityList': entList, 'schoolYear': '0'},
+                                                      function(pResponse) {
+                                                        if (pResponse.status === 'success') {
+                                                          sff.refreshPage();
+                                                          //sff.nav('sfonlinereg001.w', getParamsToPass('gCurrentStep', pArea));
+                                                        }                                                          
+                                                        else {
+                                                          sff.message("No Change Requests exist.")                                                          
+                                                          sff.dialog.hideAll();
+                                                        }                                                       
+                                                      });
+                                        }],['No - return to screen', sff.dialog.hide]]}
+                     );
+  }
+  function finalValidate(area) {    if (area == "Student Information" && typeof sfpseudo001 !== "undefined" && sfpseudo001.finalValidate && sfpseudo001.finalValidate() === false)
+        return false;
+    else if (area == "Family Address" && typeof sfpseudo002 !== "undefined" && sfpseudo002.finalValidate && sfpseudo002.finalValidate() === false)
+        return false;
+    else if (area == "Family Information" && typeof sfpseudo003 !== "undefined" && sfpseudo003.finalValidate && sfpseudo003.finalValidate() === false)
+        return false;
+    else if (area == "Emergency Contacts" && typeof sfpseudo006 !== "undefined" && sfpseudo006.finalValidate && sfpseudo006.finalValidate() === false)
+        return false;
+    else if (area == "Add Emergency Contact" && !sff.validator.validate("requestChanges")) {
+        return false;
+    }
+    return true;
+  }
+  function savePseudo(stuId, entList, area) {
+      var action = 'saveStep';
+      if (area == "Change Emergency Contact Order") {
+          sff.mask('#requestChanges');
+          action = "ReorderEmergencyContact";
+          var params = {};
+          $('#grid_reorder td[id^="contactNumber"]').each(function() {
+              params[this.id] = this.innerHTML; 
+          });
+          sff.request("sfonlinereg001.w",
+                      $.extend({'action': action, 'stuId': stuId, 'fromLocation': 'Change Requests', 'entityList': entList, 'schoolYear': '0'}, params),
+                      function(pResponse) {
+                          if (pResponse.status === "success") {
+                              sff.refreshPage();
+                              //sff.dialog("requestChanges").hide();
+                          }
+                          else
+                              sff.unmask('#requestChanges');
+                      }
+          );
+      }
+      else {                
+          if (area == "Add Emergency Contact")
+              action = "saveEmergencyContact";
+          if (finalValidate(area)) {
+              sff.mask('#requestChanges');
+              var params = {'action': action, 'dataWrap': $('#requestChanges div.sf_DialogHtml'), 'stepType': 'VI', 'area': area, 'stuId': stuId, 'fromLocation': 'Change Requests', 'entityList': entList, 'schoolYear': '0',
+                               'WAethnicity': sff.getValue('WAethnicity'),
+                               'WArace':      sff.getValue('WArace'),
+                               'WAagg':       sff.getValue('WAagg'),
+                               'WApreflang':  sff.getValue('WApreflang'),
+                               'deleteContact': sff.getValue('deleteContact'),
+                               'pseudoAccess': sff.getValue('pseudoAccess')
+                           };
+              sff.request("sfonlinereg001.w", params, function(pResponse) {
+                                                          if (pResponse.status === 'success') {
+                                                              sff.refreshPage();
+                                                              //sff.dialog("requestChanges").hide();                                                              
+                                                          }
+                                                          else
+                                                              sff.unmask('#requestChanges');
+                                                      });
+          }
+      }          
+  }
+</script><script type='text/javascript'>
+$(document).ready(function(){
+sff.setFormLabel("blIpdkjjjDWfbobs","klFlidnnAiqpcdik");
+sff.setFormLabel("blIpdkjjjDWfbobs","ncdaikIakjncaXib");
+sff.aee('b','click',function(e){openDialog('family','379414','JAI\u0027s Family',false)},'#miIdlicldvlcidlr');
+sff.aee('b','click',function(e){showAlertInfo(this,379414)},'#ocjAocalmcjbkdhi');
+sff.aee('b','click',function(e){var pointAt = this; sff.request('sfdialogs.w',{'action': 'dialog', 'type': 'advisor', 'id': '119533', 'entity': '374',"showEmail": "no"},function(pResponse) {if (pResponse.status === 'success') { sff.dialog.show({'showTitle': false, 'html': pResponse.output, type: 'default', 'autoHide': true, 'pointAt': pointAt,"direction": "left"}); } });},'#igEdkFidZbcleBIC');
+sff.aee('b','click',function(e){emailHistory()},'#rbbbjbbClmbjrcid');
+sff.aee('b','click',function(e){var pointAt = this; sff.request('sfdialogs.w',{'action': 'dialog', 'type': 'Principal', 'id': '339989', 'entity': '486',"showEmail": "no"},function(pResponse) {if (pResponse.status === 'success') { sff.dialog.show({'showTitle': false, 'html': pResponse.output, type: 'default', 'autoHide': true, 'pointAt': pointAt,"direction": "left"}); } });},'#bpjcpPkjdPiachka');
+sff.aee('b','click',function(e){sff.logout(true)},'#pjcvbbdSrhjkjVab');
+sff.aee('b','click',function(e){var pointAt = this; sff.request('sfdialogs.w',{'action': 'dialog', 'type': 'Principal', 'id': '118480', 'entity': '374',"showEmail": "no"},function(pResponse) {if (pResponse.status === 'success') { sff.dialog.show({'showTitle': false, 'html': pResponse.output, type: 'default', 'autoHide': true, 'pointAt': pointAt,"direction": "left"}); } });},'#jsijWlcjlwqQdmad');
+sff.aee('b','click',function(e){sff.nav('sfaccount001.w')},'#lcAovjclbibcllkz');
+});
+</script>
+<form name='sf_nafForm' id='sf_navForm' method='POST' action=''>
+<input type='hidden' id='sessionid' name='sessionid' value='1302236172544207256' />
+<input type='hidden' id='encses' name='encses' value='anzdljejkkjbjlad' />
+</form>
+</div>
+</div>
+<input id='reloadValue' type='hidden' name='reloadValue' value='' />
+<script type='text/javascript' data-rel='sff'>sff.sv('alertInfo379414', 'ALLERGY: MOSQUITO BITES. Painful swelling. Not life-threatening. No MEDS, No IHP.  (9/23 RG)');
+sff.sv('columnBodyWidth', '830');
+sff.sv('columnLeftWidth', '150');
+sff.sv('dwd', '651118086');
+sff.sv('encses', 'anzdljejkkjbjlad');
+sff.sv('entity', '');
+sff.sv('filesAdded', 'jquery.1.8.2.js,qsfmain001.css,qsfmain001.min.js');
+sff.sv('idleTimeout', '300000');
+sff.sv('menuBeforeShowCallback.reportHistory', 'reportHistory');
+sff.sv('nameid', '379414');
+sff.sv('RunningProgram', 'sfstudentinfo001.w');
+sff.sv('screenReaderOption', 'no');
+sff.sv('sessionid', '1302236172544207256');
+sff.sv('studentId', '379414');
+sff.sv('template_fwbutton', '<a role=\u0027button\u0027 id=\u0027template_fwbutton\u0027 name=\u0027template_fwbutton\u0027 class=\u0027button templateClass\u0027 style=\u0027templateStyle\u0027 data-templateDataName=\u0027templateDataValue\u0027 href=\u0027javascript:void(0)\u0027>templateValue</a>');
+sff.sv('template_fwlink', '<a id=\u0027template_fwlink\u0027 name=\u0027template_fwlink\u0027 class=\u0027templateClass\u0027 style=\u0027templateStyle\u0027 data-templateDataName=\u0027templateDataValue\u0027 href=\u0022javascript:void(0)\u0022 >templateValue</a>');
+sff.sv('trackId', '0x000000002d965122');
+sff.sv('userid', 's-jgiri');
+sff.sv('userType', '2');
+sff.sv('wfaacl', '544207256');
+sff.sv('wfaaclEntry', '40642805');
+</script></body></html>
+
+<!-- Generated by Webspeed: http://www.webspeed.com/ -->

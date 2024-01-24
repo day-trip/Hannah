@@ -1,0 +1,30 @@
+{
+  "name": "hack_microsoft",
+  "author": "daytrip",
+  "main": "index.ts",
+  "dependencies": {
+    "@azure/msal-node": "^2.4.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "@types/jsdom": "^21.1.4",
+    "acorn": "^8.11.2",
+    "base64url": "^3.0.1",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "dynamoose": "^4.0.0",
+    "jsdom": "^22.1.0",
+    "node-fetch": "^3.3.2",
+    "open": "^9.1.0",
+    "protobufjs": "^7.2.5",
+    "puppeteer": "^21.5.0",
+    "underscore": "^1.13.6",
+    "whatwg-fetch": "^3.6.20"
+  },
+  "devDependencies": {
+    "@types/acorn": "^6.0.0",
+    "@types/cheerio": "^0.22.35",
+    "@types/node-fetch": "^2.6.9",
+    "@types/protobufjs": "^6.0.0",
+    "@types/puppeteer": "^7.0.4",
+    "@types/underscore": "^1.11.15"
+  }
+}

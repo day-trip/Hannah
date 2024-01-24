@@ -1,0 +1,15 @@
+{
+    "meta": {
+        "status": false,
+        "timestamp": 1704844296,
+        "code": 41003,
+        "message": "Signatures do not match. Please check if security.domain is the same as location.hostname of the browser. See https://help.learnosity.com/hc/en-us/articles/360000754738-Security-and-Authentication#signature for more information regarding the domain. If the error persists please contact support.",
+        "request_uuid": "ebc45377-4057-46eb-ae4e-07b7a4c66116",
+        "versions": {
+            "requested": "latest",
+            "mapped": "latest",
+            "concrete": "v1.120.3"
+        }
+    },
+    "data": []
+}

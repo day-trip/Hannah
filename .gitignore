@@ -35,3 +35,7 @@ dateai/*.tsbuildinfo
 dateai/next-env.d.ts
 
 ULTRA
+NaLLM-main
+nebula-docker-compose
+nebula-studio
+neo4j

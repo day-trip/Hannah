@@ -1,0 +1,3609 @@
+{
+  "data": {
+    "auth": {
+      "request": {
+        "user_id": "USRstudent37941401101061",
+        "session_id": "50275a20-91fa-38e4-9414-fe7295222f14",
+        "retrieve_tags": true,
+        "organisation_id": 362,
+        "dynamic_items": {
+          "data_table_seed": "50275a20-91fa-38e4-9414-fe7295222f14",
+          "seed_with_item_id": true
+        }
+      },
+      "security": {
+        "consumer_key": "8EO6ataGL8M5Tuxx",
+        "user_id": "USRstudent37941401101061",
+        "signature": "$02$d335c7f740e5675e747d5c34da4f916b7b12a85839c3e62d063d21b2b5d5ac2c",
+        "domain": "www.bigideasmath.com",
+        "timestamp": "20240109-0013"
+      }
+    },
+    "request": {
+      "metadata": {
+        "indexes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "breadcrumbs": [
+          {
+            "HSCC_Geom_04.01.11": {
+              "sectionName": "Section 4.1: Translations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.1: Translations > Question #11",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "11",
+              "activityName": "Exercises 1 - 50",
+              "sectionId": 10467,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.01.12": {
+              "sectionName": "Section 4.1: Translations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.1: Translations > Question #12",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "12",
+              "activityName": "Exercises 1 - 50",
+              "sectionId": 10467,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.01.13": {
+              "sectionName": "Section 4.1: Translations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.1: Translations > Question #13",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "13",
+              "activityName": "Exercises 1 - 50",
+              "sectionId": 10467,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.01.14": {
+              "sectionName": "Section 4.1: Translations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.1: Translations > Question #14",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "14",
+              "activityName": "Exercises 1 - 50",
+              "sectionId": 10467,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.01.15": {
+              "sectionName": "Section 4.1: Translations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.1: Translations > Question #15",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "15",
+              "activityName": "Exercises 1 - 50",
+              "sectionId": 10467,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.01.16": {
+              "sectionName": "Section 4.1: Translations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.1: Translations > Question #16",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "16",
+              "activityName": "Exercises 1 - 50",
+              "sectionId": 10467,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.01.17": {
+              "sectionName": "Section 4.1: Translations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.1: Translations > Question #17",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "17",
+              "activityName": "Exercises 1 - 50",
+              "sectionId": 10467,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.01.19": {
+              "sectionName": "Section 4.1: Translations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.1: Translations > Question #19",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "19",
+              "activityName": "Exercises 1 - 50",
+              "sectionId": 10467,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.01.22": {
+              "sectionName": "Section 4.1: Translations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.1: Translations > Question #22",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "22",
+              "activityName": "Exercises 1 - 50",
+              "sectionId": 10467,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.01.23": {
+              "sectionName": "Section 4.1: Translations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.1: Translations > Question #23",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "23",
+              "activityName": "Exercises 1 - 50",
+              "sectionId": 10467,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.01.24": {
+              "sectionName": "Section 4.1: Translations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.1: Translations > Question #24",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "24",
+              "activityName": "Exercises 1 - 50",
+              "sectionId": 10467,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          },
+          {
+            "HSCC_Geom_04.01.32": {
+              "sectionName": "Section 4.1: Translations",
+              "breadcrumbText": "Big Ideas Math Geometry: CC 2019 > Chapter 4 > Section 4.1: Translations > Question #32",
+              "chapterId": 3957,
+              "chapterName": "Chapter 4",
+              "itemIndex": "32",
+              "activityName": "Exercises 1 - 50",
+              "sectionId": 10467,
+              "bookName": "Big Ideas Math Geometry: CC 2019",
+              "bookId": 170
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "reference": "HSCC_Geom_04.01.11",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.01.11"
+        },
+        {
+          "reference": "HSCC_Geom_04.01.12",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.01.12"
+        },
+        {
+          "reference": "HSCC_Geom_04.01.13",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.01.13"
+        },
+        {
+          "reference": "HSCC_Geom_04.01.14",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.01.14"
+        },
+        {
+          "reference": "HSCC_Geom_04.01.15",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.01.15"
+        },
+        {
+          "reference": "HSCC_Geom_04.01.16",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.01.16"
+        },
+        {
+          "reference": "HSCC_Geom_04.01.17",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.01.17"
+        },
+        {
+          "reference": "HSCC_Geom_04.01.19",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.01.19"
+        },
+        {
+          "reference": "HSCC_Geom_04.01.22",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.01.22"
+        },
+        {
+          "reference": "HSCC_Geom_04.01.23",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.01.23"
+        },
+        {
+          "reference": "HSCC_Geom_04.01.24",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.01.24"
+        },
+        {
+          "reference": "HSCC_Geom_04.01.32",
+          "organisation_id": 315,
+          "id": "HSCC_Geom_04.01.32"
+        }
+      ],
+      "rendering_type": "assess",
+      "role": "STUDENT",
+      "itemsAPI": "v2023.1.LTS",
+      "session_id": "50275a20-91fa-38e4-9414-fe7295222f14",
+      "retrieve_tags": true,
+      "type": "submit_practice",
+      "saveAssessmentNav": true,
+      "organisation_id": 362,
+      "features": {
+        "sketchpad": true,
+        "calculator": false,
+        "liveTutor": true,
+        "needHelp": true,
+        "desmos": false,
+        "checkLimit": 2,
+        "guidedSolution": false,
+        "desmosType": "",
+        "viewSolution": false,
+        "releaseRev": false
+      },
+      "user_id": "USRstudent37941401101061",
+      "liveTutorArray": {
+        "HSCC_Geom_04.01.17": true,
+        "HSCC_Geom_04.01.19": true,
+        "HSCC_Geom_04.01.32": false,
+        "HSCC_Geom_04.01.23": false,
+        "HSCC_Geom_04.01.12": false,
+        "HSCC_Geom_04.01.22": false,
+        "HSCC_Geom_04.01.11": true,
+        "HSCC_Geom_04.01.14": false,
+        "HSCC_Geom_04.01.24": false,
+        "HSCC_Geom_04.01.13": false,
+        "HSCC_Geom_04.01.16": false,
+        "HSCC_Geom_04.01.15": false
+      },
+      "name": "HW 4.1",
+      "activity_id": "4cc10883-e4c7-4741-a686-e141f3ead4a4",
+      "state": "resume",
+      "activity_template_id": "0ea0cd99-b0f0-4a11-bcbb-52db78f4a2f1",
+      "config": {
+        "annotation": true,
+        "navigation": {
+          "show_intro": false,
+          "autosave": {
+            "ui": true,
+            "save_interval_duration": 300
+          },
+          "show_outro": false
+        },
+        "regions": "horizontal",
+        "region_overrides": {
+          "top-right.pause_button": false,
+          "items.progress_element": true,
+          "top-right": [
+            {
+              "position": "right",
+              "type": "flagitem_button",
+              "show_label_option": "false"
+            },
+            {
+              "options": {
+                "name": "checkAnswer",
+                "icon_class": "icon-check-answer-button",
+                "label": "Check"
+              },
+              "position": "left",
+              "type": "custom_button"
+            },
+            {
+              "options": {
+                "name": "needsHelp",
+                "icon_class": "icon-help-button",
+                "label": "Skills Review"
+              },
+              "type": "custom_button"
+            },
+            {
+              "options": {
+                "name": "assignmentSaveButton",
+                "icon_class": "icon-assignment-save-button",
+                "label": "Save / Exit"
+              },
+              "type": "custom_button"
+            },
+            {
+              "options": {
+                "name": "assignmentSubmitButton",
+                "icon_class": "icon-assignment-submit-button",
+                "label": "Submit"
+              },
+              "type": "custom_button"
+            }
+          ],
+          "bottom-right": [
+            {
+              "options": {
+                "name": "liveTutor",
+                "icon_class": "icon-live-tutor-button",
+                "label": "Live Tutor"
+              },
+              "position": "right",
+              "type": "custom_button"
+            }
+          ],
+          "bottom": [],
+          "bottom-left": [
+            {
+              "type": "previous_button"
+            },
+            {
+              "type": "horizontaltoc_element"
+            },
+            {
+              "type": "next_button"
+            }
+          ],
+          "right": [
+            {
+              "options": {
+                "name": "sketchpad",
+                "icon_class": "icon-sketchpad-button",
+                "label": "Sketchpad"
+              },
+              "type": "custom_button"
+            },
+            {
+              "type": "reviewscreen_button"
+            },
+            {
+              "fontsize_option": true,
+              "zoom_option": true,
+              "colorscheme_option": true,
+              "type": "accessibility_button"
+            }
+          ]
+        },
+        "configuration": {
+          "fontsize": "xlarge",
+          "lazyload": true
+        },
+        "questions_api_init_options": {
+          "math_renderer": "mathquill",
+          "captureOnResumeError": true
+        },
+        "annotations_api_init_options": {
+          "modules": {
+            "drawing": true
+          }
+        },
+        "labelBundle": {
+          "expandMenu": "Open",
+          "collapseMenu": "Close",
+          "reviewScreen": "Overview"
+        },
+        "metadata": {
+          "items": [
+            {
+              "reference": "HSCC_Geom_04.01.11",
+              "source": {
+                "reference": "HSCC_Geom_04.01.11",
+                "organisation_id": 315
+              },
+              "time": 578,
+              "response_ids": [
+                "50275a20-91fa-38e4-9414-fe7295222f14_c98498c5736d1569de8c9f45056f2578"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted",
+              "metadata": {
+                "scoring_type": "per-question"
+              }
+            },
+            {
+              "reference": "HSCC_Geom_04.01.12",
+              "source": {
+                "reference": "HSCC_Geom_04.01.12",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "50275a20-91fa-38e4-9414-fe7295222f14_0ceb521e4666f236dd75d0e59305b952"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted",
+              "metadata": {
+                "scoring_type": "per-question"
+              }
+            },
+            {
+              "reference": "HSCC_Geom_04.01.13",
+              "source": {
+                "reference": "HSCC_Geom_04.01.13",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "50275a20-91fa-38e4-9414-fe7295222f14_1be98ffb749efc09d0c0aa48b7ab8fc8"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted"
+            },
+            {
+              "reference": "HSCC_Geom_04.01.14",
+              "source": {
+                "reference": "HSCC_Geom_04.01.14",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "50275a20-91fa-38e4-9414-fe7295222f14_5d2e1f69550d9123f10d927fb6488dcf"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted"
+            },
+            {
+              "reference": "HSCC_Geom_04.01.15",
+              "source": {
+                "reference": "HSCC_Geom_04.01.15",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "50275a20-91fa-38e4-9414-fe7295222f14_7d1510e30f7955cc53fba062b5d4fd5e"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted"
+            },
+            {
+              "reference": "HSCC_Geom_04.01.16",
+              "source": {
+                "reference": "HSCC_Geom_04.01.16",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "50275a20-91fa-38e4-9414-fe7295222f14_8af765ab3cdf0e15e7951ef784d728a6"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted"
+            },
+            {
+              "reference": "HSCC_Geom_04.01.17",
+              "source": {
+                "reference": "HSCC_Geom_04.01.17",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "50275a20-91fa-38e4-9414-fe7295222f14_b4755318b4e1ac97af993a6d04016f20"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted"
+            },
+            {
+              "reference": "HSCC_Geom_04.01.19",
+              "source": {
+                "reference": "HSCC_Geom_04.01.19",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "50275a20-91fa-38e4-9414-fe7295222f14_ad3bde035b47f0c2f3a9177a629632d7"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted"
+            },
+            {
+              "reference": "HSCC_Geom_04.01.22",
+              "source": {
+                "reference": "HSCC_Geom_04.01.22",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "50275a20-91fa-38e4-9414-fe7295222f14_d9c29a751fea15a742759cfc75786ca1"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted"
+            },
+            {
+              "reference": "HSCC_Geom_04.01.23",
+              "source": {
+                "reference": "HSCC_Geom_04.01.23",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "50275a20-91fa-38e4-9414-fe7295222f14_e3f3e406bc69a4c2ae732e4e5329185f"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted",
+              "metadata": {
+                "scoring_type": "per-question"
+              }
+            },
+            {
+              "reference": "HSCC_Geom_04.01.24",
+              "source": {
+                "reference": "HSCC_Geom_04.01.24",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "50275a20-91fa-38e4-9414-fe7295222f14_cd910226fe2b34daba87c489b1c121ba"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted",
+              "metadata": {
+                "scoring_type": "per-question"
+              }
+            },
+            {
+              "reference": "HSCC_Geom_04.01.32",
+              "source": {
+                "reference": "HSCC_Geom_04.01.32",
+                "organisation_id": 315
+              },
+              "time": 0,
+              "response_ids": [
+                "50275a20-91fa-38e4-9414-fe7295222f14_4f41dac123032fb3821539f8172e2454"
+              ],
+              "user_flagged": false,
+              "attempt_status": "not_attempted",
+              "metadata": {
+                "scoring_type": "per-question"
+              }
+            }
+          ],
+          "items_api_version": "v1.120.3",
+          "activity_template_id": "0ea0cd99-b0f0-4a11-bcbb-52db78f4a2f1",
+          "current_time": 578,
+          "current_reading_time": false,
+          "max_time": 0,
+          "current_item_reference": "HSCC_Geom_04.01.11",
+          "current_sheet_position": 0,
+          "features": [],
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "last_item_reference": "HSCC_Geom_04.01.32",
+          "question_types": [
+            "clozeformula",
+            "graphplotting",
+            "clozedropdown"
+          ]
+        }
+      },
+      "format": "json",
+      "dynamic_items": {
+        "data_table_seed": "50275a20-91fa-38e4-9414-fe7295222f14",
+        "seed_with_item_id": true
+      },
+      "existing_session": true
+    },
+    "apiActivity": {
+      "items": [
+        {
+          "reference": "HSCC_Geom_04.01.11",
+          "source": {
+            "reference": "HSCC_Geom_04.01.11",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-50275a20-91fa-38e4-9414-fe7295222f14_c98498c5736d1569de8c9f45056f2578\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "scoring_type": "per-question",
+            "acknowledgements": null,
+            "hashMap": [
+              {
+                "nativeHash": "391d2afa766c2d2700f888cd0632eabc",
+                "overrideHash": "49040d9a93fd1a4104b1c773ce53ace9",
+                "enManuscript": "Write a rule for the translation of triangle L M N to triangle L prime M prim N prime.",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "50275a20-91fa-38e4-9414-fe7295222f14_c98498c5736d1569de8c9f45056f2578"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "\\(\\left(x,\\ y\\right)\\ \\)→ \\(\\text{(}\\)<span>{{response}}, {{response}}</span>\\(\\text{)}\\)",
+              "response_container": {
+                "template": ""
+              },
+              "is_math": true,
+              "response_containers": [],
+              "stimulus": "<p>Write a rule for the translation of&nbsp;\\(\\triangle LMN\\)&nbsp;to &nbsp;\\(\\triangle L'\\)\\(M'\\)\\(N'\\).</p>\n\n<p>&nbsp;&nbsp;<img alt=\"Two triangles, one red and one blue, plotted on a coordinate plane. The x-axis extended from negative 6 to 7, in increments of 1. The y-axis is extended from negative 3 to 5, in increments of 1. The blue triangle L M N has vertex L at ordered pair 1 comma negative 1, vertex M at ordered pair 4 comma 1 and vertex N at ordered pair 5 comma negative 1. The red triangle L prime M prime N prime has vertex L prime at ordered pair negative 4 comma 1, vertex M prime at ordered pair negative 1 comma 3 and vertex N prime at ordered pair 0 comma 1.\" height=\"188\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom 040111.PNG\" width=\"300\" /></p>\n",
+              "ui_style": {
+                "type": "block-on-focus-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "clozeformula",
+              "validation": {
+                "scoring_type": "partialMatchV2",
+                "rounding": "none",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "value": "x-5",
+                        "options": {
+                          "ignoreOrder": true,
+                          "inverseResult": false,
+                          "ignoreTrailingZeros": true,
+                          "ignoreCoefficientOne": true
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "value": "y+2",
+                        "options": {
+                          "ignoreOrder": true,
+                          "inverseResult": false,
+                          "ignoreTrailingZeros": true,
+                          "ignoreCoefficientOne": true
+                        }
+                      }
+                    ]
+                  ]
+                }
+              },
+              "equiv_literal_legacy": true,
+              "metadata": {
+                "valid_response_count": 2,
+                "sheet_reference": "HSCC_Geom_04.01.11",
+                "widget_reference": "edb2d3a2-5b74-41d3-9968-878fd9a84efe",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_c98498c5736d1569de8c9f45056f2578"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.01.12",
+          "source": {
+            "reference": "HSCC_Geom_04.01.12",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-50275a20-91fa-38e4-9414-fe7295222f14_0ceb521e4666f236dd75d0e59305b952\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "scoring_type": "per-question",
+            "acknowledgements": null,
+            "hashMap": [
+              {
+                "nativeHash": "391d2afa766c2d2700f888cd0632eabc",
+                "overrideHash": "49040d9a93fd1a4104b1c773ce53ace9",
+                "enManuscript": "Write a rule for the translation of triangle L M N to triangle L prime M prim N prime.",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "50275a20-91fa-38e4-9414-fe7295222f14_0ceb521e4666f236dd75d0e59305b952"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "\\(\\left(x,\\ y\\right)\\ \\)→&nbsp;\\(\\text{(}\\)<span>{{response}}, {{response}}</span>\\(\\text{)}\\)",
+              "response_container": {
+                "template": ""
+              },
+              "is_math": true,
+              "response_containers": [],
+              "stimulus": "<p>Write a rule for the translation of&nbsp;\\(\\triangle LMN\\)&nbsp;to&nbsp;\\(\\triangle L'\\)\\(M'\\)\\(N'\\).</p>\n\n<p>&nbsp; &nbsp;<img alt=\"Two triangles, one red and one blue, plotted on a coordinate plane. The x-axis extended from negative 9 to 4, in increments of 1. The y-axis is extended from negative 7 to 2, in increments of 1. The blue triangle L M N has vertex L at ordered pair negative 6 comma negative 4, vertex M at ordered pair negative 5 comma negative 1 and vertex N at ordered pair negative 2 comma negative 4. The red triangle L prime M prime N prime has vertex L prime at ordered pair negative 3 comma negative 3, vertex M prime at ordered pair negative 2 comma 0 and vertex N prime at ordered pair 1 comma negative 3.\" height=\"215\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom 040112.PNG\" width=\"300\" /></p>\n",
+              "ui_style": {
+                "type": "block-on-focus-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "clozeformula",
+              "validation": {
+                "scoring_type": "partialMatchV2",
+                "rounding": "none",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "value": "x+3",
+                        "options": {
+                          "ignoreOrder": true,
+                          "inverseResult": false,
+                          "ignoreTrailingZeros": true,
+                          "ignoreCoefficientOne": true
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "value": "y+1",
+                        "options": {
+                          "ignoreOrder": true,
+                          "inverseResult": false,
+                          "ignoreTrailingZeros": true,
+                          "ignoreCoefficientOne": true
+                        }
+                      }
+                    ]
+                  ]
+                }
+              },
+              "equiv_literal_legacy": true,
+              "metadata": {
+                "valid_response_count": 2,
+                "sheet_reference": "HSCC_Geom_04.01.12",
+                "widget_reference": "79d725ef-1182-4eda-836d-1d366db8a41b",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_0ceb521e4666f236dd75d0e59305b952"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.01.13",
+          "source": {
+            "reference": "HSCC_Geom_04.01.13",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-50275a20-91fa-38e4-9414-fe7295222f14_1be98ffb749efc09d0c0aa48b7ab8fc8\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "hashMap": [
+              {
+                "nativeHash": "7d58e66475ea49b550e273ec96c58204",
+                "overrideHash": "da83f28d2cccaf1d636fe7d90a47e749",
+                "enManuscript": "Use the translation (x, y) becomes (x minus 8, y plus 4) to answer the question. What is the image of A (2, 6) ?",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "50275a20-91fa-38e4-9414-fe7295222f14_1be98ffb749efc09d0c0aa48b7ab8fc8"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "<p>\\(A'\\)\\(\\text{(}\\){{response}}, {{response}}\\(\\text{)}\\)</p>\n",
+              "response_container": {
+                "template": ""
+              },
+              "is_math": true,
+              "response_containers": [],
+              "equiv_literal_legacy": true,
+              "stimulus": "<p>Use the translation&nbsp;\\(\\left(x,\\ y\\right)\\)→&nbsp;\\(\\left(x-8,\\ y+4\\right)\\)<span>&nbsp;to answer the question. &nbsp;</span></p>\n\n<p>What is the image of&nbsp;\\(A\\left(2,\\ 6\\right)\\)?</p>\n",
+              "ui_style": {
+                "type": "block-on-focus-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "clozeformula",
+              "validation": {
+                "scoring_type": "partialMatchV2",
+                "rounding": "none",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "allowDecimal": false,
+                          "ignoreOrder": false
+                        },
+                        "value": "-6"
+                      }
+                    ],
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "allowDecimal": false,
+                          "ignoreOrder": false
+                        },
+                        "value": "10"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "text_blocks": [],
+              "metadata": {
+                "valid_response_count": 2,
+                "sheet_reference": "HSCC_Geom_04.01.13",
+                "widget_reference": "b705b575-f14a-4fb7-8da5-355d8761a99b",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_1be98ffb749efc09d0c0aa48b7ab8fc8"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.01.14",
+          "source": {
+            "reference": "HSCC_Geom_04.01.14",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-50275a20-91fa-38e4-9414-fe7295222f14_5d2e1f69550d9123f10d927fb6488dcf\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "hashMap": [
+              {
+                "nativeHash": "b6fee17b1115bbee519a211f74db744f",
+                "overrideHash": "dc912367ad463c200d104c2c8db38c5c",
+                "enManuscript": "Use the translation (x, y) becomes  (x minus 8, y plus 4) to answer the question. What is the image of B (negative 1, 5)?",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "50275a20-91fa-38e4-9414-fe7295222f14_5d2e1f69550d9123f10d927fb6488dcf"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "<p>\\(B'\\)\\(\\text{(}\\){{response}}, {{response}}\\(\\text{)}\\)</p>\n",
+              "response_container": {
+                "template": ""
+              },
+              "is_math": true,
+              "response_containers": [],
+              "equiv_literal_legacy": true,
+              "stimulus": "<p>Use the translation&nbsp;\\(\\left(x,\\ y\\right)\\)<span>→</span>&nbsp;\\(\\left(x-8,\\ y+4\\right)\\)<span>&nbsp;to answer the question. &nbsp;</span></p>\n\n<p>What is the image of&nbsp;\\(B\\left(-1,\\ 5\\right)\\)?</p>\n",
+              "ui_style": {
+                "type": "block-on-focus-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "clozeformula",
+              "validation": {
+                "scoring_type": "partialMatchV2",
+                "rounding": "none",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "allowDecimal": false,
+                          "ignoreOrder": false
+                        },
+                        "value": "-9"
+                      }
+                    ],
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "allowDecimal": false,
+                          "ignoreOrder": false
+                        },
+                        "value": "9"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "text_blocks": [],
+              "metadata": {
+                "valid_response_count": 2,
+                "sheet_reference": "HSCC_Geom_04.01.14",
+                "widget_reference": "e29a62a0-c5cf-4b89-91c8-e9e4609768d4",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_5d2e1f69550d9123f10d927fb6488dcf"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.01.15",
+          "source": {
+            "reference": "HSCC_Geom_04.01.15",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-50275a20-91fa-38e4-9414-fe7295222f14_7d1510e30f7955cc53fba062b5d4fd5e\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "hashMap": [
+              {
+                "nativeHash": "68b9ddac8999ec6e7922a7d45801e1b1",
+                "overrideHash": "b01bfb3c59b9672f336a031e8af65a8d",
+                "enManuscript": "Use the translation (x, y)  becomes (x minus 8, y plus 4) to answer the question. What is the preimage of C prime (negative 3, negative 10)?",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "50275a20-91fa-38e4-9414-fe7295222f14_7d1510e30f7955cc53fba062b5d4fd5e"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "<p>\\(C\\)\\(\\text{(}\\){{response}}, {{response}}\\(\\text{)} \\)</p>\n",
+              "response_container": {
+                "template": ""
+              },
+              "is_math": true,
+              "response_containers": [],
+              "equiv_literal_legacy": true,
+              "stimulus": "<p>Use the translation&nbsp;\\(\\left(x,\\ y\\right)\\)&nbsp;<span>→</span>&nbsp;\\(\\left(x-8,\\ y+4\\right)\\)<span>&nbsp;to answer the question. &nbsp;</span></p>\n\n<p>What is the preimage of&nbsp;\\(C'\\left(-3,-10\\right)\\)?</p>\n",
+              "ui_style": {
+                "type": "block-on-focus-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "clozeformula",
+              "validation": {
+                "scoring_type": "partialMatchV2",
+                "rounding": "none",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "allowDecimal": false,
+                          "ignoreOrder": false
+                        },
+                        "value": "5"
+                      }
+                    ],
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "allowDecimal": false,
+                          "ignoreOrder": false
+                        },
+                        "value": "-14"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "text_blocks": [],
+              "metadata": {
+                "valid_response_count": 2,
+                "sheet_reference": "HSCC_Geom_04.01.15",
+                "widget_reference": "12e29f16-f17e-4b34-8159-3039f4948fd6",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_7d1510e30f7955cc53fba062b5d4fd5e"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.01.16",
+          "source": {
+            "reference": "HSCC_Geom_04.01.16",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-50275a20-91fa-38e4-9414-fe7295222f14_8af765ab3cdf0e15e7951ef784d728a6\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "hashMap": [
+              {
+                "nativeHash": "4a6b1e6eae4dbfd18ab6b9816466ea3e",
+                "overrideHash": "c7f310d64ce4fbf6fd39f834b4efbf0e",
+                "enManuscript": "Use the translation (x, y) becomes (x minus 8, y plus 4) to answer the question. What is the preimage of D prime (4, negative 3)?",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "50275a20-91fa-38e4-9414-fe7295222f14_8af765ab3cdf0e15e7951ef784d728a6"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "<p>\\(D\\)\\(\\text{(}\\){{response}}, {{response}}\\(\\text{)}\\)</p>\n",
+              "response_container": {
+                "template": ""
+              },
+              "is_math": true,
+              "response_containers": [],
+              "equiv_literal_legacy": true,
+              "stimulus": "<p>Use the translation&nbsp;\\(\\left(x,\\ y\\right)\\)<span>&nbsp;→</span>&nbsp;\\(\\left(x-8,\\ y+4\\right)\\)<span>&nbsp;to answer the question. &nbsp;</span></p>\n\n<p>What is the preimage of&nbsp;\\(D'\\left(4,-3\\right)\\)?</p>\n",
+              "ui_style": {
+                "type": "block-on-focus-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "clozeformula",
+              "validation": {
+                "scoring_type": "partialMatchV2",
+                "rounding": "none",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "allowDecimal": false,
+                          "ignoreOrder": false
+                        },
+                        "value": "12"
+                      }
+                    ],
+                    [
+                      {
+                        "method": "equivLiteral",
+                        "options": {
+                          "inverseResult": false,
+                          "ignoreCoefficientOne": true,
+                          "ignoreTrailingZeros": true,
+                          "allowDecimal": false,
+                          "ignoreOrder": false
+                        },
+                        "value": "-7"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "text_blocks": [],
+              "metadata": {
+                "valid_response_count": 2,
+                "sheet_reference": "HSCC_Geom_04.01.16",
+                "widget_reference": "0c0e21fe-13c1-4a22-afca-cf92eec13382",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_8af765ab3cdf0e15e7951ef784d728a6"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.01.17",
+          "source": {
+            "reference": "HSCC_Geom_04.01.17",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-50275a20-91fa-38e4-9414-fe7295222f14_b4755318b4e1ac97af993a6d04016f20\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "hashMap": [
+              {
+                "nativeHash": "e531963147dc8245e913004d6ff2c4db",
+                "overrideHash": "0c5807887e35ec7c41369e1cdf8fcbe4",
+                "enManuscript": "Graph triangle P Q R  with vertices P (negative 2, 3), Q (1, 2), and R (3, negative 1) and its image after the translation (x, y) becomes (x plus 4, y plus 6).",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "50275a20-91fa-38e4-9414-fe7295222f14_b4755318b4e1ac97af993a6d04016f20"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "toolbar": {
+                "default_tool": "polygon",
+                "tools": [
+                  "polygon"
+                ]
+              },
+              "background_image": {
+                "src": ""
+              },
+              "canvas": {
+                "y_min": -10.4,
+                "x_max": 10.4,
+                "y_max": 10.4,
+                "snap_to": "grid",
+                "x_min": -10.4
+              },
+              "is_math": true,
+              "grid": {
+                "y_distance": 1,
+                "x_distance": 1
+              },
+              "stimulus": "<p><span>Graph </span>&nbsp;\\(\\triangle PQR\\)<span> with vertices </span>\\(P(-2,\\ 3)\\)<span>, </span>\\(Q(1,\\ 2)\\)<span>, and &nbsp;</span>\\(R(3,-1)\\)<span>&nbsp;and its image after the translation</span></p>\n\n<p>\\(\\left(x,y\\right)\\)&nbsp;→&nbsp;\\(\\left(x+4,\\ y+6\\right)\\).</p>\n\n<p>&nbsp;</p>\n",
+              "axis_x": {
+                "ticks_distance": 2,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "draw_labels": true
+              },
+              "axis_y": {
+                "ticks_distance": 2,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "draw_labels": true
+              },
+              "ui_style": {
+                "width": "500px",
+                "height": "500px"
+              },
+              "type": "graphplotting",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "ignore_repeated_shapes": "yes",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    {
+                      "id": "lrn_1",
+                      "type": "point",
+                      "coords": {
+                        "x": 2,
+                        "y": 9
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_2",
+                      "type": "point",
+                      "coords": {
+                        "x": 5,
+                        "y": 8
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_3",
+                      "type": "point",
+                      "coords": {
+                        "x": 7,
+                        "y": 5
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_1",
+                        "lrn_2",
+                        "lrn_3",
+                        "lrn_1"
+                      ],
+                      "id": "lrn_4",
+                      "type": "polygon"
+                    },
+                    {
+                      "id": "lrn_8",
+                      "type": "point",
+                      "coords": {
+                        "x": -2,
+                        "y": 3
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_9",
+                      "type": "point",
+                      "coords": {
+                        "x": 1,
+                        "y": 2
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_10",
+                      "type": "point",
+                      "coords": {
+                        "x": 3,
+                        "y": -1
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_8",
+                        "lrn_9",
+                        "lrn_10",
+                        "lrn_8"
+                      ],
+                      "id": "lrn_11",
+                      "type": "polygon"
+                    }
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 8,
+                "sheet_reference": "HSCC_Geom_04.01.17",
+                "widget_reference": "ed968aec-8b08-4765-9051-016695743483",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_b4755318b4e1ac97af993a6d04016f20"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.01.19",
+          "source": {
+            "reference": "HSCC_Geom_04.01.19",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-50275a20-91fa-38e4-9414-fe7295222f14_ad3bde035b47f0c2f3a9177a629632d7\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "hashMap": [
+              {
+                "nativeHash": "c83df1e9288323b467cbd014bc0dd9b5",
+                "overrideHash": "240b3663e12b467a2c14d0e3f5d58470",
+                "enManuscript": "Graph triangle P Q R  with vertices P (negative 2, 3), Q (1, 2), and R (3, negative 1) and its image after the translation (x, y) becomes (x minus 2, y minus 5).",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "50275a20-91fa-38e4-9414-fe7295222f14_ad3bde035b47f0c2f3a9177a629632d7"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "toolbar": {
+                "default_tool": "polygon",
+                "tools": [
+                  "polygon"
+                ]
+              },
+              "background_image": {
+                "src": ""
+              },
+              "canvas": {
+                "y_min": -7.4,
+                "x_max": 7.4,
+                "y_max": 7.4,
+                "snap_to": "grid",
+                "x_min": -7.4
+              },
+              "is_math": true,
+              "grid": {
+                "y_distance": 1,
+                "x_distance": 1
+              },
+              "stimulus": "<p><span>Graph&nbsp;</span>\\(\\triangle PQR\\)<span> with vertices </span>\\(P(-2,\\ 3)\\)<span>, </span>\\(Q(1,\\ 2)\\)<span>, and </span>\\(R(3,-1)\\)<span>&nbsp; and its image after the translation</span></p>\n\n<p>\\(\\left(x,\\ y\\right)\\)&nbsp;<span>→</span>&nbsp;\\(\\left(x-2,\\ y-5\\right)\\).</p>\n\n<p>&nbsp;</p>\n",
+              "axis_x": {
+                "ticks_distance": 1,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "draw_labels": true
+              },
+              "axis_y": {
+                "ticks_distance": 1,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "draw_labels": true
+              },
+              "ui_style": {
+                "width": "500px",
+                "height": "500px"
+              },
+              "type": "graphplotting",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "ignore_repeated_shapes": "yes",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    {
+                      "id": "lrn_1",
+                      "type": "point",
+                      "coords": {
+                        "x": -4,
+                        "y": -2
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_2",
+                      "type": "point",
+                      "coords": {
+                        "x": -1,
+                        "y": -3
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_3",
+                      "type": "point",
+                      "coords": {
+                        "x": 1,
+                        "y": -6
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_1",
+                        "lrn_2",
+                        "lrn_3",
+                        "lrn_1"
+                      ],
+                      "id": "lrn_4",
+                      "type": "polygon"
+                    },
+                    {
+                      "id": "lrn_8",
+                      "type": "point",
+                      "coords": {
+                        "x": -2,
+                        "y": 3
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_9",
+                      "type": "point",
+                      "coords": {
+                        "x": 1,
+                        "y": 2
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_10",
+                      "type": "point",
+                      "coords": {
+                        "x": 3,
+                        "y": -1
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_8",
+                        "lrn_9",
+                        "lrn_10",
+                        "lrn_8"
+                      ],
+                      "id": "lrn_11",
+                      "type": "polygon"
+                    }
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 8,
+                "sheet_reference": "HSCC_Geom_04.01.19",
+                "widget_reference": "0dfba05f-93b2-4a97-966d-c45a404b05cf",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_ad3bde035b47f0c2f3a9177a629632d7"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.01.22",
+          "source": {
+            "reference": "HSCC_Geom_04.01.22",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-50275a20-91fa-38e4-9414-fe7295222f14_d9c29a751fea15a742759cfc75786ca1\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "hashMap": [
+              {
+                "nativeHash": "834a2bf00c51c0d6dc9728009b65f20b",
+                "overrideHash": "65c2cd4810431034cbfb5f52c7b0adc4",
+                "enManuscript": "Graph triangle X Y Z with vertices X (2, 4), Y (6, 0) and Z (7, 2) and its image after the composition. \nTranslation: (x, y) becomes (x minus 6, y) \nTranslation: (x, y) becomes (x plus 2, y plus 7)",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "50275a20-91fa-38e4-9414-fe7295222f14_d9c29a751fea15a742759cfc75786ca1"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "toolbar": {
+                "default_tool": "polygon",
+                "tools": [
+                  "polygon"
+                ]
+              },
+              "background_image": {
+                "src": ""
+              },
+              "canvas": {
+                "y_min": -9.4,
+                "x_max": 13.4,
+                "y_max": 13.4,
+                "snap_to": "grid",
+                "x_min": -9.4
+              },
+              "is_math": true,
+              "grid": {
+                "y_distance": 1,
+                "x_distance": 1
+              },
+              "stimulus": "<p><span>Graph&nbsp;</span>\\(\\triangle XYZ\\) with vertices \\(X(2,\\ 4)\\), \\(Y(6,\\ 0)\\) and \\(Z(7,\\ 2)\\) and its image after&nbsp;the composition.</p>\n\n<p>Translation: \\((x,\\ y)\\) <span>→</span> \\((x-6,\\ y)\\)</p>\n\n<p>Translation: \\((x,\\ y)\\) <span>→</span> \\((x+2,\\ y+7)\\)</p>\n",
+              "axis_x": {
+                "ticks_distance": 2,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "draw_labels": true
+              },
+              "axis_y": {
+                "ticks_distance": 2,
+                "show_first_arrow": true,
+                "show_last_arrow": true,
+                "draw_labels": true
+              },
+              "ui_style": {
+                "width": "500px",
+                "height": "500px"
+              },
+              "type": "graphplotting",
+              "validation": {
+                "scoring_type": "exactMatch",
+                "alt_responses": [
+                  {
+                    "score": 1,
+                    "value": [
+                      {
+                        "id": "lrn_1",
+                        "type": "point",
+                        "coords": {
+                          "x": 2,
+                          "y": 4
+                        },
+                        "subElement": true
+                      },
+                      {
+                        "id": "lrn_2",
+                        "type": "point",
+                        "coords": {
+                          "x": 6,
+                          "y": 0
+                        },
+                        "subElement": true
+                      },
+                      {
+                        "id": "lrn_3",
+                        "type": "point",
+                        "coords": {
+                          "x": 7,
+                          "y": 2
+                        },
+                        "subElement": true
+                      },
+                      {
+                        "subElementsIds": [
+                          "lrn_1",
+                          "lrn_2",
+                          "lrn_3",
+                          "lrn_1"
+                        ],
+                        "id": "lrn_4",
+                        "type": "polygon"
+                      },
+                      {
+                        "id": "lrn_5",
+                        "type": "point",
+                        "coords": {
+                          "x": 2,
+                          "y": 7
+                        },
+                        "subElement": true
+                      },
+                      {
+                        "id": "lrn_6",
+                        "type": "point",
+                        "coords": {
+                          "x": -2,
+                          "y": 11
+                        },
+                        "subElement": true
+                      },
+                      {
+                        "id": "lrn_7",
+                        "type": "point",
+                        "coords": {
+                          "x": 3,
+                          "y": 9
+                        },
+                        "subElement": true
+                      },
+                      {
+                        "subElementsIds": [
+                          "lrn_5",
+                          "lrn_6",
+                          "lrn_7",
+                          "lrn_5"
+                        ],
+                        "id": "lrn_8",
+                        "type": "polygon"
+                      }
+                    ]
+                  }
+                ],
+                "ignore_repeated_shapes": "yes",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    {
+                      "id": "lrn_1",
+                      "type": "point",
+                      "coords": {
+                        "x": -2,
+                        "y": 11
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_2",
+                      "type": "point",
+                      "coords": {
+                        "x": 2,
+                        "y": 7
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_3",
+                      "type": "point",
+                      "coords": {
+                        "x": 3,
+                        "y": 9
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_1",
+                        "lrn_2",
+                        "lrn_3",
+                        "lrn_1"
+                      ],
+                      "id": "lrn_4",
+                      "type": "polygon"
+                    },
+                    {
+                      "id": "lrn_5",
+                      "type": "point",
+                      "coords": {
+                        "x": -4,
+                        "y": 4
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_6",
+                      "type": "point",
+                      "coords": {
+                        "x": 1,
+                        "y": 2
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_7",
+                      "type": "point",
+                      "coords": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_5",
+                        "lrn_6",
+                        "lrn_7",
+                        "lrn_5"
+                      ],
+                      "id": "lrn_8",
+                      "type": "polygon"
+                    },
+                    {
+                      "id": "lrn_9",
+                      "type": "point",
+                      "coords": {
+                        "x": 2,
+                        "y": 4
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_10",
+                      "type": "point",
+                      "coords": {
+                        "x": 6,
+                        "y": 0
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_11",
+                      "type": "point",
+                      "coords": {
+                        "x": 7,
+                        "y": 2
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_9",
+                        "lrn_10",
+                        "lrn_11",
+                        "lrn_9"
+                      ],
+                      "id": "lrn_12",
+                      "type": "polygon"
+                    }
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 12,
+                "sheet_reference": "HSCC_Geom_04.01.22",
+                "widget_reference": "0dcc8375-6c52-4494-b758-306eb7fa86d7",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_d9c29a751fea15a742759cfc75786ca1"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.01.23",
+          "source": {
+            "reference": "HSCC_Geom_04.01.23",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-50275a20-91fa-38e4-9414-fe7295222f14_e3f3e406bc69a4c2ae732e4e5329185f\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "scoring_type": "per-question",
+            "acknowledgements": null
+          },
+          "workflow": [],
+          "response_ids": [
+            "50275a20-91fa-38e4-9414-fe7295222f14_e3f3e406bc69a4c2ae732e4e5329185f"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "<p>translation:&nbsp;\\((x,\\ y)\\)&nbsp;→&nbsp;\\(\\text{(}\\){{response}}, {{response}}\\(\\text{)}\\)</p>\n\n<p><span>translation:&nbsp;</span>\\((x,\\ y)\\)<span> →&nbsp;</span>\\(\\text{(}\\)<span>{{response}},&nbsp;{{response}}</span>\\(\\text{)}\\)</p>\n",
+              "response_container": {
+                "template": ""
+              },
+              "is_math": true,
+              "response_containers": [],
+              "stimulus": "<p>Describe the composition of translations.</p>\n\n<p><img alt=\"Three triangles, one blue, one red and one green, plotted on a coordinate plane. The x-axis extended from negative 6 to 6, in increments of 1. The y-axis is extended from negative 5 to 5, in increments of 1. The blue triangle A B C has vertex A at ordered pair negative 4 comma 2, vertex B at ordered pair negative 1 comma 1 and vertex C at ordered pair negative 4 comma 1. The red triangle has vertex A prime at ordered pair 1 comma 3, vertex B prime at ordered pair 4 comma 2 and vertex C prime at ordered pair 1 comma 2. The green triangle has vertex A double prime at ordered pair negative 4 comma negative 2, vertex B double prime at ordered pair negative 1 comma negative 3 and vertex C double prime at ordered pair negative 4 comma negative 3. An arrow points from the blue triangle to the red triangle. Another arrow points from the red triangle to the green triangle.\" height=\"223\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom 040123.PNG\" width=\"265\" /></p>\n",
+              "ui_style": {
+                "type": "block-on-focus-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "clozeformula",
+              "validation": {
+                "scoring_type": "partialMatchV2",
+                "rounding": "none",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    [
+                      {
+                        "method": "equivSymbolic",
+                        "options": {
+                          "inverseResult": false,
+                          "allowDecimal": false,
+                          "decimalPlaces": 10
+                        },
+                        "value": "x+5"
+                      }
+                    ],
+                    [
+                      {
+                        "method": "equivSymbolic",
+                        "options": {
+                          "inverseResult": false,
+                          "allowDecimal": false,
+                          "decimalPlaces": 10
+                        },
+                        "value": "y+1"
+                      }
+                    ],
+                    [
+                      {
+                        "method": "equivSymbolic",
+                        "options": {
+                          "inverseResult": false,
+                          "allowDecimal": false,
+                          "decimalPlaces": 10
+                        },
+                        "value": "x-5"
+                      }
+                    ],
+                    [
+                      {
+                        "method": "equivSymbolic",
+                        "options": {
+                          "inverseResult": false,
+                          "allowDecimal": false,
+                          "decimalPlaces": 10
+                        },
+                        "value": "y-5"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "equiv_literal_legacy": true,
+              "metadata": {
+                "valid_response_count": 4,
+                "sheet_reference": "HSCC_Geom_04.01.23",
+                "widget_reference": "57af00fd-fbdf-4db7-a717-62171b07eee5",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_e3f3e406bc69a4c2ae732e4e5329185f"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.01.24",
+          "source": {
+            "reference": "HSCC_Geom_04.01.24",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-50275a20-91fa-38e4-9414-fe7295222f14_cd910226fe2b34daba87c489b1c121ba\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "scoring_type": "per-question",
+            "acknowledgements": null
+          },
+          "workflow": [],
+          "response_ids": [
+            "50275a20-91fa-38e4-9414-fe7295222f14_cd910226fe2b34daba87c489b1c121ba"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "<p>translation:&nbsp;\\((x,\\ y)\\) →&nbsp;\\(\\text{(}\\){{response}}, {{response}}\\(\\text{)}\\)</p>\n\n<p><span>translation:&nbsp;</span>\\((x,\\ y)\\)<span> →&nbsp;</span>\\(\\text{(}\\)<span>{{response}},&nbsp;{{response}}</span>\\(\\text{)}\\)</p>\n",
+              "response_container": {
+                "template": ""
+              },
+              "is_math": true,
+              "response_containers": [],
+              "stimulus": "<p>Describe the composition of translations.</p>\n\n<p>&nbsp; &nbsp;<img alt=\"Three trapezoids, one blue, one red and one green, plotted on a coordinate plane. The x-axis is extended from negative 6 to 6, in increments of 1. The y-axis is extended from negative 5 to 5, in increments of 1. The blue trapezoid G D E F has vertex G at ordered pair negative 5 comma 1, vertex D at ordered pair negative 5 comma 3, vertex E at ordered pair negative 3 comma 3 and vertex F at ordered pair negative 1 comma 1. The red trapezoid has vertex G prime at ordered pair 1 comma negative 3, vertex D prime at ordered pair 1 comma negative 1, vertex E prime at ordered pair 3 comma negative 1 and vertex F prime at ordered pair 5 comma negative 3. The green trapezoid has vertex G double prime at ordered pair negative 5 comma negative 3, vertex D double prime at ordered pair negative 5 comma negative 1, vertex E double prime at ordered pair negative 3 comma negative 1 and vertex F double prime at ordered pair negative 1 comma negative 3. An arrow points from the blue trapezoid to the red trapezoid. Another arrow points from the red trapezoid to the green trapezoid.\" height=\"218\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom 040124.PNG\" width=\"260\" /></p>\n",
+              "ui_style": {
+                "type": "block-on-focus-keyboard",
+                "response_font_scale": "normal"
+              },
+              "type": "clozeformula",
+              "validation": {
+                "scoring_type": "partialMatchV2",
+                "rounding": "none",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    [
+                      {
+                        "method": "equivSymbolic",
+                        "options": {
+                          "inverseResult": false,
+                          "allowDecimal": false,
+                          "decimalPlaces": 10
+                        },
+                        "value": "x+6"
+                      }
+                    ],
+                    [
+                      {
+                        "method": "equivSymbolic",
+                        "options": {
+                          "inverseResult": false,
+                          "allowDecimal": false,
+                          "decimalPlaces": 10
+                        },
+                        "value": "y-4"
+                      }
+                    ],
+                    [
+                      {
+                        "method": "equivSymbolic",
+                        "options": {
+                          "inverseResult": false,
+                          "allowDecimal": false,
+                          "decimalPlaces": 10
+                        },
+                        "value": "x-6"
+                      }
+                    ],
+                    [
+                      {
+                        "method": "equivSymbolic",
+                        "options": {
+                          "inverseResult": false,
+                          "allowDecimal": false,
+                          "decimalPlaces": 10
+                        },
+                        "value": "y"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "equiv_literal_legacy": true,
+              "metadata": {
+                "valid_response_count": 4,
+                "sheet_reference": "HSCC_Geom_04.01.24",
+                "widget_reference": "a15ae46b-9062-4923-9b21-76ee4ffa12a8",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_cd910226fe2b34daba87c489b1c121ba"
+            }
+          ],
+          "features": []
+        },
+        {
+          "reference": "HSCC_Geom_04.01.32",
+          "source": {
+            "reference": "HSCC_Geom_04.01.32",
+            "organisation_id": 315
+          },
+          "content": "<div class=\"row\"><div class=\"col-xs-12\"><span class=\"learnosity-response question-50275a20-91fa-38e4-9414-fe7295222f14_4f41dac123032fb3821539f8172e2454\"></span></div></div>",
+          "metadata": {
+            "original_item_bank": "@ Big Ideas Learning",
+            "scoring_type": "per-question",
+            "acknowledgements": null,
+            "hashMap": [
+              {
+                "nativeHash": "47790588be436526859b132d8079b01b",
+                "overrideHash": "47790588be436526859b132d8079b01b",
+                "enManuscript": "HOW DO YOU SEE IT? Two figures represent a translation. Describe the translation.",
+                "espOnly": false
+              }
+            ]
+          },
+          "workflow": [],
+          "response_ids": [
+            "50275a20-91fa-38e4-9414-fe7295222f14_4f41dac123032fb3821539f8172e2454"
+          ],
+          "feature_ids": [],
+          "questions": [
+            {
+              "template": "<p><span><span>To go from figure </span>{{response}}<span> to figure </span>{{response}}<span>, you move </span>{{response}}<span> units right and </span>{{response}}<span> units up.</span></span></p>\n",
+              "response_container": {
+                "pointer": "left"
+              },
+              "stimulus": "<p><strong><span style=\"color:#FF0000\">HOW DO YOU SEE IT?&nbsp; </span></strong>Two figures represent a translation. Describe the translation.</p>\n\n<p><img alt=\"Nine polygons drawn on a grid. Polygons 5 and 7 are congruent. The top left corner of polygon 5 is at position 8 comma 8. The top left corner of polygon 7 is a position 12 comma 16.\" height=\"233\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/HSCC_Geom_04.01.32.png\" width=\"261\" /></p>\n",
+              "type": "clozedropdown",
+              "possible_responses": [
+                [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              ],
+              "validation": {
+                "scoring_type": "partialMatchV2",
+                "rounding": "none",
+                "valid_response": {
+                  "score": 1,
+                  "value": [
+                    "5",
+                    "7",
+                    "4",
+                    "8"
+                  ]
+                }
+              },
+              "metadata": {
+                "valid_response_count": 4,
+                "sheet_reference": "HSCC_Geom_04.01.32",
+                "widget_reference": "56659942-1eb9-4a2e-96d6-2a693a00a425",
+                "source": {
+                  "organisation_id": 315
+                }
+              },
+              "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_4f41dac123032fb3821539f8172e2454"
+            }
+          ],
+          "features": []
+        }
+      ],
+      "questionsApiActivity": {
+        "consumer_key": "8EO6ataGL8M5Tuxx",
+        "user_id": "USRstudent37941401101061",
+        "timestamp": "20240109-0013",
+        "signature": "$02$c466f3b2d4767878db3fe5aed5a06fe49e48b0a68e5bacabfbe5552bc685fe91",
+        "session_id": "50275a20-91fa-38e4-9414-fe7295222f14",
+        "type": "submit_practice",
+        "name": "HW 4.1",
+        "id": "4cc10883-e4c7-4741-a686-e141f3ead4a4",
+        "state": "resume",
+        "captureOnResumeError": true,
+        "math_renderer": "mathquill",
+        "questions": [
+          {
+            "template": "\\(\\left(x,\\ y\\right)\\ \\)→ \\(\\text{(}\\)<span>{{response}}, {{response}}</span>\\(\\text{)}\\)",
+            "response_container": {
+              "template": ""
+            },
+            "is_math": true,
+            "response_containers": [],
+            "stimulus": "<p>Write a rule for the translation of&nbsp;\\(\\triangle LMN\\)&nbsp;to &nbsp;\\(\\triangle L'\\)\\(M'\\)\\(N'\\).</p>\n\n<p>&nbsp;&nbsp;<img alt=\"Two triangles, one red and one blue, plotted on a coordinate plane. The x-axis extended from negative 6 to 7, in increments of 1. The y-axis is extended from negative 3 to 5, in increments of 1. The blue triangle L M N has vertex L at ordered pair 1 comma negative 1, vertex M at ordered pair 4 comma 1 and vertex N at ordered pair 5 comma negative 1. The red triangle L prime M prime N prime has vertex L prime at ordered pair negative 4 comma 1, vertex M prime at ordered pair negative 1 comma 3 and vertex N prime at ordered pair 0 comma 1.\" height=\"188\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom 040111.PNG\" width=\"300\" /></p>\n",
+            "ui_style": {
+              "type": "block-on-focus-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "clozeformula",
+            "validation": {
+              "scoring_type": "partialMatchV2",
+              "rounding": "none",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "value": "x-5",
+                      "options": {
+                        "ignoreOrder": true,
+                        "inverseResult": false,
+                        "ignoreTrailingZeros": true,
+                        "ignoreCoefficientOne": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "value": "y+2",
+                      "options": {
+                        "ignoreOrder": true,
+                        "inverseResult": false,
+                        "ignoreTrailingZeros": true,
+                        "ignoreCoefficientOne": true
+                      }
+                    }
+                  ]
+                ]
+              }
+            },
+            "equiv_literal_legacy": true,
+            "metadata": {
+              "valid_response_count": 2,
+              "sheet_reference": "HSCC_Geom_04.01.11",
+              "widget_reference": "edb2d3a2-5b74-41d3-9968-878fd9a84efe",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_c98498c5736d1569de8c9f45056f2578"
+          },
+          {
+            "template": "\\(\\left(x,\\ y\\right)\\ \\)→&nbsp;\\(\\text{(}\\)<span>{{response}}, {{response}}</span>\\(\\text{)}\\)",
+            "response_container": {
+              "template": ""
+            },
+            "is_math": true,
+            "response_containers": [],
+            "stimulus": "<p>Write a rule for the translation of&nbsp;\\(\\triangle LMN\\)&nbsp;to&nbsp;\\(\\triangle L'\\)\\(M'\\)\\(N'\\).</p>\n\n<p>&nbsp; &nbsp;<img alt=\"Two triangles, one red and one blue, plotted on a coordinate plane. The x-axis extended from negative 9 to 4, in increments of 1. The y-axis is extended from negative 7 to 2, in increments of 1. The blue triangle L M N has vertex L at ordered pair negative 6 comma negative 4, vertex M at ordered pair negative 5 comma negative 1 and vertex N at ordered pair negative 2 comma negative 4. The red triangle L prime M prime N prime has vertex L prime at ordered pair negative 3 comma negative 3, vertex M prime at ordered pair negative 2 comma 0 and vertex N prime at ordered pair 1 comma negative 3.\" height=\"215\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom 040112.PNG\" width=\"300\" /></p>\n",
+            "ui_style": {
+              "type": "block-on-focus-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "clozeformula",
+            "validation": {
+              "scoring_type": "partialMatchV2",
+              "rounding": "none",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "value": "x+3",
+                      "options": {
+                        "ignoreOrder": true,
+                        "inverseResult": false,
+                        "ignoreTrailingZeros": true,
+                        "ignoreCoefficientOne": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "value": "y+1",
+                      "options": {
+                        "ignoreOrder": true,
+                        "inverseResult": false,
+                        "ignoreTrailingZeros": true,
+                        "ignoreCoefficientOne": true
+                      }
+                    }
+                  ]
+                ]
+              }
+            },
+            "equiv_literal_legacy": true,
+            "metadata": {
+              "valid_response_count": 2,
+              "sheet_reference": "HSCC_Geom_04.01.12",
+              "widget_reference": "79d725ef-1182-4eda-836d-1d366db8a41b",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_0ceb521e4666f236dd75d0e59305b952"
+          },
+          {
+            "template": "<p>\\(A'\\)\\(\\text{(}\\){{response}}, {{response}}\\(\\text{)}\\)</p>\n",
+            "response_container": {
+              "template": ""
+            },
+            "is_math": true,
+            "response_containers": [],
+            "equiv_literal_legacy": true,
+            "stimulus": "<p>Use the translation&nbsp;\\(\\left(x,\\ y\\right)\\)→&nbsp;\\(\\left(x-8,\\ y+4\\right)\\)<span>&nbsp;to answer the question. &nbsp;</span></p>\n\n<p>What is the image of&nbsp;\\(A\\left(2,\\ 6\\right)\\)?</p>\n",
+            "ui_style": {
+              "type": "block-on-focus-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "clozeformula",
+            "validation": {
+              "scoring_type": "partialMatchV2",
+              "rounding": "none",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "allowDecimal": false,
+                        "ignoreOrder": false
+                      },
+                      "value": "-6"
+                    }
+                  ],
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "allowDecimal": false,
+                        "ignoreOrder": false
+                      },
+                      "value": "10"
+                    }
+                  ]
+                ]
+              }
+            },
+            "text_blocks": [],
+            "metadata": {
+              "valid_response_count": 2,
+              "sheet_reference": "HSCC_Geom_04.01.13",
+              "widget_reference": "b705b575-f14a-4fb7-8da5-355d8761a99b",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_1be98ffb749efc09d0c0aa48b7ab8fc8"
+          },
+          {
+            "template": "<p>\\(B'\\)\\(\\text{(}\\){{response}}, {{response}}\\(\\text{)}\\)</p>\n",
+            "response_container": {
+              "template": ""
+            },
+            "is_math": true,
+            "response_containers": [],
+            "equiv_literal_legacy": true,
+            "stimulus": "<p>Use the translation&nbsp;\\(\\left(x,\\ y\\right)\\)<span>→</span>&nbsp;\\(\\left(x-8,\\ y+4\\right)\\)<span>&nbsp;to answer the question. &nbsp;</span></p>\n\n<p>What is the image of&nbsp;\\(B\\left(-1,\\ 5\\right)\\)?</p>\n",
+            "ui_style": {
+              "type": "block-on-focus-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "clozeformula",
+            "validation": {
+              "scoring_type": "partialMatchV2",
+              "rounding": "none",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "allowDecimal": false,
+                        "ignoreOrder": false
+                      },
+                      "value": "-9"
+                    }
+                  ],
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "allowDecimal": false,
+                        "ignoreOrder": false
+                      },
+                      "value": "9"
+                    }
+                  ]
+                ]
+              }
+            },
+            "text_blocks": [],
+            "metadata": {
+              "valid_response_count": 2,
+              "sheet_reference": "HSCC_Geom_04.01.14",
+              "widget_reference": "e29a62a0-c5cf-4b89-91c8-e9e4609768d4",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_5d2e1f69550d9123f10d927fb6488dcf"
+          },
+          {
+            "template": "<p>\\(C\\)\\(\\text{(}\\){{response}}, {{response}}\\(\\text{)} \\)</p>\n",
+            "response_container": {
+              "template": ""
+            },
+            "is_math": true,
+            "response_containers": [],
+            "equiv_literal_legacy": true,
+            "stimulus": "<p>Use the translation&nbsp;\\(\\left(x,\\ y\\right)\\)&nbsp;<span>→</span>&nbsp;\\(\\left(x-8,\\ y+4\\right)\\)<span>&nbsp;to answer the question. &nbsp;</span></p>\n\n<p>What is the preimage of&nbsp;\\(C'\\left(-3,-10\\right)\\)?</p>\n",
+            "ui_style": {
+              "type": "block-on-focus-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "clozeformula",
+            "validation": {
+              "scoring_type": "partialMatchV2",
+              "rounding": "none",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "allowDecimal": false,
+                        "ignoreOrder": false
+                      },
+                      "value": "5"
+                    }
+                  ],
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "allowDecimal": false,
+                        "ignoreOrder": false
+                      },
+                      "value": "-14"
+                    }
+                  ]
+                ]
+              }
+            },
+            "text_blocks": [],
+            "metadata": {
+              "valid_response_count": 2,
+              "sheet_reference": "HSCC_Geom_04.01.15",
+              "widget_reference": "12e29f16-f17e-4b34-8159-3039f4948fd6",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_7d1510e30f7955cc53fba062b5d4fd5e"
+          },
+          {
+            "template": "<p>\\(D\\)\\(\\text{(}\\){{response}}, {{response}}\\(\\text{)}\\)</p>\n",
+            "response_container": {
+              "template": ""
+            },
+            "is_math": true,
+            "response_containers": [],
+            "equiv_literal_legacy": true,
+            "stimulus": "<p>Use the translation&nbsp;\\(\\left(x,\\ y\\right)\\)<span>&nbsp;→</span>&nbsp;\\(\\left(x-8,\\ y+4\\right)\\)<span>&nbsp;to answer the question. &nbsp;</span></p>\n\n<p>What is the preimage of&nbsp;\\(D'\\left(4,-3\\right)\\)?</p>\n",
+            "ui_style": {
+              "type": "block-on-focus-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "clozeformula",
+            "validation": {
+              "scoring_type": "partialMatchV2",
+              "rounding": "none",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "allowDecimal": false,
+                        "ignoreOrder": false
+                      },
+                      "value": "12"
+                    }
+                  ],
+                  [
+                    {
+                      "method": "equivLiteral",
+                      "options": {
+                        "inverseResult": false,
+                        "ignoreCoefficientOne": true,
+                        "ignoreTrailingZeros": true,
+                        "allowDecimal": false,
+                        "ignoreOrder": false
+                      },
+                      "value": "-7"
+                    }
+                  ]
+                ]
+              }
+            },
+            "text_blocks": [],
+            "metadata": {
+              "valid_response_count": 2,
+              "sheet_reference": "HSCC_Geom_04.01.16",
+              "widget_reference": "0c0e21fe-13c1-4a22-afca-cf92eec13382",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_8af765ab3cdf0e15e7951ef784d728a6"
+          },
+          {
+            "toolbar": {
+              "default_tool": "polygon",
+              "tools": [
+                "polygon"
+              ]
+            },
+            "background_image": {
+              "src": ""
+            },
+            "canvas": {
+              "y_min": -10.4,
+              "x_max": 10.4,
+              "y_max": 10.4,
+              "snap_to": "grid",
+              "x_min": -10.4
+            },
+            "is_math": true,
+            "grid": {
+              "y_distance": 1,
+              "x_distance": 1
+            },
+            "stimulus": "<p><span>Graph </span>&nbsp;\\(\\triangle PQR\\)<span> with vertices </span>\\(P(-2,\\ 3)\\)<span>, </span>\\(Q(1,\\ 2)\\)<span>, and &nbsp;</span>\\(R(3,-1)\\)<span>&nbsp;and its image after the translation</span></p>\n\n<p>\\(\\left(x,y\\right)\\)&nbsp;→&nbsp;\\(\\left(x+4,\\ y+6\\right)\\).</p>\n\n<p>&nbsp;</p>\n",
+            "axis_x": {
+              "ticks_distance": 2,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "draw_labels": true
+            },
+            "axis_y": {
+              "ticks_distance": 2,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "draw_labels": true
+            },
+            "ui_style": {
+              "width": "500px",
+              "height": "500px"
+            },
+            "type": "graphplotting",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "ignore_repeated_shapes": "yes",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  {
+                    "id": "lrn_1",
+                    "type": "point",
+                    "coords": {
+                      "x": 2,
+                      "y": 9
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_2",
+                    "type": "point",
+                    "coords": {
+                      "x": 5,
+                      "y": 8
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_3",
+                    "type": "point",
+                    "coords": {
+                      "x": 7,
+                      "y": 5
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_1",
+                      "lrn_2",
+                      "lrn_3",
+                      "lrn_1"
+                    ],
+                    "id": "lrn_4",
+                    "type": "polygon"
+                  },
+                  {
+                    "id": "lrn_8",
+                    "type": "point",
+                    "coords": {
+                      "x": -2,
+                      "y": 3
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_9",
+                    "type": "point",
+                    "coords": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_10",
+                    "type": "point",
+                    "coords": {
+                      "x": 3,
+                      "y": -1
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_8",
+                      "lrn_9",
+                      "lrn_10",
+                      "lrn_8"
+                    ],
+                    "id": "lrn_11",
+                    "type": "polygon"
+                  }
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 8,
+              "sheet_reference": "HSCC_Geom_04.01.17",
+              "widget_reference": "ed968aec-8b08-4765-9051-016695743483",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_b4755318b4e1ac97af993a6d04016f20"
+          },
+          {
+            "toolbar": {
+              "default_tool": "polygon",
+              "tools": [
+                "polygon"
+              ]
+            },
+            "background_image": {
+              "src": ""
+            },
+            "canvas": {
+              "y_min": -7.4,
+              "x_max": 7.4,
+              "y_max": 7.4,
+              "snap_to": "grid",
+              "x_min": -7.4
+            },
+            "is_math": true,
+            "grid": {
+              "y_distance": 1,
+              "x_distance": 1
+            },
+            "stimulus": "<p><span>Graph&nbsp;</span>\\(\\triangle PQR\\)<span> with vertices </span>\\(P(-2,\\ 3)\\)<span>, </span>\\(Q(1,\\ 2)\\)<span>, and </span>\\(R(3,-1)\\)<span>&nbsp; and its image after the translation</span></p>\n\n<p>\\(\\left(x,\\ y\\right)\\)&nbsp;<span>→</span>&nbsp;\\(\\left(x-2,\\ y-5\\right)\\).</p>\n\n<p>&nbsp;</p>\n",
+            "axis_x": {
+              "ticks_distance": 1,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "draw_labels": true
+            },
+            "axis_y": {
+              "ticks_distance": 1,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "draw_labels": true
+            },
+            "ui_style": {
+              "width": "500px",
+              "height": "500px"
+            },
+            "type": "graphplotting",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "ignore_repeated_shapes": "yes",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  {
+                    "id": "lrn_1",
+                    "type": "point",
+                    "coords": {
+                      "x": -4,
+                      "y": -2
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_2",
+                    "type": "point",
+                    "coords": {
+                      "x": -1,
+                      "y": -3
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_3",
+                    "type": "point",
+                    "coords": {
+                      "x": 1,
+                      "y": -6
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_1",
+                      "lrn_2",
+                      "lrn_3",
+                      "lrn_1"
+                    ],
+                    "id": "lrn_4",
+                    "type": "polygon"
+                  },
+                  {
+                    "id": "lrn_8",
+                    "type": "point",
+                    "coords": {
+                      "x": -2,
+                      "y": 3
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_9",
+                    "type": "point",
+                    "coords": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_10",
+                    "type": "point",
+                    "coords": {
+                      "x": 3,
+                      "y": -1
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_8",
+                      "lrn_9",
+                      "lrn_10",
+                      "lrn_8"
+                    ],
+                    "id": "lrn_11",
+                    "type": "polygon"
+                  }
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 8,
+              "sheet_reference": "HSCC_Geom_04.01.19",
+              "widget_reference": "0dfba05f-93b2-4a97-966d-c45a404b05cf",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_ad3bde035b47f0c2f3a9177a629632d7"
+          },
+          {
+            "toolbar": {
+              "default_tool": "polygon",
+              "tools": [
+                "polygon"
+              ]
+            },
+            "background_image": {
+              "src": ""
+            },
+            "canvas": {
+              "y_min": -9.4,
+              "x_max": 13.4,
+              "y_max": 13.4,
+              "snap_to": "grid",
+              "x_min": -9.4
+            },
+            "is_math": true,
+            "grid": {
+              "y_distance": 1,
+              "x_distance": 1
+            },
+            "stimulus": "<p><span>Graph&nbsp;</span>\\(\\triangle XYZ\\) with vertices \\(X(2,\\ 4)\\), \\(Y(6,\\ 0)\\) and \\(Z(7,\\ 2)\\) and its image after&nbsp;the composition.</p>\n\n<p>Translation: \\((x,\\ y)\\) <span>→</span> \\((x-6,\\ y)\\)</p>\n\n<p>Translation: \\((x,\\ y)\\) <span>→</span> \\((x+2,\\ y+7)\\)</p>\n",
+            "axis_x": {
+              "ticks_distance": 2,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "draw_labels": true
+            },
+            "axis_y": {
+              "ticks_distance": 2,
+              "show_first_arrow": true,
+              "show_last_arrow": true,
+              "draw_labels": true
+            },
+            "ui_style": {
+              "width": "500px",
+              "height": "500px"
+            },
+            "type": "graphplotting",
+            "validation": {
+              "scoring_type": "exactMatch",
+              "alt_responses": [
+                {
+                  "score": 1,
+                  "value": [
+                    {
+                      "id": "lrn_1",
+                      "type": "point",
+                      "coords": {
+                        "x": 2,
+                        "y": 4
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_2",
+                      "type": "point",
+                      "coords": {
+                        "x": 6,
+                        "y": 0
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_3",
+                      "type": "point",
+                      "coords": {
+                        "x": 7,
+                        "y": 2
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_1",
+                        "lrn_2",
+                        "lrn_3",
+                        "lrn_1"
+                      ],
+                      "id": "lrn_4",
+                      "type": "polygon"
+                    },
+                    {
+                      "id": "lrn_5",
+                      "type": "point",
+                      "coords": {
+                        "x": 2,
+                        "y": 7
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_6",
+                      "type": "point",
+                      "coords": {
+                        "x": -2,
+                        "y": 11
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "id": "lrn_7",
+                      "type": "point",
+                      "coords": {
+                        "x": 3,
+                        "y": 9
+                      },
+                      "subElement": true
+                    },
+                    {
+                      "subElementsIds": [
+                        "lrn_5",
+                        "lrn_6",
+                        "lrn_7",
+                        "lrn_5"
+                      ],
+                      "id": "lrn_8",
+                      "type": "polygon"
+                    }
+                  ]
+                }
+              ],
+              "ignore_repeated_shapes": "yes",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  {
+                    "id": "lrn_1",
+                    "type": "point",
+                    "coords": {
+                      "x": -2,
+                      "y": 11
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_2",
+                    "type": "point",
+                    "coords": {
+                      "x": 2,
+                      "y": 7
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_3",
+                    "type": "point",
+                    "coords": {
+                      "x": 3,
+                      "y": 9
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_1",
+                      "lrn_2",
+                      "lrn_3",
+                      "lrn_1"
+                    ],
+                    "id": "lrn_4",
+                    "type": "polygon"
+                  },
+                  {
+                    "id": "lrn_5",
+                    "type": "point",
+                    "coords": {
+                      "x": -4,
+                      "y": 4
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_6",
+                    "type": "point",
+                    "coords": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_7",
+                    "type": "point",
+                    "coords": {
+                      "x": 0,
+                      "y": 0
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_5",
+                      "lrn_6",
+                      "lrn_7",
+                      "lrn_5"
+                    ],
+                    "id": "lrn_8",
+                    "type": "polygon"
+                  },
+                  {
+                    "id": "lrn_9",
+                    "type": "point",
+                    "coords": {
+                      "x": 2,
+                      "y": 4
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_10",
+                    "type": "point",
+                    "coords": {
+                      "x": 6,
+                      "y": 0
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "id": "lrn_11",
+                    "type": "point",
+                    "coords": {
+                      "x": 7,
+                      "y": 2
+                    },
+                    "subElement": true
+                  },
+                  {
+                    "subElementsIds": [
+                      "lrn_9",
+                      "lrn_10",
+                      "lrn_11",
+                      "lrn_9"
+                    ],
+                    "id": "lrn_12",
+                    "type": "polygon"
+                  }
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 12,
+              "sheet_reference": "HSCC_Geom_04.01.22",
+              "widget_reference": "0dcc8375-6c52-4494-b758-306eb7fa86d7",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_d9c29a751fea15a742759cfc75786ca1"
+          },
+          {
+            "template": "<p>translation:&nbsp;\\((x,\\ y)\\)&nbsp;→&nbsp;\\(\\text{(}\\){{response}}, {{response}}\\(\\text{)}\\)</p>\n\n<p><span>translation:&nbsp;</span>\\((x,\\ y)\\)<span> →&nbsp;</span>\\(\\text{(}\\)<span>{{response}},&nbsp;{{response}}</span>\\(\\text{)}\\)</p>\n",
+            "response_container": {
+              "template": ""
+            },
+            "is_math": true,
+            "response_containers": [],
+            "stimulus": "<p>Describe the composition of translations.</p>\n\n<p><img alt=\"Three triangles, one blue, one red and one green, plotted on a coordinate plane. The x-axis extended from negative 6 to 6, in increments of 1. The y-axis is extended from negative 5 to 5, in increments of 1. The blue triangle A B C has vertex A at ordered pair negative 4 comma 2, vertex B at ordered pair negative 1 comma 1 and vertex C at ordered pair negative 4 comma 1. The red triangle has vertex A prime at ordered pair 1 comma 3, vertex B prime at ordered pair 4 comma 2 and vertex C prime at ordered pair 1 comma 2. The green triangle has vertex A double prime at ordered pair negative 4 comma negative 2, vertex B double prime at ordered pair negative 1 comma negative 3 and vertex C double prime at ordered pair negative 4 comma negative 3. An arrow points from the blue triangle to the red triangle. Another arrow points from the red triangle to the green triangle.\" height=\"223\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom 040123.PNG\" width=\"265\" /></p>\n",
+            "ui_style": {
+              "type": "block-on-focus-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "clozeformula",
+            "validation": {
+              "scoring_type": "partialMatchV2",
+              "rounding": "none",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  [
+                    {
+                      "method": "equivSymbolic",
+                      "options": {
+                        "inverseResult": false,
+                        "allowDecimal": false,
+                        "decimalPlaces": 10
+                      },
+                      "value": "x+5"
+                    }
+                  ],
+                  [
+                    {
+                      "method": "equivSymbolic",
+                      "options": {
+                        "inverseResult": false,
+                        "allowDecimal": false,
+                        "decimalPlaces": 10
+                      },
+                      "value": "y+1"
+                    }
+                  ],
+                  [
+                    {
+                      "method": "equivSymbolic",
+                      "options": {
+                        "inverseResult": false,
+                        "allowDecimal": false,
+                        "decimalPlaces": 10
+                      },
+                      "value": "x-5"
+                    }
+                  ],
+                  [
+                    {
+                      "method": "equivSymbolic",
+                      "options": {
+                        "inverseResult": false,
+                        "allowDecimal": false,
+                        "decimalPlaces": 10
+                      },
+                      "value": "y-5"
+                    }
+                  ]
+                ]
+              }
+            },
+            "equiv_literal_legacy": true,
+            "metadata": {
+              "valid_response_count": 4,
+              "sheet_reference": "HSCC_Geom_04.01.23",
+              "widget_reference": "57af00fd-fbdf-4db7-a717-62171b07eee5",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_e3f3e406bc69a4c2ae732e4e5329185f"
+          },
+          {
+            "template": "<p>translation:&nbsp;\\((x,\\ y)\\) →&nbsp;\\(\\text{(}\\){{response}}, {{response}}\\(\\text{)}\\)</p>\n\n<p><span>translation:&nbsp;</span>\\((x,\\ y)\\)<span> →&nbsp;</span>\\(\\text{(}\\)<span>{{response}},&nbsp;{{response}}</span>\\(\\text{)}\\)</p>\n",
+            "response_container": {
+              "template": ""
+            },
+            "is_math": true,
+            "response_containers": [],
+            "stimulus": "<p>Describe the composition of translations.</p>\n\n<p>&nbsp; &nbsp;<img alt=\"Three trapezoids, one blue, one red and one green, plotted on a coordinate plane. The x-axis is extended from negative 6 to 6, in increments of 1. The y-axis is extended from negative 5 to 5, in increments of 1. The blue trapezoid G D E F has vertex G at ordered pair negative 5 comma 1, vertex D at ordered pair negative 5 comma 3, vertex E at ordered pair negative 3 comma 3 and vertex F at ordered pair negative 1 comma 1. The red trapezoid has vertex G prime at ordered pair 1 comma negative 3, vertex D prime at ordered pair 1 comma negative 1, vertex E prime at ordered pair 3 comma negative 1 and vertex F prime at ordered pair 5 comma negative 3. The green trapezoid has vertex G double prime at ordered pair negative 5 comma negative 3, vertex D double prime at ordered pair negative 5 comma negative 1, vertex E double prime at ordered pair negative 3 comma negative 1 and vertex F double prime at ordered pair negative 1 comma negative 3. An arrow points from the blue trapezoid to the red trapezoid. Another arrow points from the red trapezoid to the green trapezoid.\" height=\"218\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/geom 040124.PNG\" width=\"260\" /></p>\n",
+            "ui_style": {
+              "type": "block-on-focus-keyboard",
+              "response_font_scale": "normal"
+            },
+            "type": "clozeformula",
+            "validation": {
+              "scoring_type": "partialMatchV2",
+              "rounding": "none",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  [
+                    {
+                      "method": "equivSymbolic",
+                      "options": {
+                        "inverseResult": false,
+                        "allowDecimal": false,
+                        "decimalPlaces": 10
+                      },
+                      "value": "x+6"
+                    }
+                  ],
+                  [
+                    {
+                      "method": "equivSymbolic",
+                      "options": {
+                        "inverseResult": false,
+                        "allowDecimal": false,
+                        "decimalPlaces": 10
+                      },
+                      "value": "y-4"
+                    }
+                  ],
+                  [
+                    {
+                      "method": "equivSymbolic",
+                      "options": {
+                        "inverseResult": false,
+                        "allowDecimal": false,
+                        "decimalPlaces": 10
+                      },
+                      "value": "x-6"
+                    }
+                  ],
+                  [
+                    {
+                      "method": "equivSymbolic",
+                      "options": {
+                        "inverseResult": false,
+                        "allowDecimal": false,
+                        "decimalPlaces": 10
+                      },
+                      "value": "y"
+                    }
+                  ]
+                ]
+              }
+            },
+            "equiv_literal_legacy": true,
+            "metadata": {
+              "valid_response_count": 4,
+              "sheet_reference": "HSCC_Geom_04.01.24",
+              "widget_reference": "a15ae46b-9062-4923-9b21-76ee4ffa12a8",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_cd910226fe2b34daba87c489b1c121ba"
+          },
+          {
+            "template": "<p><span><span>To go from figure </span>{{response}}<span> to figure </span>{{response}}<span>, you move </span>{{response}}<span> units right and </span>{{response}}<span> units up.</span></span></p>\n",
+            "response_container": {
+              "pointer": "left"
+            },
+            "stimulus": "<p><strong><span style=\"color:#FF0000\">HOW DO YOU SEE IT?&nbsp; </span></strong>Two figures represent a translation. Describe the translation.</p>\n\n<p><img alt=\"Nine polygons drawn on a grid. Polygons 5 and 7 are congruent. The top left corner of polygon 5 is at position 8 comma 8. The top left corner of polygon 7 is a position 12 comma 16.\" height=\"233\" src=\"//dw6y82u65ww8h.cloudfront.net/organisations/48/HSCC_Geom_04.01.32.png\" width=\"261\" /></p>\n",
+            "type": "clozedropdown",
+            "possible_responses": [
+              [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+              ],
+              [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+              ],
+              [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+              ],
+              [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+              ]
+            ],
+            "validation": {
+              "scoring_type": "partialMatchV2",
+              "rounding": "none",
+              "valid_response": {
+                "score": 1,
+                "value": [
+                  "5",
+                  "7",
+                  "4",
+                  "8"
+                ]
+              }
+            },
+            "metadata": {
+              "valid_response_count": 4,
+              "sheet_reference": "HSCC_Geom_04.01.32",
+              "widget_reference": "56659942-1eb9-4a2e-96d6-2a693a00a425",
+              "source": {
+                "organisation_id": 315
+              }
+            },
+            "response_id": "50275a20-91fa-38e4-9414-fe7295222f14_4f41dac123032fb3821539f8172e2454"
+          }
+        ]
+      },
+      "annotationsApiActivity": {
+        "security": {
+          "signature": "$02$768c55f127bc13a81f05cd91d08b09d904d3ba2d7d5608022a8b1f33cd3e8351",
+          "consumer_key": "8EO6ataGL8M5Tuxx",
+          "domain": "www.bigideasmath.com",
+          "timestamp": "20240109-0013"
+        },
+        "request": {
+          "modules": {
+            "drawing": true
+          },
+          "editable": true,
+          "group_id": "50275a20-91fa-38e4-9414-fe7295222f14"
+        }
+      },
+      "annotation": true,
+      "navigation": {
+        "show_intro": false,
+        "autosave": {
+          "ui": true,
+          "save_interval_duration": 300
+        },
+        "show_outro": false
+      },
+      "regions": "horizontal",
+      "region_overrides": {
+        "top-right.pause_button": false,
+        "items.progress_element": true,
+        "top-right": [
+          {
+            "position": "right",
+            "type": "flagitem_button",
+            "show_label_option": "false"
+          },
+          {
+            "options": {
+              "name": "checkAnswer",
+              "icon_class": "icon-check-answer-button",
+              "label": "Check"
+            },
+            "position": "left",
+            "type": "custom_button"
+          },
+          {
+            "options": {
+              "name": "needsHelp",
+              "icon_class": "icon-help-button",
+              "label": "Skills Review"
+            },
+            "type": "custom_button"
+          },
+          {
+            "options": {
+              "name": "assignmentSaveButton",
+              "icon_class": "icon-assignment-save-button",
+              "label": "Save / Exit"
+            },
+            "type": "custom_button"
+          },
+          {
+            "options": {
+              "name": "assignmentSubmitButton",
+              "icon_class": "icon-assignment-submit-button",
+              "label": "Submit"
+            },
+            "type": "custom_button"
+          }
+        ],
+        "bottom-right": [
+          {
+            "options": {
+              "name": "liveTutor",
+              "icon_class": "icon-live-tutor-button",
+              "label": "Live Tutor"
+            },
+            "position": "right",
+            "type": "custom_button"
+          }
+        ],
+        "bottom": [],
+        "bottom-left": [
+          {
+            "type": "previous_button"
+          },
+          {
+            "type": "horizontaltoc_element"
+          },
+          {
+            "type": "next_button"
+          }
+        ],
+        "right": [
+          {
+            "options": {
+              "name": "sketchpad",
+              "icon_class": "icon-sketchpad-button",
+              "label": "Sketchpad"
+            },
+            "type": "custom_button"
+          },
+          {
+            "type": "reviewscreen_button"
+          },
+          {
+            "fontsize_option": true,
+            "zoom_option": true,
+            "colorscheme_option": true,
+            "type": "accessibility_button"
+          }
+        ]
+      },
+      "configuration": {
+        "fontsize": "xlarge",
+        "lazyload": true
+      },
+      "questions_api_init_options": {
+        "math_renderer": "mathquill",
+        "captureOnResumeError": true
+      },
+      "annotations_api_init_options": {
+        "modules": {
+          "drawing": true
+        }
+      },
+      "labelBundle": {
+        "expandMenu": "Open",
+        "collapseMenu": "Close",
+        "reviewScreen": "Overview"
+      },
+      "metadata": {
+        "items": [
+          {
+            "reference": "HSCC_Geom_04.01.11",
+            "source": {
+              "reference": "HSCC_Geom_04.01.11",
+              "organisation_id": 315
+            },
+            "time": 578,
+            "response_ids": [
+              "50275a20-91fa-38e4-9414-fe7295222f14_c98498c5736d1569de8c9f45056f2578"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted",
+            "metadata": {
+              "scoring_type": "per-question"
+            }
+          },
+          {
+            "reference": "HSCC_Geom_04.01.12",
+            "source": {
+              "reference": "HSCC_Geom_04.01.12",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "50275a20-91fa-38e4-9414-fe7295222f14_0ceb521e4666f236dd75d0e59305b952"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted",
+            "metadata": {
+              "scoring_type": "per-question"
+            }
+          },
+          {
+            "reference": "HSCC_Geom_04.01.13",
+            "source": {
+              "reference": "HSCC_Geom_04.01.13",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "50275a20-91fa-38e4-9414-fe7295222f14_1be98ffb749efc09d0c0aa48b7ab8fc8"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted"
+          },
+          {
+            "reference": "HSCC_Geom_04.01.14",
+            "source": {
+              "reference": "HSCC_Geom_04.01.14",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "50275a20-91fa-38e4-9414-fe7295222f14_5d2e1f69550d9123f10d927fb6488dcf"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted"
+          },
+          {
+            "reference": "HSCC_Geom_04.01.15",
+            "source": {
+              "reference": "HSCC_Geom_04.01.15",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "50275a20-91fa-38e4-9414-fe7295222f14_7d1510e30f7955cc53fba062b5d4fd5e"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted"
+          },
+          {
+            "reference": "HSCC_Geom_04.01.16",
+            "source": {
+              "reference": "HSCC_Geom_04.01.16",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "50275a20-91fa-38e4-9414-fe7295222f14_8af765ab3cdf0e15e7951ef784d728a6"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted"
+          },
+          {
+            "reference": "HSCC_Geom_04.01.17",
+            "source": {
+              "reference": "HSCC_Geom_04.01.17",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "50275a20-91fa-38e4-9414-fe7295222f14_b4755318b4e1ac97af993a6d04016f20"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted"
+          },
+          {
+            "reference": "HSCC_Geom_04.01.19",
+            "source": {
+              "reference": "HSCC_Geom_04.01.19",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "50275a20-91fa-38e4-9414-fe7295222f14_ad3bde035b47f0c2f3a9177a629632d7"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted"
+          },
+          {
+            "reference": "HSCC_Geom_04.01.22",
+            "source": {
+              "reference": "HSCC_Geom_04.01.22",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "50275a20-91fa-38e4-9414-fe7295222f14_d9c29a751fea15a742759cfc75786ca1"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted"
+          },
+          {
+            "reference": "HSCC_Geom_04.01.23",
+            "source": {
+              "reference": "HSCC_Geom_04.01.23",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "50275a20-91fa-38e4-9414-fe7295222f14_e3f3e406bc69a4c2ae732e4e5329185f"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted",
+            "metadata": {
+              "scoring_type": "per-question"
+            }
+          },
+          {
+            "reference": "HSCC_Geom_04.01.24",
+            "source": {
+              "reference": "HSCC_Geom_04.01.24",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "50275a20-91fa-38e4-9414-fe7295222f14_cd910226fe2b34daba87c489b1c121ba"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted",
+            "metadata": {
+              "scoring_type": "per-question"
+            }
+          },
+          {
+            "reference": "HSCC_Geom_04.01.32",
+            "source": {
+              "reference": "HSCC_Geom_04.01.32",
+              "organisation_id": 315
+            },
+            "time": 0,
+            "response_ids": [
+              "50275a20-91fa-38e4-9414-fe7295222f14_4f41dac123032fb3821539f8172e2454"
+            ],
+            "user_flagged": false,
+            "attempt_status": "not_attempted",
+            "metadata": {
+              "scoring_type": "per-question"
+            }
+          }
+        ],
+        "items_api_version": "v1.120.3",
+        "activity_template_id": "0ea0cd99-b0f0-4a11-bcbb-52db78f4a2f1",
+        "current_time": 578,
+        "current_reading_time": false,
+        "max_time": 0,
+        "current_item_reference": "HSCC_Geom_04.01.11",
+        "current_sheet_position": 0,
+        "features": [],
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "last_item_reference": "HSCC_Geom_04.01.32",
+        "question_types": [
+          "clozeformula",
+          "graphplotting",
+          "clozedropdown"
+        ],
+        "existing_session": true
+      },
+      "existing_session": true,
+      "tags": {
+        "HSCC_Geom_04.01.11": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "tutor_available:Geom_2019",
+          "item_origin_id:HSCC_Geom_04.01.11",
+          "dok:2",
+          "digital_example:19NA10_c04_s01_exa3_int_example",
+          "bil_standard:BIL_pmt_277",
+          "extra_example:HG040103"
+        ],
+        "HSCC_Geom_04.01.12": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.01.12",
+          "dok:2",
+          "digital_example:19NA10_c04_s01_exa3_int_example",
+          "bil_standard:BIL_pmt_277",
+          "extra_example:HG040103"
+        ],
+        "HSCC_Geom_04.01.13": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.01.13",
+          "dok:2",
+          "bil_standard:BIL_pmt_244",
+          "digital_example:19NA10_c04_s01_exa4_int_example",
+          "extra_example:HG040104"
+        ],
+        "HSCC_Geom_04.01.14": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.01.14",
+          "dok:2",
+          "bil_standard:BIL_pmt_244",
+          "digital_example:19NA10_c04_s01_exa4_int_example",
+          "extra_example:HG040104"
+        ],
+        "HSCC_Geom_04.01.15": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.01.15",
+          "dok:2",
+          "bil_standard:BIL_pmt_244",
+          "digital_example:19NA10_c04_s01_exa4_int_example",
+          "extra_example:HG040104"
+        ],
+        "HSCC_Geom_04.01.16": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.01.16",
+          "dok:2",
+          "bil_standard:BIL_pmt_244",
+          "digital_example:19NA10_c04_s01_exa4_int_example",
+          "extra_example:HG040104"
+        ],
+        "HSCC_Geom_04.01.17": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "tutor_available:Geom_2019",
+          "item_origin_id:HSCC_Geom_04.01.17",
+          "dok:2",
+          "bil_standard:BIL_pmt_244",
+          "digital_example:19NA10_c04_s01_exa4_int_example",
+          "extra_example:HG040104"
+        ],
+        "HSCC_Geom_04.01.19": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "tutor_available:Geom_2019",
+          "item_origin_id:HSCC_Geom_04.01.19",
+          "dok:2",
+          "bil_standard:BIL_pmt_244",
+          "digital_example:19NA10_c04_s01_exa4_int_example",
+          "extra_example:HG040104"
+        ],
+        "HSCC_Geom_04.01.22": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.01.22",
+          "dok:2",
+          "digital_example:19NA10_c04_s01_exa5_int_example",
+          "bil_standard:BIL_pmt_247",
+          "extra_example:HG040105"
+        ],
+        "HSCC_Geom_04.01.23": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.01.23",
+          "dok:2",
+          "digital_example:19NA10_c04_s01_exa5_int_example",
+          "bil_standard:BIL_pmt_277",
+          "extra_example:HG040105"
+        ],
+        "HSCC_Geom_04.01.24": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.01.24",
+          "dok:2",
+          "digital_example:19NA10_c04_s01_exa5_int_example",
+          "bil_standard:BIL_pmt_277",
+          "extra_example:HG040105"
+        ],
+        "HSCC_Geom_04.01.32": [
+          "item_origin:PickUp",
+          "workflow_status:for_srm",
+          "item_type:exercise",
+          "feature:Exercises",
+          "item_origin_id:HSCC_Geom_04.01.32",
+          "dok:2",
+          "digital_example:19NA10_c04_s01_exa3_int_example",
+          "bil_standard:BIL_pmt_277",
+          "extra_example:HG040103"
+        ]
+      }
+    }
+  }
+}
